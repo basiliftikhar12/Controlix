@@ -1,0 +1,223 @@
+/* ============================================
+   Controlix — About Us page
+   Uses the same design tokens as home.css
+   ============================================ */
+
+.page-banner {
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--line);
+  padding: 40px 24px;
+  text-align: center;
+}
+.page-banner .eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange-dim);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.page-banner h1 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+.about-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px 24px 50px;
+  text-align: center;
+}
+.about-intro .eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange-dim);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.about-intro h2 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 2rem;
+  margin: 0 0 22px;
+}
+.about-intro p {
+  color: var(--muted);
+  font-size: 1.03rem;
+  text-align: left;
+  margin: 0 0 18px;
+}
+.about-intro p:last-child { margin-bottom: 0; }
+.about-intro strong { color: var(--ink); font-weight: 600; }
+
+/* ===== Process categories grid ===== */
+.categories-section {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 70px 24px;
+}
+.categories-wrap { max-width: 1180px; margin: 0 auto; }
+.categories-heading { text-align: center; margin-bottom: 44px; }
+.categories-heading .eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange-dim);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.categories-heading h2 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+.category-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 30px 24px;
+  text-align: center;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.category-card:hover {
+  border-color: var(--orange-dim);
+  transform: translateY(-3px);
+}
+.category-card .icon {
+  width: 54px; height: 54px;
+  margin: 0 auto 18px;
+  background: var(--navy);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+.category-card .icon svg { width: 26px; height: 26px; color: #fff; }
+.category-card h3 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.1rem;
+  margin: 0 0 10px;
+}
+.category-card p {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ===== Specialized / hazardous callout ===== */
+.hazard-section {
+  max-width: 1180px;
+  margin: 70px auto;
+  padding: 0 24px;
+}
+.hazard-box {
+  background: var(--navy-deep);
+  border-radius: 10px;
+  padding: 46px 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+  align-items: center;
+  color: #fff;
+}
+.hazard-box .icon-badge {
+  width: 74px; height: 74px;
+  background: var(--orange);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.hazard-box .icon-badge svg { width: 36px; height: 36px; color: #fff; }
+.hazard-box .eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.hazard-box h3 {
+  font-family: var(--font-head);
+  font-size: 1.35rem;
+  margin: 0 0 12px;
+}
+.hazard-box p {
+  color: #cdd8e3;
+  font-size: 0.95rem;
+  margin: 0;
+  max-width: 66ch;
+}
+
+/* ===== Brands section ===== */
+.brands-section {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px 24px 90px;
+}
+.brands-heading { text-align: center; margin-bottom: 40px; }
+.brands-heading .eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange-dim);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.brands-heading h2 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+}
+.brands-heading p {
+  color: var(--muted);
+  font-size: 0.97rem;
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  margin-top: 34px;
+}
+.brand-chip {
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 26px 14px;
+  text-align: center;
+  font-family: var(--font-head);
+  font-weight: 700;
+  color: var(--navy);
+  font-size: 1.02rem;
+  transition: border-color 0.15s, background 0.15s;
+}
+.brand-chip:hover {
+  border-color: var(--orange-dim);
+  background: #fff;
+}
+
+@media (max-width: 980px) {
+  .category-grid { grid-template-columns: repeat(2, 1fr); }
+  .brands-grid { grid-template-columns: repeat(3, 1fr); }
+  .hazard-box { grid-template-columns: 1fr; text-align: center; }
+  .hazard-box .icon-badge { margin: 0 auto; }
+}
+
+@media (max-width: 560px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .brands-grid { grid-template-columns: repeat(2, 1fr); }
+}

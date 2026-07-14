@@ -1,0 +1,158 @@
+/* ============================================
+   IndusFlow Instruments — Contact page
+   Uses the same design tokens as home.css
+   (linked alongside it in contact.html)
+   ============================================ */
+
+.page-banner {
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--line);
+  padding: 40px 24px;
+  text-align: center;
+}
+.page-banner .eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange-dim);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.page-banner h1 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+.contact-section {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 70px 24px 90px;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 60px;
+}
+
+/* Left column — head office info */
+.office-block h2 {
+  font-family: var(--font-head);
+  color: var(--orange-dim);
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+.office-block p {
+  color: var(--ink);
+  font-size: 0.98rem;
+  line-height: 1.8;
+  margin: 0 0 18px;
+}
+.office-block a { color: var(--orange-dim); font-weight: 600; }
+.office-block a:hover { text-decoration: underline; }
+
+.office-item { margin-bottom: 18px; }
+.office-item .label {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.office-item .val { font-size: 0.98rem; color: var(--ink); }
+
+/* Right column — form */
+.form-block h2 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  margin: 0 0 22px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.form-grid.full { grid-template-columns: 1fr; }
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  transition: border-color 0.15s;
+}
+.form-field input::placeholder,
+.form-field textarea::placeholder { color: var(--muted); }
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--orange);
+}
+
+.form-field textarea { resize: vertical; min-height: 150px; }
+
+.form-submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.btn-submit {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-submit:hover { background: var(--orange-dim); }
+.btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.form-status {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+}
+.form-status.success { color: #1a8a4a; }
+.form-status.error { color: #c0392b; }
+
+/* Map placeholder */
+.map-wrap {
+  max-width: 1180px;
+  margin: 0 auto 70px;
+  padding: 0 24px;
+}
+.map-frame {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.map-frame iframe { width: 100%; height: 340px; border: 0; display: block; }
+
+@media (max-width: 860px) {
+  .contact-section { grid-template-columns: 1fr; gap: 40px; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-submit { justify-content: stretch; }
+  .btn-submit { width: 100%; }
+}

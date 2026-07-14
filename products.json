@@ -1,0 +1,744 @@
+[
+{
+  "id": 1,
+  "name": "Electromagnetic Flowmeter DN50",
+  "category": "Flow",
+  "brand": "Flowcom Korea",
+  "price": "PKR 110,000",
+  "images": ["images/mag_flowmeter/8.png","images/mag_flowmeter/2.jpeg","images/mag_flowmeter/6.jpeg","images/mag_flowmeter/5.jpeg","images/mag_flowmeter/1.jpeg"],
+  "shortDesc": "DN50 electromagnetic flowmeter with PTFE lining and digital display.",
+
+  "description": "The DN50 Electromagnetic Flowmeter is designed for accurate measurement of conductive liquids in industrial applications. It features a PTFE-lined measuring tube, digital display, 4–20mA analog output, and RS-485 communication for seamless integration with PLC, DCS, and SCADA systems.",
+
+  "features": [
+    "DN50 process connection.",
+    "Flow range of 3.5–35 m³/h.",
+    "PTFE-lined measuring tube for chemical resistance.",
+    "4–20mA analog output.",
+    "RS-485 communication interface.",
+    "Digital LCD display.",
+    "Selectable 220VAC or 24VDC power supply.",
+    "316L stainless steel electrodes.",
+    "IP65 protection rating.",
+    "Suitable for conductive liquids."
+  ],
+
+  "specs": {
+    "Manufacturer": "Flowcom korea",
+    "Product Type": "Electromagnetic Flowmeter",
+    "Nominal Size": "DN50",
+    "Flow Range": "3.5–35 m³/h",
+    "Lining Material": "PTFE",
+    "Electrode Material": "316L Stainless Steel",
+    "Power Supply": "220VAC / 24VDC (Selectable)",
+    "Output Signal": "4–20mA, RS-485",
+    "Display": "Digital LCD",
+    "Nominal Pressure": "1.6 MPa",
+    "Accuracy": "±0.5%",
+    "Protection Rating": "IP65",
+    "Operating Temperature": "-10°C to +120°C",
+    "Country of Origin": "China"
+  }
+},
+{
+  "id": 2,
+  "name": "Electromagnetic Flowmeter DN80",
+  "category": "Flow",
+  "brand": "Flowcom",
+  "price": "PKR 115,000",
+  "images": ["images/mag_flowmeter/8.png","images/mag_flowmeter/9.png","images/mag_flowmeter/6.jpeg","images/mag_flowmeter/5.jpeg","images/mag_flowmeter/10.png"],
+  "shortDesc": "DN80 electromagnetic flowmeter with PTFE lining and digital display.",
+
+  "description": "The DN80 Electromagnetic Flowmeter is designed for accurate measurement of conductive liquids in industrial applications. It features a PTFE-lined measuring tube, digital display, 4–20mA analog output, and RS-485 communication for seamless integration with PLC, DCS, and SCADA systems.",
+
+  "features": [
+    "DN80 process connection.",
+    "Flow range of 9–90 m³/h.",
+    "PTFE-lined measuring tube for chemical resistance.",
+    "4–20mA analog output.",
+    "RS-485 communication interface.",
+    "Digital LCD display.",
+    "Selectable 220VAC or 24VDC power supply.",
+    "316L stainless steel electrodes.",
+    "IP65 protection rating.",
+    "Suitable for conductive liquids."
+  ],
+
+  "specs": {
+    "Manufacturer": "Flowcom",
+    "Product Type": "Electromagnetic Flowmeter",
+    "Nominal Size": "DN80",
+    "Flow Range": "9–90 m³/h",
+    "Lining Material": "PTFE",
+    "Electrode Material": "316L Stainless Steel",
+    "Power Supply": "220VAC / 24VDC (Selectable)",
+    "Output Signal": "4–20mA, RS-485",
+    "Display": "Digital LCD",
+    "Nominal Pressure": "1.6 MPa",
+    "Accuracy": "±0.5%",
+    "Protection Rating": "IP65",
+    "Operating Temperature": "-10°C to +120°C",
+    "Country of Origin": "China"
+  }
+},
+{
+  "id": 5,
+  "name": "Thermohunter SA-80T-4A Infrared Temperature Sensor",
+  "category": "Temperature",
+  "brand": "Thermohunter",
+  "price": "PKR 10,000",
+  "images": ["images/Thermohunter/1.jpg","images/Thermohunter/2.jpg","images/Thermohunter/3.jpg","images/Thermohunter/4.jpg"],
+  "shortDesc": "Non-contact infrared temperature sensor with 4–20mA output for industrial temperature monitoring.",
+
+  "description": "The Thermohunter SA-80T-4A is a high-performance non-contact infrared temperature sensor designed for accurate surface temperature measurement in industrial environments. With a measurement range of 0 to 400°C and a standard 4–20mA analog output, it easily integrates with PLCs, DCS, SCADA, and other industrial control systems. Its rugged metal housing, IP67 protection rating, fast 100 ms response time, and compact cylindrical design make it ideal for continuous temperature monitoring in harsh industrial applications.",
+
+  "features": [
+    "Non-contact infrared temperature measurement eliminates sensor wear and contamination.",
+    "Wide measuring range of 0 to 400°C for industrial process monitoring.",
+    "Standard 4–20mA analog output for easy integration with PLC, DCS, SCADA, and controllers.",
+    "Fast response time of 100 ms for real-time temperature monitoring.",
+    "High measurement accuracy for reliable process control.",
+    "IP67-rated housing provides excellent resistance to dust and water.",
+    "Compact metal cylindrical body allows installation in confined spaces.",
+    "Thermopile sensing technology ensures stable and reliable measurements.",
+    "Designed for continuous industrial operation with high environmental resistance.",
+    "Suitable for monitoring moving, hot, or inaccessible objects safely."
+  ],
+
+  "specs": {
+    "Manufacturer": "Thermohunter",
+    "Model": "SA-80T-4A",
+    "Product Type": "Infrared Temperature Sensor",
+    "Measurement Principle": "Non-Contact Infrared (Thermopile)",
+    "Temperature Range": "0 to 400°C",
+    "Output Signal": "4–20mA",
+    "Field of View": "Ø80 mm @ 500 mm",
+    "Response Time": "100 ms",
+    "Accuracy": "0–200°C: ±2°C, 201–400°C: ±1% of Reading",
+    "Repeatability": "±1°C",
+    "Spectral Response": "8–14 μm",
+    "Optics": "Silicon Lens",
+    "Emissivity": "0.95",
+    "Power Supply": "12–24 VDC",
+    "Current Consumption": "Maximum 70 mA",
+    "Housing Material": "Metal (SUS / Aluminum)",
+    "Protection Rating": "IP67",
+    "Operating Temperature": "0 to 70°C",
+    "Operating Humidity": "35% to 85% RH (Non-condensing)",
+    "Storage Temperature": "-20 to 70°C",
+    "Weight": "180 g",
+    "Applications": "Steel Industry, Furnaces, Ovens, Food Processing, Packaging Machinery, Plastic Extrusion, Conveyor Systems, Industrial Automation, Process Temperature Monitoring"
+  }
+},
+{
+  "id": 6,
+  "name": "RTD (PT-100) Temperature Sensor",
+  "category": "Temperature",
+  "brand": "Generic",
+  "price": "PKR 6,000",
+  "images": ["images/RTD/2.png"],
+  "shortDesc": "Industrial PT-100 RTD temperature sensor with 3 mm probe and 2.5 m cable.",
+
+  "description": "The RTD (PT-100) Temperature Sensor is designed for accurate and reliable temperature measurement in industrial and medical applications. Featuring a durable 3 mm stainless steel probe and a 2.5-meter cable, it provides stable temperature sensing and easy integration with temperature controllers, transmitters, PLCs, and monitoring systems.",
+
+  "features": [
+    "High-accuracy PT-100 resistance temperature detector.",
+    "Suitable for industrial and medical applications.",
+    "3 mm stainless steel probe for fast response.",
+    "2.5-meter cable for flexible installation.",
+    "Stable and reliable temperature measurement.",
+    "Compatible with most temperature controllers and transmitters."
+  ],
+
+  "specs": {
+    "Sensor Type": "RTD (PT-100)",
+    "Measurement Principle": "Resistance Temperature Detector",
+    "Probe Diameter": "3 mm",
+    "Cable Length": "2.5 m",
+    "Probe Material": "Stainless Steel",
+    "Applications": "Industrial Process Control, Medical Equipment, Laboratory Equipment, Temperature Monitoring"
+  }
+  },
+{
+  "id": 9,
+  "name": "Diaphragm Seal Pressure Gauge (PTFE/Teflon)",
+  "category": "Pressure",
+  "brand": "AICE TECH",
+  "price": "PKR 35,000",
+  "images": ["images/Pre_Guages/1.png","images/Pre_Guages/2.png","images/Pre_Guages/3.png"],
+  "shortDesc": "PTFE diaphragm pressure gauge designed for corrosive and aggressive chemical applications.",
+
+  "description": "The AICE TECH Diaphragm Seal Pressure Gauge is specifically designed for measuring the pressure of corrosive, viscous, crystallizing, and aggressive process media. The PTFE (Teflon) diaphragm provides excellent chemical resistance while isolating the pressure sensing element from the process fluid, ensuring accurate measurements and extending the service life of the instrument. It is widely used in chemical processing, pharmaceutical plants, water treatment systems, food processing, and other industrial applications where conventional pressure gauges cannot be used safely.",
+
+  "features": [
+    "PTFE (Teflon) diaphragm provides excellent resistance to corrosive chemicals.",
+    "Suitable for aggressive, viscous, crystallizing, and contaminated process media.",
+    "Protects the pressure measuring mechanism from direct contact with the process fluid.",
+    "High measurement accuracy and long-term stability.",
+    "Stainless steel gauge construction for durability and corrosion resistance.",
+    "Easy-to-read analog dial with clear pressure indication.",
+    "IP54 protection rating for reliable industrial operation.",
+    "Ideal for chemical plants, pharmaceutical industries, water treatment, and process automation.",
+    "Designed for continuous operation in demanding industrial environments.",
+    "Low maintenance and long service life."
+  ],
+
+  "specs": {
+    "Manufacturer": "ACE TECH",
+    "Product Type": "Diaphragm Seal Pressure Gauge",
+    "Pressure Range": "-1 to +1 bar, 0 to +10 bar, 0 to 5000 mmW",
+    "Dial Size": "100 mm",
+    "Measurement Type": "Analog Pressure Measurement",
+    "Diaphragm Material": "PTFE (Teflon)",
+    "Gauge Material": "Stainless Steel",
+    "Case Material": "Stainless Steel",
+    "Protection Rating": "IP54",
+    "Connection Type": "Bottom Process Connection",
+    "Mounting": "Vertical",
+    "Process Media": "Corrosive Liquids, Aggressive Chemicals, Viscous Fluids, Slurries",
+    "Applications": "Chemical Processing, Pharmaceutical Industry, Water Treatment, Food & Beverage, Petrochemical Plants, Industrial Process Control"
+  }
+},
+
+{
+  "id": 13,
+  "name": "Diaphragm Type Level Transmitter (Flush Mount Type)",
+  "category": "Level",
+  "brand": "Generic",
+  "price": "PKR 100,000",
+  "images": ["images/lvl_transmitter/1.jpeg"],
+  "shortDesc": "Flush mount diaphragm level transmitter with adjustable 0–30 mH₂O measuring range.",
+
+  "description": "The Flush Mount Diaphragm Type Level Transmitter is designed for continuous liquid level measurement in tanks, vessels, and process applications. Featuring a flush diaphragm design, front LCD display with keypad configuration, and a standard 4–20mA output, it provides reliable and accurate level measurement even in demanding industrial environments.",
+
+  "features": [
+    "Flush mount diaphragm design for reliable level measurement.",
+    "Adjustable measuring range up to 30 meters of water column.",
+    "Standard 4–20mA analog output.",
+    "Front LCD display for easy process monitoring.",
+    "Parameter configuration through built-in keypad.",
+    "Suitable for tanks, reservoirs, and process vessels.",
+    "Stable and accurate level measurement.",
+    "Industrial-grade construction for long service life.",
+    "DN80 process connection for easy installation.",
+    "Compatible with PLC, DCS, and SCADA systems."
+  ],
+
+  "specs": {
+    "Product Type": "Diaphragm Type Level Transmitter (Flush Mount)",
+    "Measurement Range": "0–30 mH₂O (Adjustable)",
+    "Output Signal": "4–20mA",
+    "Process Connection": "DN80 Flange",
+    "Display": "Digital LCD",
+    "Parameter Setting": "Front Display & Keypad",
+    "Measurement Principle": "Hydrostatic Pressure",
+    "Mounting Type": "Flush Mount",
+    "Power Supply": "24 VDC",
+    "Applications": "Water Tanks, Chemical Tanks, Storage Vessels, Wastewater Treatment, Industrial Process Control"
+  }
+},
+  {
+    "id": 17,
+    "name": "4~20mA to DOUBLE 4~20mA Signal Isolator",
+    "category": "General Instruments",
+    "brand": "AICE TECH",
+    "price": "PKR 8,000",
+    "images": ["images/converters/3.jpeg", "images/converters/2.jpg","images/converters/4.jpeg","images/converters/1.jpeg"],
+  "shortDesc": "AICE TECH 4–20mA to Dual 4–20mA Intelligent Signal Isolator & Converter",
+  "description": "The AICE TECH Intelligent Signal Isolator is a high-performance industrial signal converter designed to isolate and duplicate a single 4–20mA input into two independent 4–20mA outputs. It provides excellent electrical isolation between the input, outputs, and power supply, ensuring reliable signal transmission while protecting PLCs, DCS systems, transmitters, and other field devices from electrical interference, ground loops, and signal distortion. With high conversion accuracy, built-in fault diagnostics, and DIN rail mounting, it is an ideal solution for industrial automation, process control, and instrumentation applications.",
+  "features": [
+    "Converts one 4–20mA input signal into two isolated 4–20mA output signals.",
+    "Provides complete galvanic isolation between input, output, and power supply for enhanced system protection.",
+    "High conversion accuracy of ±0.1% Full Scale for precise signal transmission.",
+    "Supports both active and passive current loop outputs (model dependent).",
+    "Built-in intelligent self-diagnosis with fault indication LED.",
+    "Excellent immunity against electrical noise, interference, and ground loops.",
+    "Compact slim DIN rail mounting design for easy installation inside control panels.",
+    "Fast response time of ≤500 ms for stable real-time process monitoring.",
+    "High dielectric isolation strength up to 2500 VAC for industrial safety.",
+    "Ideal for PLC, DCS, SCADA, transmitters, industrial automation, and process control applications."
+  ],
+
+  "specs": {
+    "Manufacturer": "AICE TECH",
+    "Product Type": "Intelligent Signal Isolator / Signal Converter",
+    "Input Signal": "1 × 4–20mA DC",
+    "Output Signal": "2 × Isolated 4–20mA DC",
+    "Isolation": "Input / Output / Power Supply Galvanic Isolation",
+    "Power Supply": "18–32 VDC (Model Dependent)",
+    "Power Consumption": "≤1.5 W",
+    "Maximum Output Load": "550 Ω per 4–20mA Output",
+    "Conversion Accuracy": "±0.1% Full Scale (25°C ±2°C)",
+    "Temperature Drift": "40 ppm/°C",
+    "Response Time": "≤500 ms",
+    "Dielectric Strength": "2500 VAC (Input/Output/Power Isolation)",
+    "Insulation Resistance": "≥100 MΩ",
+    "EMC Standard": "IEC 61326-3-1",
+    "Safety Rating": "SIL3 (IEC 61508)",
+    "Operating Temperature": "-20°C to +60°C",
+    "Storage Temperature": "-40°C to +80°C",
+    "Mounting": "35 mm DIN Rail",
+    "Housing Width": "12.7 mm",
+    "Status Indicators": "Green Power LED, Red Fault LED",
+    "Applications": "PLC Systems, DCS, SCADA, Industrial Automation, Process Control, Signal Isolation, Analog Signal Distribution"
+  }
+  },
+{
+  "id": 18,
+  "name": "Ezi-SERVO Closed Loop Stepper Driver — EzS-NDR-56L-A-D",
+  "category": "General Instruments",
+  "brand": "FASTECH",
+  "price": "PKR 6,000",
+  "images": ["images/ezi-servo/4.png","images/ezi-servo/3.png","images/ezi-servo/1.png","images/ezi-servo/2.png"],
+  "shortDesc": "High-performance closed-loop stepper motor driver with noise reduction and position feedback.",
+  "description": "The FASTECH Ezi-SERVO EzS-NDR-56L-A-D is a compact closed-loop stepper motor driver designed to deliver high positioning accuracy, smooth motion, and reliable performance. Featuring encoder feedback, the driver eliminates missed steps while reducing heat generation and vibration. It is ideal for CNC machines, semiconductor equipment, packaging systems, automation machinery, pick-and-place machines, robotics, and precision motion control applications.",
+
+  "features": [
+    "Closed-loop stepper control with real-time encoder feedback.",
+    "Eliminates missed steps for improved positioning accuracy and reliability.",
+    "Built-in noise and vibration reduction technology for smooth motor operation.",
+    "High-speed and high-torque performance compared to conventional stepper systems.",
+    "Pulse and Direction control interface compatible with PLCs and motion controllers.",
+    "Integrated protection against overcurrent, overvoltage, and overheating.",
+    "Compact and lightweight aluminum housing for industrial environments.",
+    "Easy parameter configuration for various motion control applications.",
+    "Designed for continuous operation in demanding industrial automation systems.",
+    "Made in Korea by FASTECH."
+  ],
+
+  "specs": {
+    "Manufacturer": "FASTECH",
+    "Model": "EzS-NDR-56L-A-D",
+    "Series": "Ezi-SERVO",
+    "Product Type": "Closed Loop Stepper Driver",
+    "Control Method": "Closed Loop with Encoder Feedback",
+    "Motor Supply Voltage": "24 VDC",
+    "Maximum Output Current": "4.4 A",
+    "Input Control": "Pulse / Direction",
+    "Protection Features": "Overcurrent, Overvoltage, Overheating",
+    "Motion Performance": "High-Speed, Low Vibration, Low Noise",
+    "Cooling": "Natural Air Cooling",
+    "Housing Material": "Aluminum",
+    "Country of Origin": "Made in Korea",
+    "Applications": "CNC Machines, Robotics, Packaging Machinery, Semiconductor Equipment, Pick-and-Place Systems, Industrial Automation"
+  }
+},
+{
+  "id": 19,
+  "name": "4~20mA to 0~10V Signal Isolator",
+  "category": "General Instruments",
+  "brand": "AICE TECH",
+  "price": "PKR 7,000",
+  "images": [
+    "images/converters/3.jpeg",
+    "images/converters/new1.jpeg",
+    "images/converters/4.jpeg",
+    "images/converters/1.jpeg",
+    "images/converters/new2.jpeg"
+  ],
+  "shortDesc": "AICE TECH 4–20mA to 0–10V Intelligent Signal Isolator & Converter",
+  "description": "The AICE TECH Intelligent Signal Isolator is a high-performance industrial signal converter designed to convert a standard 4–20mA current input into a precise Double 0–10V voltage output while providing complete electrical isolation. It ensures accurate signal transmission, protects connected PLCs, DCS systems, and control equipment from electrical interference and ground loops, and offers stable long-term performance in demanding industrial environments. Its compact DIN rail design and high conversion accuracy make it ideal for industrial automation, process control, and instrumentation applications.",
+
+  "features": [
+    "Converts a standard 4–20mA current input into a 0–10V voltage output.",
+    "Provides complete galvanic isolation between input, output, and power supply.",
+    "High conversion accuracy of ±0.1% Full Scale for reliable signal transmission.",
+    "Designed for interfacing current-output transmitters with voltage-input PLCs and controllers.",
+    "Built-in intelligent self-diagnosis with power and fault indication LEDs.",
+    "Excellent immunity against electrical noise, EMI, and ground loops.",
+    "Compact slim DIN rail mounting design for easy installation.",
+    "Fast response time of ≤500 ms for stable process control.",
+    "High dielectric isolation strength up to 2500 VAC for industrial safety.",
+    "Suitable for PLC, DCS, SCADA, HVAC, water treatment, and industrial automation systems."
+  ],
+
+  "specs": {
+    "Manufacturer": "AICE TECH",
+    "Product Type": "Intelligent Signal Isolator / Signal Converter",
+    "Input Signal": "1 × 4–20mA DC",
+    "Output Signal": "2 × 0–10V DC",
+    "Isolation": "Input / Output / Power Supply Galvanic Isolation",
+    "Power Supply": "18–32 VDC (Model Dependent)",
+    "Power Consumption": "≤1.3 W",
+    "Minimum Output Load": "≥2 MΩ",
+    "Conversion Accuracy": "±0.1% Full Scale (25°C ±2°C)",
+    "Temperature Drift": "40 ppm/°C",
+    "Response Time": "≤500 ms",
+    "Dielectric Strength": "2500 VAC (Input/Output/Power Isolation)",
+    "Insulation Resistance": "≥100 MΩ",
+    "EMC Standard": "IEC 61326-3-1",
+    "Safety Rating": "SIL3 (IEC 61508)",
+    "Operating Temperature": "-20°C to +60°C",
+    "Storage Temperature": "-40°C to +80°C",
+    "Mounting": "35 mm DIN Rail",
+    "Housing Width": "12.7 mm",
+    "Status Indicators": "Green Power LED, Red Fault LED",
+    "Applications": "PLC Systems, DCS, SCADA, Process Control, Industrial Automation, Signal Isolation, Analog Signal Conversion"
+  }
+},
+{
+  "id": 20,
+  "name": "Electro-Pneumatic (E/P) Valve Positioner KM-1000L",
+  "category": "General Instruments",
+  "brand": "Komoto",
+  "price": "PKR 30,000",
+  "images": ["images/positioner/0.png","images/positioner/4.png","images/positioner/1.jpeg"],
+  "shortDesc": "Refurbished Electro-pneumatic valve positioner with 4–20mA input for precise control valve positioning.",
+
+  "description": "The Komoto KM-1000L Electro-Pneumatic (E/P) Positioner is designed to accurately position pneumatic control valve actuators according to a 4–20mA control signal. It provides fast response, stable operation, and high positioning accuracy, making it ideal for industrial process control applications. The rugged IP67 enclosure ensures reliable operation in harsh industrial environments.",
+
+  "features": [
+    "Converts 4–20mA electrical input into precise pneumatic valve positioning.",
+    "Suitable for single-acting pneumatic control valve actuators.",
+    "High positioning accuracy and repeatability.",
+    "Fast response for stable process control.",
+    "IP67-rated enclosure for harsh industrial environments.",
+    "Compact and rugged industrial design.",
+    "Easy zero and span adjustment.",
+    "Low air consumption for efficient operation.",
+    "Simple installation and maintenance.",
+    "Ideal for process automation and control valve applications."
+  ],
+
+  "specs": {
+    "Manufacturer": "Komoto",
+    "Model": "KM-1000L",
+    "Product Type": "Electro-Pneumatic (E/P) Positioner",
+    "Input Signal": "4–20mA DC",
+    "Supply Pressure": "1.4–7.0 kgf/cm²",
+    "Protection Rating": "IP67",
+    "Explosion Protection": "Explosion Proof",
+    "Maximum Ambient Temperature": "65°C",
+    "Actuator Type": "Single Acting Pneumatic Actuator",
+    "Mounting": "Linear Control Valve",
+    "Applications": "Control Valves, Chemical Plants, Oil & Gas, Water Treatment, Power Plants, Industrial Automation"
+  }
+},
+{
+  "id": 21,
+  "name": "Azbil SDC-45 PID controller",
+  "category": "Controllers",
+  "brand": "Azbil",
+  "price": "PKR 8,000",
+  "images": ["images/Controllers/Azbil3.jpg", "images/Controllers/Azbil1.jpg"],
+  "shortDesc": "Single Loop PID Controller",
+  "description": "Azbil SDC-45 PID controller for Process control.",
+  "features": [
+    "Advanced RationaLOOP PID (Ra-PID) control algorithm",
+    "Automatic PID Auto-Tuning",
+    "High-speed 25 ms input sampling cycle",
+    "High accuracy of ±0.1% of reading",
+    "Universal multi-range input support",
+    "Supports Thermocouple, RTD, DC Voltage and Current inputs",
+    "Large 5-digit LED display",
+    "Manual and Automatic control modes",
+    "RS-485 communication with Modbus protocol (model dependent)",
+    "Multiple control output options including Relay, SSR Drive, Analog Output and Triac",
+    "Front panel protection rated IP65",
+    "Compact 1/4 DIN panel mount design",
+    "Suitable for industrial temperature and process control applications",
+    "Supports heating and cooling control configurations",
+    "Reliable operation in demanding industrial environments"
+  ],
+  "specs": {
+    "Controller Type": "Single Loop Digital PID Controller",
+    "Panel Size": "96 × 96 mm (1/4 DIN)",
+    "Display": "5-Digit LED Display",
+    "Control Modes": "PID, ON/OFF, Auto-Tuning",
+    "Accuracy": "±0.1% of Reading",
+    "Input Types": "Thermocouple, RTD (Pt100/JPt100), DC Voltage, DC Current",
+    "Control Outputs": "Relay, Voltage Pulse (SSR), Analog Current/Voltage, Motor Drive (Triac)",
+    "Communication": "RS-485, Modbus RTU (Model Dependent)",
+    "Digital Inputs": "Up to 10",
+    "Digital Outputs": "Up to 8",
+    "Power Supply": "100–240 VAC, 50/60 Hz or 24 VDC (Model Dependent)",
+    "Front Protection": "IP65",
+    "Operating Function": "Heating, Cooling, Heating/Cooling",
+    "Mounting": "Panel Mount"
+  }
+  },
+{
+  "id": 22,
+  "name": "Azbil SDC-35 PID controller",
+  "category": "Controllers",
+  "brand": "Azbil",
+  "price": "PKR 6,500",
+  "images": ["images/Controllers/sdc-35-1.jpg","images/Controllers/sdc-35.jpg","images/Controllers/sdc-35-3.jpg","images/Controllers/sdc-35-2.png"],
+  "shortDesc": "One short line for the catalog card.",
+  "description": "A fuller paragraph describing what this product does and where it's used.",
+  "features": [
+    "Feature one",
+    "Feature two",
+    "Feature three"
+  ],
+  "specs": {
+    "Spec Name 1": "Value 1",
+    "Spec Name 2": "Value 2"
+  }
+},
+{
+  "id": 23,
+  "name": "Azbil SDC-36 PID Controller",
+  "category": "Controllers",
+  "brand": "Azbil",
+  "price": "PKR 25,000",
+  "images": ["images/Controllers/sdc-36.jpg"],
+  "shortDesc": "Brand New Azbil SDC-36 Digital PID Temperature & Process Controller",
+  "description": "The Azbil SDC-36 is a high-performance digital PID controller designed for precise temperature and process control in industrial automation applications. Featuring advanced PID algorithms, automatic tuning, and universal input compatibility, the SDC-36 delivers exceptional control accuracy, stability, and reliability. It is widely used in furnaces, ovens, boilers, packaging machines, plastic processing equipment, food processing systems, HVAC applications, and various industrial process control systems where precise regulation is essential.",
+  "features": [
+    "High-precision PID control for accurate temperature and process regulation.",
+    "Auto-Tuning (AT) function automatically determines optimal PID parameters for faster commissioning.",
+    "Supports multiple sensor inputs including Thermocouples (K, J, T, R, S, E, N, B), RTDs (Pt100), and analog voltage/current signals.",
+    "Bright and easy-to-read digital LED display with intuitive front-panel operation.",
+    "Fast sampling and response time for stable and reliable process control.",
+    "Multiple output options including Relay, SSR Drive, and Current Output depending on the model.",
+    "Compact DIN panel-mount design suitable for industrial control panels.",
+    "High reliability and long operational life for continuous industrial environments.",
+    "Alarm output functions for over-temperature, sensor failure, and process monitoring.",
+    "Ideal for industrial heating systems, furnaces, ovens, packaging machinery, plastics, food processing, and laboratory equipment."
+  ],
+  "specs": {
+    "Manufacturer": "Azbil Corporation",
+    "Model": "SDC-36",
+    "Controller Type": "Digital PID Controller",
+    "Control Method": "PID / ON-OFF Control",
+    "Display": "Dual Digital LED Display",
+    "Input Types": "Thermocouple, RTD (Pt100), DC Voltage, DC Current",
+    "Supported Thermocouples": "K, J, T, R, S, E, N, B",
+    "Control Outputs": "Relay, SSR Drive, or Analog Output (Model Dependent)",
+    "Alarm Outputs": "Up to 2 Alarm Outputs (Model Dependent)",
+    "Auto Tuning": "Supported",
+    "Power Supply": "100-240 VAC, 50/60 Hz (Model Dependent)",
+    "Mounting": "Panel Mount",
+    "Operating Temperature": "0°C to 50°C",
+    "Protection": "Front Panel IP65 (with gasket installed)",
+    "Applications": "Temperature Control, Process Control, Industrial Automation, Furnaces, Ovens, Boilers, Packaging Machines, Plastic Machinery, Food Processing Equipment"
+  }
+},{
+  "id": 24,
+  "name": "AC Servo Driver (400W)",
+  "category": "General Instruments",
+  "brand": "Generic",
+  "price": "PKR 10,000",
+  "images": ["images/servo_driver/1.jpg","images/servo_driver/2.jpg"],
+  "shortDesc": "400W AC servo driver for high-precision motion control applications.",
+  "description": "The 400W AC Servo Driver is designed to provide precise speed, position, and torque control for industrial automation systems. With support for multiple control modes, encoder feedback, and a user-friendly LED display, it delivers high-performance motion control for CNC machines, robotics, packaging equipment, and other industrial applications.",
+  "features": [
+    "High-performance 400W AC servo drive.",
+    "Supports Position, Velocity, and Torque control modes.",
+    "Compatible with incremental and absolute encoder feedback.",
+    "4-digit LED display for parameter monitoring and configuration.",
+    "Multiple communication ports (CN1, CN2, CN3) for control and feedback.",
+    "Stable and precise motor control.",
+    "Compact industrial design with efficient cooling.",
+    "Easy installation and parameter configuration.",
+    "Reliable operation for continuous industrial use.",
+    "Suitable for a wide range of automation applications."
+  ],
+
+  "specs": {
+    "Product Type": "AC Servo Driver",
+    "Rated Power": "400 W (0.4 kW)",
+    "Rated Voltage": "AC 220V ±10%",
+    "Rated Frequency": "50/60 Hz",
+    "Control Modes": "Position, Velocity, Torque",
+    "Feedback Signal": "Incremental / Absolute Encoder",
+    "Communication Ports": "CN1, CN2, CN3 (D-Sub Connectors)",
+    "Display": "4-Digit LED",
+    "Cooling Method": "Natural Air Cooling / Fan Assisted",
+    "Operating Temperature": "-10°C to +55°C",
+    "Applications": "CNC Machinery, Packaging Machines, Textile Machinery, Robotics, Automation Systems, Conveyor Systems, Assembly Lines"
+  }
+},
+{
+  "id": 25,
+  "name": "WISE Analog Pressure Gauge",
+  "category": "Pressure",
+  "brand": "WISE",
+  "price":"15,000",
+  "images": ["images/pressure_guages/1.png"],
+  "shortDesc": "Industrial analog pressure gauge for accurate pressure measurement.",
+
+  "description": "The WISE Analog Pressure Gauge is designed for reliable pressure measurement in industrial process applications. Built in accordance with EN837 standards, it features a stainless steel case, clear analog dial, and robust construction for long-term operation. It is suitable for monitoring pressure in air, water, oil, gas, and other non-corrosive process media.",
+
+  "features": [
+    "Clear and easy-to-read analog dial.",
+    "Manufactured according to EN837 standard.",
+    "Durable stainless steel case.",
+    "Available in bottom and back connection types.",
+    "Reliable Bourdon tube measuring mechanism.",
+    "Suitable for industrial pressure monitoring.",
+    "Shock and vibration resistant construction.",
+    "Maintenance-free operation.",
+    "Long service life.",
+    "Suitable for air, water, oil, and non-corrosive gases."
+  ],
+
+  "specs": {
+    "Manufacturer": "WISE",
+    "Product Type": "Analog Pressure Gauge",
+    "Pressure Range": "0–6 bar",
+    "Measurement Principle": "Bourdon Tube",
+    "Accuracy Class": "Class 1.6",
+    "Standard": "EN837",
+    "Connection Type": "Bottom Entry / Back Entry",
+    "Case Material": "Stainless Steel",
+    "Dial Type": "Analog",
+    "Applications": "Industrial Process Control, Compressors, Pumps, Hydraulic Systems, Pneumatic Systems, Water Treatment, General Pressure Monitoring"
+  }
+},
+{
+  "id": 26,
+  "name": "6-Channel Paperless Recorder GL-U3",
+  "category": "General Instruments",
+  "brand": "AICE TECH",
+  "price":"130,000",
+  "images": ["images/paperless_recorder/2.png","images/paperless_recorder/1.jpg","images/paperless_recorder/3.jpg"],
+  "shortDesc": "6-channel paperless data recorder with 7-inch TFT display and RS485 communication.",
+
+  "description": "The GL-U3 6-Channel Paperless Recorder is designed for real-time monitoring, recording, and storage of process parameters in industrial applications. Featuring a 7-inch TFT color display, multiple universal input types, USB data backup, and RS485 Modbus RTU communication, it provides reliable data acquisition and process monitoring for industrial automation systems.",
+
+  "features": [
+    "6-channel simultaneous data recording.",
+    "7-inch TFT true-color LCD display.",
+    "Universal input support for current, voltage, RTD, and thermocouples.",
+    "RS485 communication with Modbus RTU protocol.",
+    "USB data backup and transfer.",
+    "Relay alarm output for process monitoring.",
+    "High measurement accuracy of ±0.2% FS.",
+    "Suitable for industrial process monitoring and data logging."
+  ],
+
+  "specs": {
+    "Model": "GL-U3",
+    "Channels": "6",
+    "Display": "7-inch TFT True-Color LCD",
+    "Power Supply": "AC100–240V, 50/60Hz or DC24V ±10%",
+    "Input Types": "Current, Voltage, RTD (Pt100, Cu50), Thermocouple (B, S, K, E, T, J, R, N)",
+    "Communication": "RS485 (Modbus RTU)",
+    "Alarm Output": "Relay Contact, 2A @ 250VAC",
+    "Power Output": "DC24V, 150mA",
+    "Data Backup": "USB Flash Drive",
+    "Measurement Accuracy": "±0.2% FS"
+  }
+},
+{
+  "id": 27,
+  "name": "Pressure Transmitter with Digital Display",
+  "category": "Pressure",
+  "price":"PKR 25,000",
+  "brand": "AICE TECH",
+  "images": ["images/pressure_transmitter/1.png","images/pressure_transmitter/2.jpeg","images/pressure_transmitter/3.jpeg","images/pressure_transmitter/4.jpeg","images/pressure_transmitter/5.jpeg"],
+  "shortDesc": "Industrial pressure transmitter with digital LED display and 4–20mA output.",
+
+  "description": "The AICE TECH Pressure Transmitter is designed for accurate pressure measurement in industrial process applications. Featuring a bright LED display, 4–20mA output, and a corrosion-resistant PVDF wetted diaphragm, it provides reliable pressure monitoring for water treatment, chemical processing, and industrial automation systems.",
+
+  "features": [
+    "Bright digital LED display for local pressure indication.",
+    "Standard 4–20mA analog output.",
+    "Wide pressure measuring range of 0–20 bar.",
+    "High measurement accuracy of ±0.5% FS.",
+    "PVDF wetted parts for excellent chemical resistance.",
+    "Compact and rugged industrial design.",
+    "IP68 protection rating for harsh environments.",
+    "Threaded 1/2\" NPT process connection.",
+    "Suitable for continuous industrial pressure monitoring.",
+    "Easy installation and maintenance."
+  ],
+
+  "specs": {
+    "Manufacturer": "AICE TECH",
+    "Product Type": "Pressure Transmitter",
+    "Model": "SAC-L31-PVDF",
+    "Pressure Range": "-1 to 16 bar",
+    "Output Signal": "4–20mA DC",
+    "Power Supply": "24 VDC",
+    "Accuracy": "±0.5% FS",
+    "Display": "4-Digit LED",
+    "Process Connection": "1/2\" NPT",
+    "Wetted Material": "PVDF",
+    "Thread Material": "PVDF",
+    "Protection Rating": "IP68",
+    "Applications": "Water Treatment, Chemical Processing, Industrial Automation, Process Control, Pressure Monitoring"
+  }
+},
+{
+  "id": 28,
+  "name": "Rosemount 5300 Series Guided Wave Radar Level Transmitter",
+  "category": "Level",
+  "brand": "Rosemount",
+  "price":"PKR 150,000",
+  "images": ["images/GWR_lvl_transmitter/1.png","images/GWR_lvl_transmitter/2.jpeg","images/GWR_lvl_transmitter/3.jpeg","images/GWR_lvl_transmitter/4.jpeg","images/GWR_lvl_transmitter/5.jpeg"],
+  "shortDesc": "High-performance guided wave radar level transmitter for continuous level and interface measurement.",
+
+  "description": "The Rosemount 5300 Series Guided Wave Radar Level Transmitter is a premium level measurement solution designed for accurate and reliable continuous level and interface measurement in liquids, slurries, and solids. Using Time Domain Reflectometry (TDR) technology, it delivers highly accurate measurements that are unaffected by changes in density, temperature, pressure, vapor, foam, or turbulence. The transmitter is ideal for demanding industrial applications including oil & gas, chemical processing, power generation, water treatment, food & beverage, and pharmaceutical industries. Its advanced diagnostics, SIL2 certification, and robust construction make it a trusted solution for critical process control and safety applications.",
+
+  "features": [
+    "Guided Wave Radar (TDR) technology for accurate continuous level measurement.",
+    "Measures both liquid level and interface level with a single transmitter.",
+    "Reliable performance in foam, vapor, turbulence, and changing process conditions.",
+    "No calibration required after installation.",
+    "Suitable for liquids, slurries, and bulk solids.",
+    "Advanced diagnostics for predictive maintenance and troubleshooting.",
+    "SIL2 certified for safety instrumented systems.",
+    "Supports HART®, Modbus®, and FOUNDATION™ Fieldbus communication (model dependent).",
+    "Available with multiple probe styles and process connections.",
+    "Ideal for tanks, vessels, bypass chambers, and high-pressure applications."
+  ],
+
+  "specs": {
+    "Manufacturer": "Rosemount (Emerson)",
+    "Series": "5300",
+    "Product Type": "Guided Wave Radar Level Transmitter",
+    "Measurement Principle": "Time Domain Reflectometry (TDR)",
+    "Measured Variables": "Level and Interface Level",
+    "Output Signal": "4–20mA HART®, Modbus®, FOUNDATION™ Fieldbus (Model Dependent)",
+    "Measurement Accuracy": "Up to ±3 mm",
+    "Operating Temperature": "-196°C to +400°C (Model Dependent)",
+    "Operating Pressure": "Full Vacuum to 345 bar (5000 psi)",
+    "Probe Materials": "Stainless Steel, PTFE Covered, Duplex 2205, Alloy C-276, Alloy 400",
+    "Process Connections": "Threaded, Flanged, Tri-Clamp®",
+    "Safety Certification": "IEC 61508 SIL2",
+    "Hazardous Area Approvals": "ATEX, IECEx, FM, CSA (Model Dependent)",
+    "Applications": "Storage Tanks, Process Vessels, Oil & Gas, Chemical Plants, Power Plants, Water & Wastewater, Food & Beverage, Pharmaceutical Industry"
+  }
+},
+{
+  "id": 29,
+  "name": "475 HART Field Communicator",
+  "category": "General Instruments",
+  "brand": "Emerson",
+  "price":"PKR 590,000",
+  "images": ["images/HART_communicator/1.png","images/HART_communicator/2.jpeg","images/HART_communicator/3.jpeg","images/HART_communicator/4.jpeg"],
+  "shortDesc": "Portable HART communicator for configuring, calibrating, and diagnosing HART-enabled field instruments.",
+
+  "description": "The Emerson 475 HART Field Communicator is a portable handheld device designed for commissioning, configuration, calibration, and diagnostics of HART-compatible field instruments. It enables technicians to communicate directly with pressure transmitters, temperature transmitters, flowmeters, level transmitters, valve positioners, and other HART-enabled devices without interrupting the process. Featuring a rugged industrial design, color touchscreen, and rechargeable battery, the 475 is an essential tool for field maintenance and process automation.",
+
+  "features": [
+    "Supports HART communication protocol.",
+    "Configure, calibrate, and troubleshoot field instruments.",
+    "Compatible with pressure, temperature, flow, and level transmitters.",
+    "Large color touchscreen display for easy operation.",
+    "Rugged handheld design for industrial environments.",
+    "Rechargeable lithium-ion battery.",
+    "Offline and online device configuration.",
+    "Fast device diagnostics and commissioning.",
+    "Easy firmware and Device Description (DD) updates.",
+    "Widely used in process industries and industrial automation."
+  ],
+
+  "specs": {
+    "Manufacturer": "Emerson",
+    "Model": "475 Field Communicator",
+    "Product Type": "HART Field Communicator",
+    "Communication Protocol": "HART",
+    "Display": "Color Touchscreen LCD",
+    "Power Supply": "Rechargeable Lithium-Ion Battery",
+    "Connectivity": "HART Communication Interface",
+    "Operating Temperature": "-10°C to +50°C",
+    "Enclosure": "Rugged Handheld",
+    "Applications": "Device Configuration, Calibration, Diagnostics, Commissioning, Process Automation, Instrument Maintenance",
+    "Compatible Devices": "Pressure Transmitters, Temperature Transmitters, Flowmeters, Level Transmitters, Valve Positioners and other HART-enabled instruments"
+  }
+}
+]

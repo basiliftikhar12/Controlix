@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product — Controlix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="products.css">
+<style>
+  /* New Controlix logo sizing override */
+  .brand-block { gap: 14px; }
+  .logo-full { height: 62px; width: auto; display: block; }
+</style>
+</head>
+<body>
+
+<!-- ===== Top bar ===== -->
+<div class="topbar">
+  <div class="topbar-wrap">
+    <div class="topbar-info">
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        0310-4667746
+      </span>
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+        controlixautomations@gmail.com
+      </span>
+    </div>
+    <a href="contact.html" class="btn-contact">Contact Us</a>
+  </div>
+</div>
+
+<!-- ===== Header ===== -->
+<header class="main-header">
+  <div class="header-wrap">
+    <a href="index.html" class="brand-block">
+      <img src="images/logo.png" alt="Controlix logo" class="logo-full">
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <div class="nav-item-dropdown">
+        <button class="nav-dropdown-btn" id="products-dropdown-btn" type="button">
+          Products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-dropdown-menu" id="products-dropdown-menu">
+          <a href="flow-transmitter.html">Flow Transmitter</a>
+          <a href="level-transmitter.html">Level Transmitter</a>
+          <a href="pressure-transmitter.html">Pressure Transmitter</a>
+          <a href="temperature-sensors.html">Temperature Sensors</a>
+          <a href="general-instruments.html">General Instruments</a>
+          <a href="controllers.html">Controllers</a>
+        </div>
+      </div>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<a href="javascript:history.back()" class="back-link">← Back to catalog</a>
+
+<div id="product-detail" class="product-detail">
+  <div class="empty-state">Loading product…</div>
+</div>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="footer-wrap">
+    <div>© 2026 Controlix. All rights reserved.</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+<script src="home.js"></script>
+<script src="products-app.js"></script>
+</body>
+</html>
