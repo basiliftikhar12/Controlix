@@ -243,7 +243,7 @@
     "category": "General Instruments",
     "brand": "AICE TECH",
     "price": "PKR 8,000",
-    "images": ["images/converters/3.jpeg", "images/converters/2.jpg","images/converters/4.jpeg","images/converters/1.jpeg"],
+    "images": ["images/converters/3.JPEG", "images/converters/2.JPG","images/converters/4.jpeg","images/converters/1.jpeg"],
   "shortDesc": "AICE TECH 4–20mA to Dual 4–20mA Intelligent Signal Isolator & Converter",
   "description": "The AICE TECH Intelligent Signal Isolator is a high-performance industrial signal converter designed to isolate and duplicate a single 4–20mA input into two independent 4–20mA outputs. It provides excellent electrical isolation between the input, outputs, and power supply, ensuring reliable signal transmission while protecting PLCs, DCS systems, transmitters, and other field devices from electrical interference, ground loops, and signal distortion. With high conversion accuracy, built-in fault diagnostics, and DIN rail mounting, it is an ideal solution for industrial automation, process control, and instrumentation applications.",
   "features": [
@@ -330,7 +330,7 @@
   "brand": "AICE TECH",
   "price": "PKR 7,000",
   "images": [
-    "images/converters/3.jpeg",
+    "images/converters/3.JPEG",
     "images/converters/new1.jpeg",
     "images/converters/4.jpeg",
     "images/converters/1.jpeg",
