@@ -5,7 +5,7 @@
   "category": "Flow",
   "brand": "Flowcom Korea",
   "price": "PKR 110,000",
-  "images": ["images/mag_flowmeter/8.png","images/mag_flowmeter/2.jpeg","images/mag_flowmeter/6.jpeg","images/mag_flowmeter/5.jpeg","images/mag_flowmeter/1.jpeg"],
+  "images": ["images/Mag_flowmeter/8.png","images/Mag_flowmeter/2.jpeg","images/Mag_flowmeter/6.jpeg","images/Mag_flowmeter/5.jpeg","images/Mag_flowmeter/1.jpeg"],
   "shortDesc": "DN50 electromagnetic flowmeter with PTFE lining and digital display.",
 
   "description": "The DN50 Electromagnetic Flowmeter is designed for accurate measurement of conductive liquids in industrial applications. It features a PTFE-lined measuring tube, digital display, 4–20mA analog output, and RS-485 communication for seamless integration with PLC, DCS, and SCADA systems.",
@@ -46,7 +46,7 @@
   "category": "Flow",
   "brand": "Flowcom",
   "price": "PKR 115,000",
-  "images": ["images/mag_flowmeter/8.png","images/mag_flowmeter/9.png","images/mag_flowmeter/6.jpeg","images/mag_flowmeter/5.jpeg","images/mag_flowmeter/10.png"],
+  "images": ["images/Mag_flowmeter/8.png","images/Mag_flowmeter/9.png","images/Mag_flowmeter/6.jpeg","images/Mag_flowmeter/5.jpeg","images/Mag_flowmeter/10.png"],
   "shortDesc": "DN80 electromagnetic flowmeter with PTFE lining and digital display.",
 
   "description": "The DN80 Electromagnetic Flowmeter is designed for accurate measurement of conductive liquids in industrial applications. It features a PTFE-lined measuring tube, digital display, 4–20mA analog output, and RS-485 communication for seamless integration with PLC, DCS, and SCADA systems.",
