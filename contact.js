@@ -11,7 +11,7 @@
 // 1. Go to https://formspree.io and sign up (free)
 // 2. Create a new form, it gives you a URL like https://formspree.io/f/abcd1234
 // 3. Paste that URL below
-const FORM_ENDPOINT = "https://formspree.io/f/mnjklwwj";
+const FORM_ENDPOINT = "https://formspree.io/f/xdaqkjjb";
 
 (function () {
   const form = document.getElementById("contact-form");
