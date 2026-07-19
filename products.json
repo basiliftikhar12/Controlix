@@ -1140,10 +1140,10 @@
   "brand": "Controlix",
   "price": "Contact for Price",
   "images": [
-    "images/FLOW/Vortex_Flow_meter/1.jpg",
-    "images/FLOW/Vortex_Flow_meter/2.jpg",
-    "images/FLOW/Vortex_Flow_meter/3.jpg",
-    "images/FLOW/Vortex_Flow_meter/4.jpg"
+    "images/FLOW/Vortex_Flow_Meter/1.jpg",
+    "images/FLOW/Vortex_Flow_Meter/2.jpg",
+    "images/FLOW/Vortex_Flow_Meter/3.jpg",
+    "images/FLOW/Vortex_Flow_Meter/4.jpg"
   ],
   "shortDesc": "Industrial vortex flowmeter with LCD display, pulse and 4-20mA outputs for measuring liquids, gases and steam.",
   "description": "The Vortex Flowmeter is a high-performance industrial flow measurement instrument designed for accurate measurement of liquids, gases and steam. Featuring a rugged 304 stainless steel body with an explosion-resistant industrial housing, it provides stable and reliable operation in demanding process environments. The integrated LCD display enables local monitoring, while pulse and 4-20mA analog outputs allow seamless integration with PLC, DCS and SCADA systems. Suitable for chemical, oil & gas, food processing, power generation, water treatment and general industrial applications.",
