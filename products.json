@@ -822,7 +822,7 @@
   "brand": "Controlix",
   "price": "Contact for Price",
   "images": [
-    "images/PRESSURE/DP_transmitter/1.JPG",
+    "images/PRESSURE/DP_transmitter/1.jpg",
     "images/PRESSURE/DP_transmitter/2.png",
     "images/PRESSURE/DP_transmitter/3.png",
     "images/PRESSURE/DP_transmitter/4.png"
@@ -928,7 +928,7 @@
   "brand": "Controlix",
   "price": "Contact for Price",
   "images": [
-    "images/PRESSURE/dp_tm/1.JPG",
+    "images/PRESSURE/dp_tm/1.jpg",
     "images/PRESSURE/dp_tm/2.jpeg"
   ],
   "shortDesc": "High-accuracy differential pressure transmitter with LCD display and optional HART communication.",
