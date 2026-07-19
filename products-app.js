@@ -11,12 +11,12 @@ function waLink(productName) {
 
 // Category → display title + page filename, used for the sidebar and page banners
 const CATEGORY_PAGES = [
-  { category: "Flow", title: "Flow Transmitter", file: "flow-transmitter.html" },
-  { category: "Level", title: "Level Transmitter", file: "level-transmitter.html" },
-  { category: "Pressure", title: "Pressure Transmitter", file: "pressure-transmitter.html" },
+  { category: "Flow", title: "Flow Meters & Transmitters", file: "flow-transmitter.html" },
+  { category: "Level", title: "Level Sensors & Transmitters", file: "level-transmitter.html" },
+  { category: "Pressure", title: "Pressure Transmitters & Guages", file: "pressure-transmitter.html" },
   { category: "Temperature", title: "Temperature Sensors", file: "temperature-sensors.html" },
-  { category: "General Instruments", title: "General Instruments", file: "general-instruments.html" },
-  { category: "Controllers", title: "Controllers", file: "controllers.html" }
+  { category: "General Instruments", title: "Industrial Instruments & Accessories", file: "general-instruments.html" },
+  { category: "Controllers", title: "Controllers & Indicators", file: "controllers.html" }
 ];
 
 

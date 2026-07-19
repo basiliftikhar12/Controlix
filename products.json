@@ -459,21 +459,36 @@
   },
 {
   "id": 22,
-  "name": "Azbil SDC-35 PID controller",
+  "name": "Azbil SDC-35 PID Controller",
   "category": "Controllers",
   "brand": "Azbil",
   "price": "PKR 6,500",
-  "images": ["images/Controllers/sdc-35-1.jpg","images/Controllers/sdc-35.jpg","images/Controllers/sdc-35-3.jpg","images/Controllers/sdc-35-2.png"],
-  "shortDesc": "One short line for the catalog card.",
-  "description": "A fuller paragraph describing what this product does and where it's used.",
+  "images": [
+    "images/Controllers/sdc-35-1.jpg",
+    "images/Controllers/sdc-35.jpg",
+    "images/Controllers/sdc-35-3.jpg",
+    "images/Controllers/sdc-35-2.png"
+  ],
+  "shortDesc": "Compact PID temperature and process controller for precise industrial automation.",
+  "description": "The Azbil SDC-35 PID Controller is a high-performance digital controller designed for accurate temperature and process control in industrial automation systems. It provides reliable PID control with excellent stability, making it suitable for ovens, furnaces, boilers, packaging machines, and various manufacturing processes.",
   "features": [
-    "Feature one",
-    "Feature two",
-    "Feature three"
+    "High-precision PID control",
+    "Easy-to-read digital display",
+    "Fast and stable response",
+    "Supports multiple sensor inputs",
+    "Compact panel-mount design",
+    "Reliable industrial performance",
+    "Ideal for temperature and process control"
   ],
   "specs": {
-    "Spec Name 1": "Value 1",
-    "Spec Name 2": "Value 2"
+    "Controller Type": "Digital PID Controller",
+    "Input Type": "Thermocouple / RTD / Analog (Model Dependent)",
+    "Control Mode": "PID / ON-OFF",
+    "Display": "Dual Digital LED Display",
+    "Mounting": "Panel Mount",
+    "Power Supply": "100–240 VAC (Model Dependent)",
+    "Applications": "Temperature & Process Control",
+    "Brand": "Azbil"
   }
 },
 {
@@ -555,7 +570,7 @@
   "name": "WISE Analog Pressure Gauge",
   "category": "Pressure",
   "brand": "WISE",
-  "price":"15,000",
+  "price":"PKR 15,000",
   "images": ["images/pressure_guages/1.png"],
   "shortDesc": "Industrial analog pressure gauge for accurate pressure measurement.",
 
@@ -593,7 +608,7 @@
   "category": "General Instruments",
   "brand": "AICE TECH",
   "price":"130,000",
-  "images": ["images/paperless_recorder/2.png","images/paperless_recorder/1.jpg","images/paperless_recorder/3.jpg"],
+  "images": ["images/paperless_recorder/1.jpeg","images/paperless_recorder/2.jpeg","images/paperless_recorder/4.jpeg","images/paperless_recorder/5.jpeg"],
   "shortDesc": "6-channel paperless data recorder with 7-inch TFT display and RS485 communication.",
 
   "description": "The GL-U3 6-Channel Paperless Recorder is designed for real-time monitoring, recording, and storage of process parameters in industrial applications. Featuring a 7-inch TFT color display, multiple universal input types, USB data backup, and RS485 Modbus RTU communication, it provides reliable data acquisition and process monitoring for industrial automation systems.",
@@ -664,7 +679,7 @@
 },
 {
   "id": 28,
-  "name": "Rosemount 5300 Series Guided Wave Radar Level Transmitter",
+  "name": "Rosemount 5300 Series Guided Wave Radar Level Transmitter for Solids",
   "category": "Level",
   "brand": "Rosemount",
   "price":"PKR 150,000",
@@ -739,6 +754,663 @@
     "Enclosure": "Rugged Handheld",
     "Applications": "Device Configuration, Calibration, Diagnostics, Commissioning, Process Automation, Instrument Maintenance",
     "Compatible Devices": "Pressure Transmitters, Temperature Transmitters, Flowmeters, Level Transmitters, Valve Positioners and other HART-enabled instruments"
+  }
+},
+{
+  "id": 30,
+  "name": "Explosion Proof 3-Way Universal Solenoid Valve For gases",
+  "brand": "Kaneko Sangyo",
+  "category": "General Instruments",
+  "price" : "PKR 5,000",
+  "images": ["images/3way_solenide_valve/1.jpeg","images/3way_solenide_valve/4.jpeg","images/3way_solenide_valve/2.jpeg","images/3way_solenide_valve/3.jpeg","images/3way_solenide_valve/5.jpeg"],
+  "shortDesc": "Industrial explosion proof 3-way universal solenoid valve designed for reliable pneumatic control and automation applications.",
+  "description": "The Kaneko Sangyo 3-Way Universal Solenoid Valve provides dependable switching performance for pneumatic and industrial automation systems. Manufactured in Japan, it offers fast response, stable operation, and durable construction for continuous industrial use.",
+  "features": [
+    "3-way universal valve design",
+    "Reliable pneumatic switching",
+    "Fast response operation",
+    "Compact and durable construction",
+    "Low power AC coil",
+    "Suitable for industrial automation",
+    "High-quality Japanese manufacturing"
+  ],
+  "specs": {
+    "Model": "M00U 8-AE12PU",
+    "Valve Type": "Ex-Proof 3-Way Universal Solenoid Valve",
+    "Operating Pressure": "0.08–0.7 MPa",
+    "Operating Voltage": "AC 200/220 V",
+    "Frequency": "50/60 Hz",
+    "Current (50 Hz)": "0.08 A",
+    "Current (60 Hz)": "0.07 A",
+    "Country of Origin": "Japan"
+  }
+},
+{
+  "id": 31,
+  "name": "PVC Float Type Level Sensor",
+  "brand": "DAE HAN SENSOR",
+  "category": "Level",
+  "price":"PKR 35,000",
+  "images": ["images/float_level_transmitter/1.png","images/float_level_transmitter/2.jpeg"],
+  "shortDesc": "PVC float type level sensor for reliable liquid level detection in water tanks and industrial process applications.",
+  "description": "The PVC Float Type Level Sensor is designed for accurate and dependable liquid level monitoring in water tanks, storage vessels, and industrial process systems. Manufactured with a corrosion-resistant PVC float assembly, it is suitable for water and various non-corrosive liquids, providing long service life and stable performance.",
+  "features": [
+    "Corrosion-resistant PVC construction",
+    "Reliable float-operated level sensing",
+    "Suitable for water and non-corrosive liquids",
+    "Simple installation and maintenance",
+    "Stable and accurate level detection",
+    "Long service life",
+    "Ideal for tanks, reservoirs, and industrial applications"
+  ],
+  "specs": {
+    "Sensor Type": "Float Type Level Sensor",
+    "Body Material": "PVC",
+    "Lenght" : "3ft",
+    "Application": "Water and Non-Corrosive Liquids",
+    "Mounting": "Top Mount",
+    "Output": "Switch Output",
+    "Operating Principle": "Float Operated",
+    "Installation": "Vertical",
+    "Industrial Use": "Water Tanks, Reservoirs, Process Industries"
+  }
+},
+{
+  "id": 32,
+  "name": "Double Flange Differential Pressure Transmitter(Ex-proof)",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/DP_transmitter/1.JPG",
+    "images/PRESSURE/DP_transmitter/2.png",
+    "images/PRESSURE/DP_transmitter/3.png",
+    "images/PRESSURE/DP_transmitter/4.png"
+  ],
+  "shortDesc": "High-accuracy double flange differential pressure transmitter for level and pressure measurement.",
+  "description": "Fully Customizable Double Flange Differential Pressure Transmitter is designed for accurate differential pressure and level measurement in tanks, vessels, and industrial process applications. Its remote diaphragm seal design makes it suitable for corrosive, viscous, high-temperature, and contaminated media while delivering stable and reliable performance.",
+  "features": [
+    "Monocrystalline silicon sensing element",
+    "High accuracy up to ±0.075% FS",
+    "4–20 mA, HART and RS485 output options",
+    "Double flange remote diaphragm seal",
+    "IP65/IP67 weatherproof protection",
+    "Explosion-proof design available",
+    "Zero and span adjustment",
+    "Suitable for high temperature and corrosive media"
+  ],
+  "specs": {
+    "Model": "3051 Double Flange Differential Pressure Transmitter",
+    "Pressure Range": "0~100~500 kPa",
+    "Output Signal": "4–20 mA / HART / RS485(customizable)",
+    "Accuracy": "±0.075% FS",
+    "Power Supply": "12–36 VDC",
+    "Process Connection": "DN50 / DN80 Flange",
+    "Operating Temperature": "-20°C to 150°C",
+    "Protection Class": "IP65 / IP67",
+    "Explosion Protection": "Exd II CT6 Ga",
+    "Application": "Level & Differential Pressure Measurement"
+  }
+},
+{
+  "id": 33,
+  "name": "Digital Pressure Gauge",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/Digital_Pressure_Tm/digital-pressure-gauge-1.jpg",
+    "images/PRESSURE/Digital_Pressure_Tm/digital-pressure-gauge-2.jpeg"
+  ],
+  "shortDesc": "Battery-powered digital pressure gauge with high-precision LED display.",
+  "description": "The Digital Pressure Gauge is designed for accurate pressure measurement in industrial automation, hydraulic, pneumatic, and process control applications. Featuring a large LED digital display, stainless steel construction, and battery-powered operation, it provides reliable and easy-to-read pressure monitoring in demanding environments.",
+  "features": [
+    "Large LED digital display",
+    "Battery-powered operation",
+    "High measurement accuracy",
+    "Stainless steel housing",
+    "Multiple pressure units selectable",
+    "Zero calibration function",
+    "Compact and durable design",
+    "Suitable for hydraulic and pneumatic systems"
+  ],
+  "specs": {
+    "Product Type": "Digital Pressure Gauge",
+    "Display": "LED Digital Display",
+    "Power Supply": "Battery Powered",
+    "Housing Material": "Stainless Steel",
+    "Pressure Units": "Selectable",
+    "Zero Function": "Manual Zero Calibration",
+    "Process Connection": "M20 × 1.5 External Thread",
+    "Hex Size": "S22",
+    "Dimensions": "120 × 80 × 46 mm",
+    "Application": "Industrial Pressure Measurement"
+  }
+},
+{
+  "id": 34,
+  "name": "Submersible Pressure Transmitter",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/submersible_pressure-_tm/1.png",
+    "images/PRESSURE/submersible_pressure-_tm/2.jpeg"
+  ],
+  "shortDesc": "IP68 submersible pressure transmitter for water level and liquid level measurement.",
+  "description": "The Submersible Pressure Transmitter is designed for accurate water and liquid level measurement in tanks, reservoirs, bore wells, rivers, and industrial process applications. Its stainless steel construction, IP68 protection, and high-precision sensing element ensure reliable long-term performance even in harsh submerged environments.",
+  "features": [
+    "Fully submersible IP68 design",
+    "High-accuracy pressure sensing",
+    "4–20 mA analog output",
+    "Stainless steel construction",
+    "Polyurethane vented cable",
+    "Suitable for water and liquid level measurement",
+    "Corrosion-resistant design",
+    "Long-term stable performance"
+  ],
+  "specs": {
+    "Product Type": "Submersible Pressure Transmitter",
+    "Output Signal": "4–20 mA (Default), 0–5 V, 0–10 V, 0.5–4.5 V",
+    "Protection Class": "IP68",
+    "Housing Material": "Stainless Steel",
+    "Cable Material": "Polyurethane",
+    "Process Connection": "M20 × 1.5 (Customizable)",
+    "Probe Diameter": "27 mm",
+    "Overall Length": "101 mm",
+    "Application": "Water & Liquid Level Measurement"
+  }
+},
+{
+  "id": 35,
+  "name": "Differential Pressure Transmitter",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/dp_tm/1.JPG",
+    "images/PRESSURE/dp_tm/2.jpeg"
+  ],
+  "shortDesc": "High-accuracy differential pressure transmitter with LCD display and optional HART communication.",
+  "description": "The 3051 Differential Pressure Transmitter is designed for precise differential pressure, flow, liquid level, and filter monitoring in industrial process applications. Featuring a high-accuracy silicon sensor, LCD display, stainless steel construction, and optional HART communication, it delivers stable and reliable performance in demanding environments.",
+  "features": [
+    "High-precision differential pressure measurement",
+    "Backlit LCD display",
+    "4–20 mA analog output",
+    "Optional HART communication",
+    "Stainless steel wetted parts",
+    "Excellent long-term stability",
+    "Suitable for flow, level and filter monitoring",
+    "Industrial IP-rated housing"
+  ],
+  "specs": {
+    "Product Type": "Differential Pressure Transmitter",
+    "Measurement": "Differential Pressure",
+    "Output Signal": "4–20 mA",
+    "Communication": "Optional HART",
+    "Display": "Backlit LCD",
+    "Sensor Type": "Monocrystalline Silicon",
+    "Housing Material": "Aluminum Alloy",
+    "Wetted Material": "Stainless Steel",
+    "Application": "Flow, Level & Differential Pressure Measurement"
+  }
+},
+{
+  "id": 36,
+  "name": "Wireless LoRa Pressure Transmitter",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/LORA_pressure_tm/2.jpg",
+    "images/PRESSURE/LORA_pressure_tm/1.jpeg"
+  ],
+  "shortDesc": "Wireless LoRa pressure transmitter with LCD display for remote pressure monitoring.",
+  "description": "The Wireless LoRa Pressure Transmitter provides reliable wireless pressure measurement for industrial automation, water distribution, pipelines, and remote monitoring applications. Equipped with a high-accuracy pressure sensor, built-in LCD display, long-life lithium battery, and LoRa wireless communication, it enables real-time pressure monitoring over long distances without the need for signal wiring.",
+  "features": [
+    "Long-range LoRa wireless communication",
+    "High-accuracy pressure measurement",
+    "Backlit LCD display",
+    "Large-capacity lithium battery",
+    "4–20 mA receiver output",
+    "Stainless steel process connection",
+    "Low power consumption",
+    "Ideal for remote monitoring applications"
+  ],
+  "specs": {
+    "Product Type": "Wireless LoRa Pressure Transmitter",
+    "Communication": "LoRa Wireless",
+    "Display": "Backlit LCD",
+    "Power Supply": "Built-in Lithium Battery",
+    "Receiver Output": "4–20 mA",
+    "Process Connection": "M20 × 1.5",
+    "Housing Material": "Industrial Aluminum Alloy",
+    "Application": "Remote Pressure Monitoring, Water Systems, Pipelines & Industrial Automation"
+  }
+},
+{
+  "id": 37,
+  "name": "PT22 Series Pressure Transmitter",
+  "category": "Pressure",
+  "brand": "OEM",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/PT22_tm/1.jpg",
+    "images/PRESSURE/PT22_tm/2.jpg",
+    "images/PRESSURE/PT22_tm/3.jpg",
+    "images/PRESSURE/PT22_tm/4.jpeg"
+  ],
+  "shortDesc": "Compact industrial pressure transmitter with multiple output options and stainless steel construction.",
+  "description": "The PT22 Series Pressure Transmitter is a compact and reliable industrial pressure sensor designed for hydraulic systems, pneumatic equipment, compressors, pumps, and general process control applications. Featuring stainless steel construction, high measurement accuracy, and multiple analog output options, it provides stable long-term performance in demanding industrial environments.",
+  "features": [
+    "Compact stainless steel design",
+    "Accuracy up to ±0.25% FS",
+    "Multiple analog output options",
+    "Wide operating temperature range",
+    "304 & 316L stainless steel wetted parts",
+    "Suitable for hydraulic and pneumatic systems",
+    "Excellent long-term stability",
+    "Easy industrial installation"
+  ],
+  "specs": {
+    "Product Type": "Pressure Transmitter",
+    "Accuracy": "±0.25% FS, ±0.5% FS, ±1.0% FS",
+    "Output Signal": "4–20 mA, 0–1 V, 0–5 V, 0–10 V, 0.5–4.5 V",
+    "Wetted Material": "304 Stainless Steel, 316L Stainless Steel, Ceramic",
+    "Operating Temperature": "-40°C to +100°C",
+    "Process Connection": "G1/4 (Standard)",
+    "Electrical Connection": "DIN Connector / Cable Type",
+    "Application": "Hydraulic Systems, Pneumatic Systems, Air Compressors, Pumps & Industrial Automation"
+  }
+},
+{
+  "id": 38,
+  "name": "Explosion-Proof Pressure Controller",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/ex_proof_tm/1.jpg",
+    "images/PRESSURE/ex_proof_tm/2.jpg",
+    "images/PRESSURE/ex_proof_tm/3.jpeg"
+  ],
+  "shortDesc": "Explosion-proof digital pressure controller with display, alarm output, and 4-20mA analog signal.",
+  "description": "The Explosion-Proof Pressure Controller combines pressure measurement, digital display, relay alarm, and control functions in a single rugged device. Designed for hazardous industrial environments, it features an explosion-proof aluminum housing, bright 4-digit LED display, configurable alarm outputs, and a standard 4-20mA analog signal. It is ideal for oil & gas, chemical processing, power plants, compressors, hydraulic systems, and other demanding industrial applications.",
+  "features": [
+    "Explosion-proof housing for hazardous areas",
+    "4-digit LED digital pressure display",
+    "Integrated pressure measurement and alarm control",
+    "4-20mA analog output",
+    "Configurable high and low alarm setpoints",
+    "Suitable for hydraulic and pneumatic systems",
+    "Durable stainless steel pressure connection",
+    "Easy on-device parameter configuration"
+  ],
+  "specs": {
+    "Display": "4-Digit LED Digital Display",
+    "Output Signal": "4-20mA",
+    "Alarm Output": "High/Low Relay Alarm",
+    "Process Connection": "M20 × 1.5 Thread",
+    "Housing": "Explosion-Proof Aluminum Alloy",
+    "Protection Class": "IP65 / IP67 (Model Dependent)",
+    "Power Supply": "24V DC",
+    "Application": "Pressure Measurement, Monitoring & Control"
+  }
+},
+{
+  "id": 39,
+  "name": "Anti-Corrosive Pressure Transmitter (PVDF)",
+  "category": "Pressure",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/PRESSURE/Anti Corrosive Pressure Transmitter/1.png",
+    "images/PRESSURE/Anti Corrosive Pressure Transmitter/2.png"
+  ],
+  "shortDesc": "PVDF anti-corrosive pressure transmitter for aggressive chemical media.",
+  "description": "The Anti-Corrosive Pressure Transmitter is designed for reliable pressure measurement in corrosive liquids and gases. Featuring a PVDF threaded connection, ceramic sensing element, and 304 stainless steel housing, it delivers stable performance in chemical processing, water treatment, electroplating, pharmaceutical, and industrial applications. Multiple analog output options make it compatible with PLC, DCS, and SCADA systems.",
+  "features": [
+    "PVDF threaded connection for corrosive media",
+    "Ceramic pressure sensing element",
+    "4-20mA, 0-5V and 0-10V output options",
+    "304 stainless steel housing",
+    "High accuracy up to ±0.5% FS",
+    "IP65 environmental protection",
+    "Suitable for PLC and DCS integration",
+    "Ideal for chemical and water treatment applications"
+  ],
+  "specs": {
+    "Measuring Range": "-0.1 ~ 0 ~ 0.2 MPa",
+    "Output Signal": "4-20mA / 0-5V / 0-10V",
+    "Power Supply": "24V DC",
+    "Accuracy": "±0.5% FS",
+    "Housing Material": "304 Stainless Steel",
+    "Thread Material": "PVDF",
+    "Sensor Core": "Ceramic",
+    "Protection Class": "IP65",
+    "Thread Connection": "PVDF Process Thread",
+    "Application": "Corrosive Liquids & Chemical Media"
+  }
+},
+{
+  "id": 40,
+  "name": "Turbine Flowmeter (Ex-Proof) with Position Transducer",
+  "category": "Flow",
+  "brand": "Tokyo Keiso",
+  "price": "PKR 50,000",
+  "images": [
+    "images/FLOW/Turbine_Flow_Transmitter/1.png",
+    "images/FLOW/Turbine_Flow_Transmitter/2.jpeg",
+    "images/FLOW/Turbine_Flow_Transmitter/3.jpeg",
+    "images/FLOW/Turbine_Flow_Transmitter/4.jpeg",
+    "images/FLOW/Turbine_Flow_Transmitter/5.jpeg"
+  ],
+  "shortDesc": "Explosion-proof SS316 turbine flowmeter with local indicator and 4-20mA analog output for liquid and gas flow measurement.",
+  "description": "The Tokyo Keiso Explosion-Proof Turbine Flowmeter is a high-accuracy industrial flow measurement instrument designed for both liquids and gases. Built with a full SS316 wetted body, it provides excellent corrosion resistance and long service life in demanding industrial environments. The integrated explosion-proof position transducer (Model MX-250-E) provides a standard 4-20mA analog output while the local indicator allows on-site flow monitoring. Suitable for chemical plants, oil & gas, petrochemical, water treatment, food processing, and other hazardous-area applications requiring reliable flow measurement. Tokyo Keiso manufactures a wide range of industrial flow instrumentation, including explosion-proof flow measurement devices. :contentReference[oaicite:0]{index=0}",
+  "features": [
+    "Explosion-proof (Ex-Proof) construction",
+    "Suitable for both liquid and gas flow measurement",
+    "Local flow indication display",
+    "4-20mA analog output",
+    "Full SS316 stainless steel construction",
+    "High measurement accuracy and repeatability",
+    "Reliable turbine sensing technology",
+    "Designed for hazardous industrial environments",
+    "Long service life with low maintenance",
+    "Compatible with PLC, DCS and SCADA systems"
+  ],
+  "specs": {
+    "Manufacturer": "Tokyo Keiso Co., Ltd., Japan",
+    "Model": "MX-250-E Position Transducer",
+    "Flowmeter Type": "Turbine Flowmeter",
+    "Measurement Range": "0-3300 L/hr",
+    "Measured Media": "Liquids & Gases",
+    "Output Signal": "4-20mA",
+    "Local Display": "Yes",
+    "Supply Voltage": "12-33V DC",
+    "Material": "SS316 Stainless Steel",
+    "Explosion Protection": "Ex-Proof",
+    "Application": "Industrial Flow Measurement"
+  }
+},
+{
+  "id": 41,
+  "name": "Vortex Flowmeter",
+  "category": "Flow",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/FLOW/Vortex_Flow_meter/1.jpg",
+    "images/FLOW/Vortex_Flow_meter/2.jpg",
+    "images/FLOW/Vortex_Flow_meter/3.jpg",
+    "images/FLOW/Vortex_Flow_meter/4.jpg"
+  ],
+  "shortDesc": "Industrial vortex flowmeter with LCD display, pulse and 4-20mA outputs for measuring liquids, gases and steam.",
+  "description": "The Vortex Flowmeter is a high-performance industrial flow measurement instrument designed for accurate measurement of liquids, gases and steam. Featuring a rugged 304 stainless steel body with an explosion-resistant industrial housing, it provides stable and reliable operation in demanding process environments. The integrated LCD display enables local monitoring, while pulse and 4-20mA analog outputs allow seamless integration with PLC, DCS and SCADA systems. Suitable for chemical, oil & gas, food processing, power generation, water treatment and general industrial applications.",
+  "features": [
+    "Suitable for liquids, gases and steam",
+    "Bright LCD display for local indication",
+    "High measurement accuracy and repeatability",
+    "4-20mA analog output",
+    "Pulse output signal",
+    "304 stainless steel wetted body",
+    "Wide pipe size availability",
+    "Low pressure loss",
+    "Excellent long-term stability",
+    "Compatible with PLC, DCS and SCADA systems"
+  ],
+  "specs": {
+    "Flowmeter Type": "Vortex Flowmeter",
+    "Measured Media": "Liquids, Gases & Steam",
+    "Display": "LCD Digital Display",
+    "Output Signal": "4-20mA Analog, Pulse Output",
+    "Material": "304 Stainless Steel",
+    "Connection Type": "Flanged / Wafer (depending on model)",
+    "Available Sizes": "DN25, DN40, DN50, DN65, DN80, DN100, DN125, DN150, DN200",
+    "Applications": "Water, Air, Steam, Compressed Air, Natural Gas, Chemicals, Industrial Fluids",
+    "Power Supply": "24VDC (Typical)"
+  }
+},
+{
+  "id": 42,
+  "name": "Clamp-On Ultrasonic Flowmeter",
+  "category": "Flow",
+  "brand": "Controlix",
+  "price": "Contact for Price",
+  "images": [
+    "images/FLOW/Ultrasonic_Flowmeter/1.jpg",
+    "images/FLOW/Ultrasonic_Flowmeter/2.jpg",
+    "images/FLOW/Ultrasonic_Flowmeter/3.jpg"
+  ],
+  "shortDesc": "Non-invasive clamp-on ultrasonic flowmeter with LCD display and 4-20mA output for accurate liquid flow measurement.",
+  "description": "The Clamp-On Ultrasonic Flowmeter provides highly accurate and non-invasive liquid flow measurement without cutting or modifying the pipeline. Using advanced ultrasonic transit-time technology, it installs externally on the pipe, eliminating pressure loss and process interruption. The integrated LCD display allows local monitoring, while the 4-20mA analog output enables easy integration with PLC, DCS and SCADA systems. It is ideal for water treatment, HVAC, industrial process control, chemical plants, food & beverage, pharmaceuticals and energy management applications.",
+  "features": [
+    "Non-invasive clamp-on installation",
+    "No pipe cutting or process shutdown required",
+    "High-accuracy ultrasonic flow measurement",
+    "LCD display for local indication",
+    "1-channel 4-20mA analog output",
+    "Fast snap-on installation",
+    "M12 quick-connect plugs",
+    "No moving parts for maintenance-free operation",
+    "Suitable for clean liquids and water-based media",
+    "Compatible with PLC, DCS and SCADA systems"
+  ],
+  "specs": {
+    "Flowmeter Type": "Clamp-On Ultrasonic Flowmeter",
+    "Measurement Principle": "Ultrasonic Transit-Time",
+    "Measured Media": "Clean Liquids",
+    "Installation": "External Clamp-On",
+    "Display": "LCD Digital Display",
+    "Output Signal": "1 Channel 4-20mA",
+    "Electrical Connection": "M12 Quick Plug",
+    "Power Supply": "24VDC",
+    "Pressure Loss": "None",
+    "Pipe Modification": "Not Required",
+    "Applications": "Water, HVAC, Cooling Systems, Chemical Processing, Food & Beverage, Pharmaceutical, Industrial Utilities"
+  }
+},
+{
+  "id": 43,
+  "name": "Duplex Pt-100 (RTD Temperature Sensor)",
+  "category": "Temperature",
+  "brand": "WISE",
+  "price": "PKR 20,000",
+  "images": [
+    "images/TEMPERATURE/PT100_RTD/1.png",
+    "images/TEMPERATURE/PT100_RTD/2.jpeg",
+    "images/TEMPERATURE/PT100_RTD/3.jpeg",
+    "images/TEMPERATURE/PT100_RTD/4.jpeg"
+  ],
+  "shortDesc": "Duplex Pt100 temperature sensor for accurate and reliable temperature measurement.",
+  "description": "The WISE PT100 RTD Temperature Sensor is a high-accuracy resistance temperature detector designed for precise temperature measurement in industrial processes. Featuring a Class B platinum sensing element (Pt100 Ω), it offers excellent stability, repeatability, and long service life. Suitable for use in chemical plants, food processing, HVAC systems, water treatment, power plants, and general industrial automation, the sensor can be paired with temperature transmitters, digital indicators, PLCs, DCS, and SCADA systems.",
+  "features": [
+    "Platinum PT100 (100 Ω) sensing element",
+    "With WISE 316SS Thermowell",
+    "Class B accuracy",
+    "High measurement accuracy and repeatability",
+    "Excellent long-term stability",
+    "Fast thermal response",
+    "Suitable for liquids, gases, and solid surface measurement",
+    "Compatible with PLC, DCS, SCADA, and temperature transmitters",
+    "Industrial-grade construction for harsh environments",
+    "Reliable operation in continuous process applications",
+    "Long service life with low maintenance"
+  ],
+  "specs": {
+    "Sensor Type": "RTD (Resistance Temperature Detector)",
+    "Element": "PT100 (100 Ω)",
+    "Thermowell": "SS316 22cm",
+    "Accuracy Class": "Class B",
+    "Sensing Element": "Platinum",
+    "Measurement Principle": "Resistance Temperature Measurement",
+    "Application": "Liquids, Gases, and Industrial Processes",
+    "Output": "Resistance (PT100)",
+    "Installation": "Thermowell or Direct Mount",
+    "Compatibility": "Temperature Transmitters, PLC, DCS, SCADA",
+    "Brand": "WISE"
+  }
+},
+{
+  "id": 44,
+  "name": "WISE Solid Bar Thermowell",
+  "category": "Temperature",
+  "brand": "WISE",
+  "price": "PKR 6,500",
+  "images": [
+    "images/TEMPERATURE/Thermowell/1.png",
+    "images/TEMPERATURE/Thermowell/2.jpeg"
+  ],
+  "shortDesc": "Heavy-duty solid bar thermowell for protecting temperature sensors in high-pressure and high-temperature applications.",
+  "description": "The WISE Solid Bar Thermowell is designed to protect RTDs, thermocouples, and temperature sensors from high pressure, high flow velocity, corrosion, and harsh process conditions. Unlike cast or fabricated thermowells, these thermowells are precision machined from a single solid stainless steel bar and deep-drilled internally, providing exceptional mechanical strength, durability, and reliability. They are widely used in oil & gas, chemical plants, power generation, food processing, pharmaceutical industries, and other demanding industrial applications.",
+  "features": [
+    "Manufactured from a single solid stainless steel bar",
+    "Deep-drilled internal bore (not fabricated or die-cast)",
+    "Superior mechanical strength and vibration resistance",
+    "Provides excellent protection for RTDs and thermocouples",
+    "Suitable for high-pressure and high-temperature services",
+    "Excellent corrosion resistance",
+    "Precision machined for long service life",
+    "Compatible with industrial temperature transmitters",
+    "Available in multiple insertion lengths",
+    "Ideal for chemical, oil & gas, steam, and process industries"
+  ],
+  "specs": {
+    "Product Type": "Solid Bar Thermowell",
+    "Brand": "WISE",
+    "Manufacturing Method": "Machined from SS 316",
+    "sizes" : "20cm , 22cm , 32cm",
+    "Construction": "Deep Drilled Bore",
+    "Material": "Stainless Steel",
+    "Protection": "For RTDs, Thermocouples and Temperature Sensors",
+    "Process Connection": "Flanged",
+    "Flange Rating": "ASME 300#",
+    "Applications": "High Pressure & High Temperature Processes",
+    "Available Lengths": "20 cm, 22 cm, 32 cm",
+    "Installation": "Industrial Process Piping and Vessels"
+  }
+},
+{
+  "id": 45,
+  "name": "Teflon Float Level Switch",
+  "category": "Level",
+  "brand": "Madison (USA)",
+  "price": "PKR 15,000",
+  "images": [
+    "images/LEVEL/Teflon_Float_Switch/1.jpg",
+    "images/LEVEL/Teflon_Float_Switch/2.jpeg",
+    "images/LEVEL/Teflon_Float_Switch/3.jpeg"
+  ],
+  "shortDesc": "Vertical Teflon float level switch with Normally Closed (NC) contact for reliable liquid level detection in corrosive chemical applications.",
+  "description": "The Teflon Float Level Switch is designed for accurate point-level detection in tanks and vessels containing corrosive chemicals, acids, alkalis, and other aggressive liquids. Constructed with a chemically resistant Teflon (PTFE) float and stem, it offers excellent corrosion resistance and long service life. The switch features a Normally Closed (NC) SPST reed contact, making it ideal for high-level and low-level alarms, pump protection, and automatic process control in chemical processing, water treatment, pharmaceutical, and industrial applications.",
+  "features": [
+    "Chemical-resistant PTFE (Teflon) construction",
+    "Vertical mounting design",
+    "Reliable liquid level detection",
+    "Suitable for corrosive chemicals and acids",
+    "Compact and maintenance-free design",
+    "Easy installation with 1/8\" NPT process connection",
+    "Compatible with PLC, DCS and alarm systems",
+    "Long electrical and mechanical service life",
+    "Ideal for tanks, vessels and storage systems"
+  ],
+  "specs": {
+    "Sensor Type": "Float Level Switch",
+    "Orientation": "Vertical",
+    "Mounting Connection": "1/8\" NPT",
+    "Float Material": "PTFE (Teflon)",
+    "Stem Material": "PTFE (Teflon)",
+    "Switch Type": "SPST Reed Switch",
+    "Switch Logic": "Normally Closed/Normally Open",
+    "Switch Rating": "60 W",
+    "Electrical Ratings": "240 VAC, 0.40 A; 120 VAC, 0.50 A; 120 VDC, 0.20 A; 24 VDC, 0.50 A",
+    "Maximum Temperature": "150°C (300°F)",
+    "Maximum Pressure": "2 Bar (25 PSI)",
+    "Minimum Media Specific Gravity": "0.86",
+    "Electrical Termination": "24\" cable, 22 AWG, Teflon insulated",
+    "Float Diameter": "1.12\"",
+    "Applications": "Chemical Tanks, Acid Storage, Water Treatment, Industrial Process Control"
+  }
+},
+{
+  "id": 46,
+  "name": "Flownetix Ultrasonic Flowmeter 100 Series",
+  "category": "Flow",
+  "brand": "Flownetix",
+  "price": "PKR 6,500",
+  "images": [
+    "images/FLOW/Flownetix_100_Series/2.png",
+    "images/FLOW/Flownetix_100_Series/3.jpeg",
+    "images/FLOW/Flownetix_100_Series/4.png"
+  ],
+  "shortDesc": "Compact ultrasonic flowmeter for accurate liquid flow measurement with pulse, analog, and digital outputs for industrial automation applications.",
+  "description": "The Flownetix 100 Series Ultrasonic Flowmeter provides highly accurate and reliable liquid flow measurement using ultrasonic sensing technology. Designed with no moving parts, it offers long-term stability, minimal maintenance, and excellent performance across a wide range of industrial applications. The flowmeter supports NPN/PNP pulse outputs, 0–5V analog voltage, and 4–20mA current output (B-type models), making it suitable for integration with PLC, DCS, SCADA, and automation systems.",
+  "features": [
+    "High-accuracy ultrasonic flow measurement",
+    "No moving parts for maintenance-free operation",
+    "Compact inline sensor design",
+    "Pulse output proportional to flow rate",
+    "4-20mA analog current output (B-Type)",
+    "0-5V analog voltage output (B-Type)",
+    "NPN and PNP pulse outputs available",
+    "LED flow status indication",
+    "Suitable for PLC, DCS and SCADA integration",
+    "Reliable operation with low pressure loss"
+  ],
+  "specs": {
+    "Technology": "Ultrasonic Flow Measurement",
+    "Model": "Flownetix 100 Series",
+    "Power Supply": "V+ (Red Wire)",
+    "Ground": "Black (GND), Green (GND2)",
+    "Pulse Output": "NPN Pulse Output (Blue), PNP Pulse Output (White - B Type)",
+    "Analog Output": "4-20mA Current Output (Brown - B Type)",
+    "Voltage Output": "0-5VDC Analog Output (Orange - B Type)",
+    "Data Input": "Yellow Wire (Optional)",
+    "Output Functions": "Pulse, 4-20mA, 0-5V, LED Status",
+    "Forward Flow": "Pulse and analog outputs proportional to flow rate",
+    "No Flow Condition": "No pulse output, 4mA current output, 0V voltage output",
+    "Reverse Flow": "No pulse output, 4mA current output, 0V voltage output",
+    "Empty Pipe Detection": "No pulse output with empty tube indication",
+    "Status Indicator": "LED with flow and operating status indication",
+    "Applications": "Water, Process Liquids, Cooling Systems, Industrial Automation, OEM Equipment"
+  }
+},
+{
+  "id": 47,
+  "name": "Pneumatic Diaphragm Shut-Off Valve",
+  "category": "General Instruments",
+  "brand": "Advance Electric",
+  "price": "PKR 12,000",
+  "images": [
+    "images/GENERAL_INSTRUMENTS/Advance_NC3100_10MCB_Z/1.JPEG",
+    "images/GENERAL_INSTRUMENTS/Advance_NC3100_10MCB_Z/2.JPEG",
+    "images/GENERAL_INSTRUMENTS/Advance_NC3100_10MCB_Z/3.JPEG"
+  ],
+  "shortDesc": "Air-operated diaphragm shut-off valve designed for ultrapure water and corrosive chemical applications with corrosion-resistant plastic construction.",
+  "description": "The Advance NC3100-10MCB-Z Pneumatic Diaphragm Shut-Off Valve is a high-performance air-operated valve engineered for precise on/off control of ultrapure water, deionized (DI) water, and corrosive chemical fluids. Manufactured with corrosion-resistant plastic wetted parts, it provides excellent chemical compatibility while preventing fluid contamination. The normally closed (NC) fail-safe design ensures reliable and safe operation in industrial process systems, semiconductor manufacturing, water treatment, and chemical processing applications.",
+  "features": [
+    "Pneumatic air-operated diaphragm valve",
+    "Normally Closed (NC) fail-safe operation",
+    "Designed for ultrapure (UPW) and DI water systems",
+    "Excellent resistance to corrosive chemicals",
+    "Corrosion-resistant plastic wetted components",
+    "Low maintenance and long service life",
+    "Built-in flow adjustment mechanism (Z Type)",
+    "Compact and lightweight design",
+    "Fast response and reliable shut-off performance",
+    "Suitable for semiconductor, pharmaceutical and chemical industries"
+  ],
+  "specs": {
+    "Model": "NC3100-10MCB-Z",
+    "Valve Type": "Pneumatic Diaphragm Shut-Off Valve",
+    "Operation": "Air Operated",
+    "Fail-Safe Position": "Normally Closed (NC)",
+    "Fluid Compatibility": "Ultrapure Water (UPW), Deionized (DI) Water, Corrosive Chemicals",
+    "Wetted Material": "Corrosion-Resistant Engineering Plastic",
+    "Connection Size": "8 × 10 mm Tube (I.D. × O.D.)",
+    "Flow Adjustment": "Built-in Flow Control (Z Model)",
+    "Application": "Automatic Fluid Shut-Off and Process Control",
+    "Industries": "Semiconductor, Chemical Processing, Water Treatment, Pharmaceutical, Laboratory Systems"
   }
 }
 ]
