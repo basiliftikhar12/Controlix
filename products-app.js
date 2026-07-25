@@ -2,7 +2,7 @@
 // SITE CONFIG — edit for your business
 // ============================================
 const WHATSAPP_NUMBER = "923104667746"; // <-- replace with your real WhatsApp Business number
-const BUSINESS_NAME = "IndusFlow Instruments";
+const BUSINESS_NAME = "Controlix";
 
 function waLink(productName) {
   const msg = encodeURIComponent(`Hi, I'm interested in "${productName}". Could you share more details and pricing?`);
@@ -142,6 +142,15 @@ async function initProductPage() {
 
   document.title = `${p.name} — ${BUSINESS_NAME}`;
 
+  const catPage = CATEGORY_PAGES.find(c => c.category === p.category);
+  const breadcrumbCategory = document.getElementById("breadcrumb-category");
+  const breadcrumbCurrent = document.getElementById("breadcrumb-current");
+  if (breadcrumbCategory && catPage) {
+    breadcrumbCategory.textContent = catPage.title;
+    breadcrumbCategory.href = catPage.file;
+  }
+  if (breadcrumbCurrent) breadcrumbCurrent.textContent = p.name;
+
   const imgs = getImages(p);
   const specRows = Object.entries(p.specs).map(([k, v]) =>
     `<tr><td>${k}</td><td>${v}</td></tr>`
@@ -225,6 +234,46 @@ async function initProductPage() {
   if (mainImg) {
     mainImg.addEventListener("click", () => openLightbox(mainImg.src, p.name));
   }
+
+  renderRelatedProducts(p, products);
+}
+
+// ============================================
+// "More Products You May Like" — random picks from
+// every category, excluding the product currently being viewed
+// ============================================
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function renderRelatedProducts(currentProduct, allProducts) {
+  const section = document.getElementById("related-section");
+  const grid = document.getElementById("related-grid");
+  const prevBtn = document.getElementById("related-prev");
+  const nextBtn = document.getElementById("related-next");
+  if (!section || !grid) return;
+
+  const pool = allProducts.filter(prod => prod.id !== currentProduct.id);
+  const picks = shuffleArray(pool).slice(0, 14);
+
+  if (!picks.length) return;
+
+  renderGrid(picks, grid);
+  section.style.display = "";
+
+  function scrollByCard(direction) {
+    const card = grid.querySelector(".product-card");
+    const step = card ? card.getBoundingClientRect().width + 20 : 250;
+    grid.scrollBy({ left: direction * step * 2, behavior: "smooth" });
+  }
+
+  if (prevBtn) prevBtn.addEventListener("click", () => scrollByCard(-1));
+  if (nextBtn) nextBtn.addEventListener("click", () => scrollByCard(1));
 }
 
 // ============================================

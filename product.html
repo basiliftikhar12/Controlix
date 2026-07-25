@@ -69,11 +69,40 @@
   </div>
 </header>
 
-<a href="javascript:history.back()" class="back-link">← Back to catalog</a>
+<!-- ===== Breadcrumb ===== -->
+<div class="breadcrumb-bar">
+  <div class="breadcrumb-wrap" id="breadcrumb-wrap">
+    <a href="index.html">Home</a>
+    <span class="sep">/</span>
+    <a href="javascript:history.back()" id="breadcrumb-category">Products</a>
+    <span class="sep">/</span>
+    <span class="current" id="breadcrumb-current">Loading…</span>
+  </div>
+</div>
 
 <div id="product-detail" class="product-detail">
   <div class="empty-state">Loading product…</div>
 </div>
+
+<!-- ===== More products ===== -->
+<section class="related-section" id="related-section" style="display:none;">
+  <div class="related-wrap">
+    <div class="related-heading">
+      <h2 style="color: var(--navy); font-weight: 700;">Explore More</h2>
+    </div>
+    <div class="related-scroller-wrap">
+      <button type="button" class="related-arrow prev" id="related-prev" aria-label="Scroll left">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="related-track" id="related-grid">
+        <div class="empty-state">Loading products…</div>
+      </div>
+      <button type="button" class="related-arrow next" id="related-next" aria-label="Scroll right">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
 
 <!-- ===== Footer ===== -->
 <footer class="site-footer">
