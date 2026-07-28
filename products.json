@@ -1412,5 +1412,47 @@
     "Application": "Automatic Fluid Shut-Off and Process Control",
     "Industries": "Semiconductor, Chemical Processing, Water Treatment, Pharmaceutical, Laboratory Systems"
   }
+},
+{
+  "id": 48,
+  "name": "Submersible Level Transmitter",
+  "category": "Level",
+  "brand": "Controlix",
+  "price": "PKR 65,000",
+  "images": [
+    "images/LEVEL/Submersible_lvl/1.webp"
+  ],
+  "shortDesc": "Hydrostatic submersible level transmitter with HART protocol support, built on advanced diffusion silicon pressure sensor technology for high-precision liquid level detection in open containers.",
+  "description": "The SZY-136 Submersible Level Transmitter is a high-quality hydrostatic level measuring instrument developed using advanced diffusion silicon pressure sensor and IC SENSORS circuit technology sourced from NOVO Company in the United States, applying silicon fine-etching and silicon wafer lamination processes. It is widely used across petroleum, chemical, metallurgy, environmental protection, food, water conservancy, urban water supply, oil field and other industries requiring precision liquid level detection. Featuring a solid-state structure with no moving parts, the transmitter delivers good stability, high accuracy, and a strong performance-to-price ratio. It is highly resistant to viscous media fouling, electrical fatigue, vibration, and shock, and now supports HART protocol communication alongside its standard 4-20mA output, enabling digital configuration, diagnostics, and remote parameter adjustment over the same two-wire loop. Note: this model is intended for use in open containers only.",
+  "features": [
+    "Hydrostatic (pressure-based) liquid level measurement",
+    "Advanced diffusion silicon pressure sensor with IC SENSORS technology",
+    "4-20mA output with HART protocol support",
+    "Solid-state design with no moving parts",
+    "High accuracy: 0.5%F.S or 0.25%F.S",
+    "Overload capacity of twice full-scale (F.S.)",
+    "Wide operating temperature range: -20°C to 60°C",
+    "Low zero and full-scale temperature drift",
+    "Non-polar power supply, insensitive to reverse wiring",
+    "Resistant to vibration, shock, and electrical fatigue",
+    "Available in split and fully submersible configurations",
+    "Suitable for open containers only"
+  ],
+  "specs": {
+    "Model": "Controlix-48L",
+    "Type": "Submersible / Split Hydrostatic Level Transmitter",
+    "Measurement Range": "0-800m (customizable)",
+    "Accuracy": "0.5%F.S or 0.25%F.S",
+    "Load Capacity": "≤500Ω",
+    "Output Signal": "4-20mA with HART Protocol",
+    "Overload Capacity": "Twice F.S.",
+    "Zero Temperature Drift": "0.03%FS/°C (≤100KPa), 0.02%FS/°C (>100KPa)",
+    "Full-Scale Temperature Drift": "0.03%FS/°C (≤100KPa), 0.02%FS/°C (>100KPa)",
+    "Operating Temperature": "-20°C to 60°C",
+    "Humidity": "≤95%RH",
+    "Operating Voltage": "12-36VDC",
+    "Installation": "Open containers only",
+    "Applications": "Petroleum, Chemical, Metallurgy, Environmental Protection, Food, Water Conservancy, Urban Water Supply, Oil Field"
+  }
 }
 ]
