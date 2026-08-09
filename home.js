@@ -72,6 +72,180 @@
   });
 })();
 
+// ===== Sitewide inline search bar with live dropdown =====
+// Injected here (rather than into each HTML file) because home.js already
+// loads on every page. The search box sits inline in the nav; as the user
+// types, matching products appear in a dropdown automatically (no click or
+// Enter needed). Pressing Enter still goes to search.html for a full list.
+// Self-contained on purpose (own fetch + own fuzzy matcher) so it works on
+// EVERY page, including about.html/contact.html which don't load products-app.js.
+(function () {
+  const headerWrap = document.querySelector(".header-wrap");
+  const navToggle = document.getElementById("nav-toggle");
+  const nav = document.getElementById("main-nav");
+  if (!headerWrap || !nav) return;
+
+  const wrap = document.createElement("div");
+  wrap.className = "nav-search-wrap";
+  wrap.innerHTML = `
+    <div class="nav-search-box" id="nav-search-box">
+      <button type="button" class="nav-search-icon-btn" id="nav-search-icon-btn" aria-label="Open search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </button>
+      <input type="text" id="nav-search-input" placeholder="Search products..." autocomplete="off">
+    </div>
+    <div class="nav-search-dropdown" id="nav-search-dropdown"></div>
+  `;
+
+  // Group nav + (search/hamburger) together so header-wrap is back to a
+  // clean 2-way split: brand-block | nav-group. Without this, header-wrap
+  // would space-between across 3 items (brand, nav, actions) instead of 2,
+  // which is what nudged the desktop nav position and pill gap last time.
+  const navGroup = document.createElement("div");
+  navGroup.className = "nav-group";
+  headerWrap.insertBefore(navGroup, nav);
+  navGroup.appendChild(nav);
+
+  const actions = document.createElement("div");
+  actions.className = "header-actions";
+  if (navToggle) {
+    navGroup.appendChild(actions);
+    actions.appendChild(wrap);
+    actions.appendChild(navToggle); // moves the existing button; its click listener stays intact
+  } else {
+    navGroup.appendChild(actions);
+    actions.appendChild(wrap);
+  }
+
+  const input = wrap.querySelector("#nav-search-input");
+  const dropdown = wrap.querySelector("#nav-search-dropdown");
+  const searchBox = wrap.querySelector("#nav-search-box");
+  const iconBtn = wrap.querySelector("#nav-search-icon-btn");
+
+  // Icon tap: on mobile this expands the collapsed pill into a visible input
+  // (see the max-width:900px rules in home.css). On desktop the input is
+  // already always visible, so this just focuses it — harmless either way.
+  iconBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    searchBox.classList.add("expanded");
+    setTimeout(() => input.focus(), 50);
+  });
+
+  let productsCache = null;
+  let debounceTimer = null;
+
+  async function getProducts() {
+    if (!productsCache) {
+      const res = await fetch("products.json");
+      productsCache = await res.json();
+    }
+    return productsCache;
+  }
+
+  // ---- Small, self-contained fuzzy matcher (typo-tolerant) ----
+  // Matches ONLY name + shortDesc, as requested.
+  function levenshtein(a, b) {
+    const m = a.length, n = b.length;
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        dp[i][j] = a[i - 1] === b[j - 1]
+          ? dp[i - 1][j - 1]
+          : 1 + Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+    return dp[m][n];
+  }
+  function fuzzyWordMatch(word, target) {
+    if (!word || !target) return false;
+    if (target.includes(word)) return true;
+    const maxDist = word.length <= 4 ? 1 : 2;
+    return levenshtein(word, target) <= maxDist;
+  }
+  function matchProducts(query, products) {
+    const queryWords = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!queryWords.length) return [];
+    const scored = products.map(p => {
+      const haystack = [p.name, p.shortDesc].filter(Boolean).join(" ").toLowerCase();
+      const haystackWords = haystack.split(/\W+/).filter(Boolean);
+      let score = 0;
+      queryWords.forEach(qw => {
+        haystackWords.forEach(hw => {
+          if (hw === qw) score += 3;
+          else if (fuzzyWordMatch(qw, hw)) score += 1;
+        });
+      });
+      return { product: p, score };
+    });
+    return scored.filter(r => r.score > 0).sort((a, b) => b.score - a.score).map(r => r.product);
+  }
+  function firstImage(p) {
+    if (Array.isArray(p.images) && p.images.length) return p.images[0];
+    if (p.image) return p.image;
+    return "";
+  }
+
+  function renderDropdown(results) {
+    if (!results) {
+      dropdown.classList.remove("open");
+      dropdown.innerHTML = "";
+      return;
+    }
+    if (!results.length) {
+      dropdown.innerHTML = `<div class="nav-search-empty">No products found.</div>`;
+      dropdown.classList.add("open");
+      return;
+    }
+    const top = results.slice(0, 8);
+    dropdown.innerHTML = top.map(p => {
+      const img = firstImage(p);
+      return `
+        <a class="nav-search-item" href="product.html?id=${p.id}">
+          <div class="nav-search-thumb">${img ? `<img src="${img}" alt="${p.name}">` : ""}</div>
+          <div class="nav-search-info">
+            <div class="nav-search-name">${p.name}</div>
+            <div class="nav-search-desc">${p.shortDesc || ""}</div>
+          </div>
+        </a>
+      `;
+    }).join("");
+    dropdown.classList.add("open");
+  }
+
+  input.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    const query = input.value.trim();
+    if (!query) { renderDropdown(null); return; }
+    debounceTimer = setTimeout(async () => {
+      const products = await getProducts();
+      renderDropdown(matchProducts(query, products));
+    }, 150);
+  });
+
+  input.addEventListener("focus", () => {
+    if (input.value.trim()) dropdown.classList.add("open");
+  });
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      const q = input.value.trim();
+      if (q) window.location.href = `search.html?q=${encodeURIComponent(q)}`;
+    }
+    if (e.key === "Escape") dropdown.classList.remove("open");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!wrap.contains(e.target)) {
+      dropdown.classList.remove("open");
+      searchBox.classList.remove("expanded");
+    }
+  });
+})();
+
 // ===== Featured products on Home page (random selection, load more) =====
 // Reuses loadProducts() and renderGrid() defined in products-app.js —
 // make sure products-app.js is loaded BEFORE this file in index.html.

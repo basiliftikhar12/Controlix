@@ -46,6 +46,59 @@ async function loadProducts() {
 }
 
 // ============================================
+// Fuzzy, typo-tolerant search across all products.
+// Used by the sitewide search results page (search.html).
+// Matches ONLY name + shortDesc (per request), tolerating
+// small typos like "sesnor" -> "sensor".
+// ============================================
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i - 1] === b[j - 1]
+        ? dp[i - 1][j - 1]
+        : 1 + Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
+    }
+  }
+  return dp[m][n];
+}
+
+function fuzzyWordMatch(word, target) {
+  if (!word || !target) return false;
+  if (target.includes(word)) return true;
+  const maxDist = word.length <= 4 ? 1 : 2; // allow more slack for longer words
+  return levenshtein(word, target) <= maxDist;
+}
+
+function searchProducts(query, products) {
+  const queryWords = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!queryWords.length) return [];
+
+  const scored = products.map(p => {
+    const haystack = [p.name, p.shortDesc]
+      .filter(Boolean).join(" ").toLowerCase();
+    const haystackWords = haystack.split(/\W+/).filter(Boolean);
+
+    let score = 0;
+    queryWords.forEach(qw => {
+      haystackWords.forEach(hw => {
+        if (hw === qw) score += 3;
+        else if (fuzzyWordMatch(qw, hw)) score += 1;
+      });
+    });
+    return { product: p, score };
+  });
+
+  return scored
+    .filter(r => r.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map(r => r.product);
+}
+
+// ============================================
 // Category sidebar (shared across all category pages)
 // ============================================
 function renderSidebar(activeCategory) {

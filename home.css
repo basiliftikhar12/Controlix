@@ -130,6 +130,141 @@ nav.main-nav a.active {
 }
 .nav-toggle svg { width: 26px; height: 26px; color: var(--navy); }
 
+/* ===== Sitewide search — inline dark pill + live dropdown ===== */
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.nav-search-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+.nav-search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--navy-deep);
+  border-radius: 999px;
+  padding: 9px 16px;
+  transition: box-shadow 0.15s;
+}
+.nav-search-box:focus-within { box-shadow: 0 0 0 2px var(--orange); }
+.nav-search-box svg { width: 16px; height: 16px; color: #9fb0c2; flex-shrink: 0; }
+.nav-search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  width: 150px;
+}
+.nav-search-box input::placeholder { color: #9fb0c2; }
+
+.nav-search-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 320px;
+  max-height: 420px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(11,42,74,0.18);
+  z-index: 40;
+}
+.nav-search-dropdown.open { display: block; }
+
+.nav-search-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+}
+.nav-search-item:last-child { border-bottom: none; }
+.nav-search-item:hover { background: var(--bg-alt); }
+.nav-search-thumb {
+  width: 44px; height: 44px;
+  background: var(--bg-alt);
+  border-radius: 6px;
+  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+}
+.nav-search-thumb img { width: 100%; height: 100%; object-fit: contain; }
+.nav-search-info { min-width: 0; }
+.nav-search-name {
+  font-size: 0.86rem; font-weight: 600; color: var(--ink);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.nav-search-desc {
+  font-size: 0.75rem; color: var(--muted);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.nav-search-empty { padding: 16px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+
+.nav-search-icon-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Mobile: collapse the pill down to just the search icon next to the
+   hamburger. Tapping it expands the same pill+input you see on desktop,
+   anchored under the icon instead of taking up header space permanently. */
+@media (max-width: 900px) {
+  .header-actions { gap: 14px; }
+  .nav-search-box {
+    background: transparent;
+    padding: 4px;
+    gap: 0;
+  }
+  .nav-search-box svg { color: var(--orange); width: 22px; height: 22px; }
+  .nav-search-box input {
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    pointer-events: none;
+    transition: width 0.2s ease, opacity 0.2s ease;
+  }
+  .nav-search-box.expanded {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: var(--navy-deep);
+    border-radius: 999px;
+    padding: 9px 16px;
+    gap: 8px;
+    z-index: 45;
+  }
+  .nav-search-box.expanded svg { color: #9fb0c2; width: 16px; height: 16px; }
+  .nav-search-box.expanded input {
+    width: 150px;
+    opacity: 1;
+    pointer-events: auto;
+    padding: 0;
+  }
+  .nav-search-dropdown { top: calc(100% + 56px); width: 260px; }
+}
+@media (max-width: 420px) {
+  .nav-search-box.expanded input { width: 120px; }
+  .nav-search-dropdown { width: 220px; }
+}
+
 /* ===== Products dropdown ===== */
 .nav-item-dropdown {
   position: relative;
@@ -140,6 +275,8 @@ nav.main-nav a.active {
   gap: 6px;
   background: none;
   border: none;
+  font: inherit;
+  line-height: inherit;
   font-family: var(--font-body);
   font-weight: 500;
   font-size: 0.95rem;
@@ -525,6 +662,7 @@ footer.site-footer {
 @media (max-width: 900px) {
   nav.main-nav { display: none; }
   .nav-toggle { display: block; }
+  .logo-full { height: 42px !important; }
   .hero-slider { height: 400px; }
   .slide-caption { padding: 0 24px 40px; max-width: 90%; }
   .slide-caption h2 { font-size: 1.6rem; }
