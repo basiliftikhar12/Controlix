@@ -1632,9 +1632,9 @@
   "brand": "Azbil",
   "price": "PKR 12,000",
   "images": [
-    "images/CONTROLLERS/SDC40/1.jpg",
-    "images/CONTROLLERS/SDC40/2.jpeg",
-    "images/CONTROLLERS/SDC40/4.jpeg"
+    "images/Controllers/SDC40/1.jpg",
+    "images/Controllers/SDC40/2.jpeg",
+    "images/Controllers/SDC40/4.jpeg"
   ],
   "shortDesc": "Azbil SDC40 digital indicating controller designed for industrial process control with multiple input, output, auxiliary, and communication options.",
   "description": "The Azbil SDC40 Digital Controller is an industrial process controller designed for monitoring and controlling process variables such as temperature, pressure, flow, and level. The controller provides multiple input and output connections, including 4-20mA, 1-5V, relay, and voltage pulse interfaces. It also supports RS-485 and RS-232C communication, making it suitable for integration with industrial control and monitoring systems.",
