@@ -1454,5 +1454,255 @@
     "Installation": "Open containers only",
     "Applications": "Petroleum, Chemical, Metallurgy, Environmental Protection, Food, Water Conservancy, Urban Water Supply, Oil Field"
   }
+},
+{
+  "id": 49,
+  "name": " Vacuum Regulator SMC",
+  "category": "Pressure",
+  "brand": "SMC",
+  "price": "PKR 7,500",
+  "images": [
+    "images/PRESSURE/vaccum_regulator/1.webp",
+    "images/PRESSURE/vaccum_regulator/2.png"
+
+  ],
+  "shortDesc": "SMC IRV8000-02BG vacuum regulator designed for adjustable vacuum pressure control in industrial pneumatic and vacuum applications.",
+  "description": "The SMC IRV8000-02BG is a vacuum regulator designed for controlling and adjusting vacuum line pressure in industrial pneumatic and vacuum systems. The unit shown is marked with a set pressure range of -100 to -1.8 kPa and is manufactured in Japan. SMC's IRV vacuum regulator family is designed to allow adjustment of vacuum line pressure and features a compact design with built-in one-touch fittings. Depending on configuration, the IRV family can also accommodate pressure gauges and digital pressure switches for convenient vacuum monitoring and control. The IRV8000-02BG model shown in the supplied product image should be specified according to its actual nameplate and verified configuration.",
+  "features": [
+    "Vacuum line pressure adjustment",
+    "Set pressure range: -100 to -1.8 kPa",
+    "SMC vacuum regulator design",
+    "Built-in one-touch fitting design within the IRV family",
+    "Compact construction for industrial pneumatic applications",
+    "Suitable for vacuum pressure control systems",
+    "Pressure gauge and digital pressure switch options available within the IRV family",
+    "Designed for easy integration into vacuum systems",
+    "Made in Japan"
+  ],
+  "specs": {
+    "Model": "IRV8000-02BG",
+    "Type": "Vacuum Regulator",
+    "Brand": "SMC",
+    "Set Pressure Range": "-100 to -1.8 kPa",
+    "Application": "Vacuum Line Pressure Regulation",
+    "Country of Origin": "Japan",
+    "Product Family": "IRV Vacuum Regulator",
+    "Fluid": "Air"
+  }
+},
+{
+  "id": 50,
+  "name": "Azbil SDC15 Single Loop Controller",
+  "category": "Controllers",
+  "brand": "Azbil",
+  "price": "PKR 3,500",
+  "images": [
+    "images/Controllers/sdc-15-1.webp",
+    "images/Controllers/sdc-15.jpeg"
+  ],
+  "shortDesc": "Compact single-loop digital controller for precise temperature and process control, supporting thermocouple, RTD, voltage, and current inputs with configurable PID or ON/OFF control.",
+  "description": "The Azbil SDC15 is a compact single-loop digital controller designed for reliable temperature and process control in industrial applications. It features a clear dual-display interface for monitoring the process variable (PV) and setpoint (SP), along with dedicated mode and parameter keys for convenient configuration and operation. The SDC15 supports a wide range of sensor and analog inputs, including thermocouples, Pt100/JPt100 RTDs, DC voltage, and 4-20mA current signals, depending on the selected configuration. Control methods include ON/OFF control and PID control using Azbil's advanced Ra-PID and Just-FiTTER algorithms. Depending on the model configuration, the controller can provide relay, current, voltage pulse, or continuous voltage control outputs, with additional event outputs and optional RS-485 communication available on supported versions. Its compact panel-mount design makes it suitable for temperature control, machinery, process equipment, ovens, heaters, and other industrial automation applications. The exact input, output, power supply, and communication configuration should be verified from the controller's complete model number before installation or replacement.",
+  "features": [
+    "Single-loop digital process controller",
+    "Compact panel-mount design",
+    "Dual display for process value (PV) and setpoint (SP)",
+    "Supports thermocouple inputs including K, J, E, T, R, S, B, and N",
+    "Supports Pt100 and JPt100 RTD inputs",
+    "ON/OFF and PID control modes",
+    "Multiple control output configurations available",
+    "Relay, current, voltage pulse, and continuous voltage outputs depending on model",
+    "Event outputs available depending on configuration",
+    "RS-485 communication",
+    "Suitable for industrial temperature and process control applications"
+  ],
+  "specs": {
+    "Model": "SDC15",
+    "Type": "Single Loop Digital Controller",
+    "Brand": "Azbil",
+    "Input Types": "Thermocouple, RTD, DC Voltage, DC Current",
+    "Thermocouple Inputs": "K, J, E, T, R, S, B, N, PL II, WRe5-26, DIN U, DIN L",
+    "RTD Inputs": "Pt100, JPt100",
+   
+    "Control Method": "ON/OFF or PID",
+    "Control Outputs": "Relay, Current, Voltage Pulse, or Continuous Voltage depending on model",
+    "Event Outputs": "Available depending on model configuration",
+    "Communication": "RS-485 available",
+    "Mounting": "Panel Mount",
+    "Applications": "Temperature Control, Process Control, Ovens, Heaters, Machinery, Industrial Automation"
+  }
+},
+{
+  "id": 51,
+  "name": "KROHNE Rotameter (Armoured Flowmeter)",
+  "category": "Flow",
+  "brand": "KROHNE",
+  "price": "PKR 25,000",
+  "images": [
+    "images/FLOW/KROHNE_H250/1.png",
+    "images/FLOW/KROHNE_H250/2.jpeg",
+    "images/FLOW/KROHNE_H250/3.jpeg",
+    "images/FLOW/KROHNE_H250/4.jpeg"
+  ],
+  "shortDesc": "KROHNE H250 RR M9 HT B ESK EEx variable area flowmeter for industrial liquid and gas flow measurement, featuring a stainless-steel measuring section, M9 mechanical indicator, ESK electronic transmitter, high-temperature design, and explosion-protected construction.",
+  "description": "The KROHNE H250 RR M9 HT B ESK EEx is a robust variable area flowmeter designed for industrial flow measurement of liquids and gases. The unit shown features an H250 RR stainless-steel measuring section, M9 standard indicator, HT high-temperature design, B heating-jacket configuration, ESK electronic transmitter, and EEx explosion-protected construction. The front plate identifies the measuring application as Fatty Amines and indicates a process density of approximately 800 kg/m³, process temperature of 230°C, operating pressure of 5.8 barg, and a pressure test value of 29 bar. The rear nameplate identifies the unit as H250 RR M9 HT B ESK EEx, manufactured in 2001, with Ex certification for hazardous-area applications. The integrated ESKII apparatus is specified with Ui 30 V, Ii 100 mA, Pi 1 W, Ci ≤ 20 nF, and Li approximately 0 µH. The H250 M9 series uses a mechanical flow indication principle and can be equipped with electronic signal transmission depending on configuration. KROHNE documentation identifies H250 M9 as a variable area flowmeter for liquids and gases and lists optional electronic outputs including 4-20mA/HART on applicable configurations. The exact measuring range, process connection size, and electrical output configuration should be confirmed from the complete instrument documentation before installation or replacement.",
+  "features": [
+    "Variable area flow measurement for liquids and gases",
+    "KROHNE H250 series industrial flowmeter",
+    "H250 RR stainless-steel measuring section",
+    "M9 standard mechanical indicator",
+    "HT high-temperature design",
+    "B heating-jacket configuration",
+    "ESK electronic transmitter",
+    "EEx explosion-protected construction",
+    "Suitable for hazardous-area applications",
+    "Robust all-metal construction",
+    "Local mechanical flow indication",
+    "Suitable for demanding industrial process applications",
+    "Application plate identifies Fatty Amines service",
+    "Process temperature rating shown on unit: 230°C",
+    "Nominal operating pressure shown on unit: 5.8 barg"
+  ],
+  "specs": {
+    "Model": "H250 RR M9 HT B ESK EEx",
+    "Type": "Variable Area Flowmeter",
+    "Brand": "KROHNE",
+    "Series": "H250 M9",
+    "Measuring Section": "H250 RR Stainless Steel",
+    "Indicator": "M9 Standard Indicator",
+    "High Temperature Design": "HT",
+    "Heating Jacket": "B",
+    "Electronic Transmitter": "ESK",
+    "Explosion Protection": "EEx",
+    "Application": "Fatty Amines",
+    "Process Density": "800 kg/m³",
+    "Process Temperature": "230°C",
+    "Nominal Pressure": "5.8 barg",
+    "Pressure Test": "29 bar",
+    "Explosion Protection Marking": "EEx ia IIC T6...T2 / EEx ib IIC T6...T2",
+    "Ambient Temperature": "-20°C to +60°C (T6: +40°C)"
+  }
+},
+{
+  "id": 52,
+  "name": "ABB Armored Variable Area Flowmeter",
+  "category": "Flow",
+  "brand": "ABB",
+  "price": "30,000",
+  "images": [
+    "images/FLOW/ABB_AM54031/1.webp",
+    "images/FLOW/ABB_AM54031/2.webp",
+    "images/FLOW/ABB_AM54031/3.webp",
+    "images/FLOW/ABB_AM54031/4.jpeg"
+  ],
+  "shortDesc": "ABB AM54031 armored variable area flowmeter with 4-20mA output, DN25 process connection, and 12-46VDC power supply for reliable industrial liquid and gas flow measurement.",
+  "description": "The ABB AM54031 is an armored variable area flowmeter designed for reliable industrial measurement of liquid and gas flow rates. Part of ABB's AM54 series, the instrument combines a robust armored construction with a local flow indication system and electronic 4-20mA signal transmission for integration with industrial control and monitoring systems. The unit shown is identified as Model AM54031 and is configured for DN25 process connections. Its nameplate specifies a 12-46VDC supply and 4-20mA output, with an ambient operating temperature range of -20°C to +60°C. The AM54 series is designed for demanding industrial applications where durable construction, local indication, and dependable analog signal transmission are required. Depending on the exact configuration, AM54 instruments can support electronic signal transmission and HART communication, allowing process parameters to be integrated into control systems and configured remotely. The AM54031 is suitable for applications requiring continuous flow measurement of compatible liquids or gases in industrial process installations.",
+  "features": [
+    "Armored variable area flowmeter design",
+    "ABB AM54 series",
+    "Model AM54031",
+    "DN25 process connection",
+    "4-20mA analog output",
+    "12-46VDC power supply",
+    "Local flow indication",
+    "Robust construction for industrial environments",
+    "Suitable for liquid and gas flow measurement",
+    "Suitable for integration with industrial control systems",
+    "Ambient temperature range: -20°C to +60°C",
+    "Compact industrial flow measurement solution"
+  ],
+  "specs": {
+    "Model": "AM54031",
+    "Type": "Armored Variable Area Flowmeter",
+    "Brand": "ABB",
+    "Series": "AM54",
+    "Nominal Size": "DN25",
+    "Output Signal": "4-20mA",
+    "Supply Voltage": "12-46VDC",
+    "Ambient Temperature": "-20°C to +60°C",
+    "Measurement Principle": "Variable Area / Rotameter",
+    "Indication": "Local Flow Indication",
+    "Construction": "Armored Industrial Design",
+    "Applications": "Industrial liquid and gas flow measurement"
+  }
+},
+{
+  "id": 53,
+  "name": "Azbil SDC40 Digital Controller",
+  "category": "Controllers",
+  "brand": "Azbil",
+  "price": "PKR 12,000",
+  "images": [
+    "images/CONTROLLERS/SDC40/1.jpg",
+    "images/CONTROLLERS/SDC40/2.jpeg",
+    "images/CONTROLLERS/SDC40/4.jpeg"
+  ],
+  "shortDesc": "Azbil SDC40 digital indicating controller designed for industrial process control with multiple input, output, auxiliary, and communication options.",
+  "description": "The Azbil SDC40 Digital Controller is an industrial process controller designed for monitoring and controlling process variables such as temperature, pressure, flow, and level. The controller provides multiple input and output connections, including 4-20mA, 1-5V, relay, and voltage pulse interfaces. It also supports RS-485 and RS-232C communication, making it suitable for integration with industrial control and monitoring systems.",
+  "features": [
+    "Digital indicating and process control",
+    "Multiple input signal options",
+    "4-20mA and 1-5V signal support",
+    "Relay and voltage pulse output options",
+    "Auxiliary input and output connections",
+    "RS-485 communication support",
+    "RS-232C communication support",
+    "Remote switch input connections",
+    "Suitable for industrial process control applications",
+    "Yamatake / Azbil industrial controller",
+    "Made in Japan"
+  ],
+  "specs": {
+    "Model": "SDC40",
+    "Type": "Digital Indicating Controller",
+    "Brand": "Azbil / Yamatake",
+    "Power Supply": "AC 100-240V, 50/60Hz",
+    "Power Consumption": "30VA Max.",
+    "Input Signals": "4-20mA, 1-5V and other supported process inputs",
+    "Output Signals": "4-20mA, Voltage Pulse, Relay",
+    "Communication": "RS-485 / RS-232C",
+    "Auxiliary I/O": "Available",
+    "Remote Switch Input": "Available",
+    "Application": "Industrial Process Control",
+    "Country of Origin": "Japan"
+  }
+},
+{
+  "id": 54,
+  "name": "Vortex Flow Tranmsitter",
+  "category": "Flow",
+  "brand": "Saginomiya",
+  "price": "PKR 8,000",
+  "images": [
+    "images/FLOW/Karuman/1.png",
+    "images/FLOW/Karuman/2.jpeg",
+    "images/FLOW/Karuman/3.jpeg",
+    "images/FLOW/Karuman/4.jpeg"
+  ],
+  "shortDesc": "Karuman ACE JLK 2562 RE inline flow sensor with 4-20mA analog output, stainless steel construction, and 12-24VDC power supply for industrial liquid flow measurement.",
+  "description": "The Karuman ACE JLK 2562 RE is an industrial inline flow sensor manufactured by Saginomiya, Japan. It is designed for continuous liquid flow measurement and provides a standard 4-20mA analog output for connection to PLCs, controllers, data acquisition systems, and industrial monitoring equipment. The sensor features SS316 construction, a 3/4-inch connection size, and line mounting for convenient installation directly into a process pipeline. It operates from a 12-24VDC power supply and uses L/min as its working flow unit. Its compact inline configuration makes it suitable for industrial flow monitoring and control applications where a reliable analog flow signal is required.",
+  "features": [
+    "Inline liquid flow measurement",
+    "4-20mA analog output",
+    "12-24VDC power supply",
+    "SS316 stainless steel construction",
+    "3/4-inch process connection",
+    "Line mounting configuration",
+    "Flow measurement in L/min",
+    "Compact industrial design",
+    "Suitable for PLC and control system integration",
+    "Made in Japan"
+  ],
+  "specs": {
+    "Model": "Karuman ACE JLK 2562 RE",
+    "Type": "Inline Flow Sensor",
+    "Brand": "Saginomiya",
+    "Working Units": "L/min",
+    "Material Type": "SS316",
+    "Connection Size": "3/4 inch",
+    "Mounting Type": "Line",
+    "Power Supply": "12-24VDC",
+    "Output Signal": "4-20mA Analog",
+    "Application": "Industrial liquid flow measurement and monitoring"
+  }
 }
 ]
