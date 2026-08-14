@@ -21,6 +21,50 @@
   /* New Controlix logo sizing override */
   .brand-block { gap: 14px; }
   .logo-full { height: 62px; width: auto; display: block; }
+
+  /* ===== Homepage "Shop by Category" plain list section ===== */
+  .home-cat-list-section {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    padding: 70px 24px;
+  }
+  .home-cat-list-wrap { max-width: 900px; margin: 0 auto; }
+  .home-cat-list-heading {
+    font-family: var(--font-head);
+    color: var(--navy);
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    margin: 0 0 14px;
+  }
+  .home-cat-list-sub {
+    color: var(--muted);
+    font-size: 1rem;
+    margin: 0 0 32px;
+    max-width: 65ch;
+  }
+  .home-cat-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .home-cat-list li {
+    border-bottom: 1px solid var(--line);
+  }
+  .home-cat-list li:first-child {
+    border-top: 1px solid var(--line);
+  }
+  .home-cat-list a {
+    display: block;
+    padding: 16px 4px;
+    color: var(--ink);
+    font-size: 1.02rem;
+    font-weight: 500;
+    transition: color 0.15s;
+  }
+  .home-cat-list a:hover {
+    color: var(--orange-dim);
+  }
 </style>
 </head>
 <body>
@@ -35,7 +79,7 @@
       <a href="index.html" class="active">Home</a>
       <div class="nav-item-dropdown">
         <button class="nav-dropdown-btn" id="products-dropdown-btn" type="button">
-          Products
+          Catalog
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="nav-dropdown-menu" id="products-dropdown-menu">
@@ -45,6 +89,7 @@
           <a href="temperature-sensors.html">Temperature Sensors</a>
           <a href="general-instruments.html">Industrial Instruments & Accessories </a>
           <a href="controllers.html">Controllers & Indicators</a>
+          <a href="power-signal-control.html">Power & Voltage Regulation</a>
         </div>
       </div>
       <a href="about.html">About Us</a>
@@ -123,7 +168,24 @@
   </div>
 </section>
 
-<!-- ===== Company intro + motto ===== -->
+<!-- ===== Shop by Category (plain list) ===== -->
+<section class="home-cat-list-section">
+  <div class="home-cat-list-wrap">
+    <h2 class="home-cat-list-heading">Shop by Category</h2>
+    <p class="home-cat-list-sub">Browse Controlix's full range of industrial instrumentation and control equipment by category.</p>
+    <ul class="home-cat-list">
+      <li><a href="flow-transmitter.html">Flow Meters &amp; Transmitters</a></li>
+      <li><a href="level-transmitter.html">Level Sensors &amp; Transmitters</a></li>
+      <li><a href="pressure-transmitter.html">Pressure Transmitters &amp; Gauges</a></li>
+      <li><a href="temperature-sensors.html">Temperature Sensors</a></li>
+      <li><a href="general-instruments.html">Industrial Instruments &amp; Accessories</a></li>
+      <li><a href="controllers.html">Controllers &amp; Indicators</a></li>
+      <li><a href="power-signal-control.html">Power &amp; Voltage Regulation</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Company intro ===== -->
 <section class="intro-section" id="about">
   <div class="eyebrow">Who We Are</div>
   <h2>Controlix</h2>
@@ -133,24 +195,6 @@
     full control system integration, we help plants run safely and efficiently — with direct,
     responsive support whenever you need it.
   </p>
-
-  <div class="motto-box">
-    <h3>Our Motto</h3>
-    <ul>
-      <li>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-        Customer satisfaction is not just our desire, but our ultimate goal.
-      </li>
-      <li>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-        We are unique in our ideas and solutions for every customer.
-      </li>
-      <li>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-        To be a leading organization in the market with a better approach.
-      </li>
-    </ul>
-  </div>
 </section>
 
 

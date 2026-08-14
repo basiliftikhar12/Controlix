@@ -16,7 +16,8 @@ const CATEGORY_PAGES = [
   { category: "Pressure", title: "Pressure Transmitters & Guages", file: "pressure-transmitter.html" },
   { category: "Temperature", title: "Temperature Sensors", file: "temperature-sensors.html" },
   { category: "General Instruments", title: "Industrial Instruments & Accessories", file: "general-instruments.html" },
-  { category: "Controllers", title: "Controllers & Indicators", file: "controllers.html" }
+  { category: "Controllers", title: "Controllers & Indicators", file: "controllers.html" },
+  { category: "Power & Voltage Regulation", title: "Power & Voltage Regulation", file: "power-signal-control.html" }
 ];
 
 

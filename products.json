@@ -1543,7 +1543,7 @@
     "images/FLOW/KROHNE_H250/3.jpeg",
     "images/FLOW/KROHNE_H250/4.jpeg"
   ],
-  "shortDesc": "KROHNE H250 RR M9 HT B ESK EEx variable area flowmeter for industrial liquid and gas flow measurement, featuring a stainless-steel measuring section, M9 mechanical indicator, ESK electronic transmitter, high-temperature design, and explosion-protected construction.",
+  "shortDesc": "KROHNE variable area flowmeter for industrial liquid and gas flow measurement, featuring a stainless-steel measuring section, high-temperature design, and explosion-protected construction.",
   "description": "The KROHNE H250 RR M9 HT B ESK EEx is a robust variable area flowmeter designed for industrial flow measurement of liquids and gases. The unit shown features an H250 RR stainless-steel measuring section, M9 standard indicator, HT high-temperature design, B heating-jacket configuration, ESK electronic transmitter, and EEx explosion-protected construction. The front plate identifies the measuring application as Fatty Amines and indicates a process density of approximately 800 kg/m³, process temperature of 230°C, operating pressure of 5.8 barg, and a pressure test value of 29 bar. The rear nameplate identifies the unit as H250 RR M9 HT B ESK EEx, manufactured in 2001, with Ex certification for hazardous-area applications. The integrated ESKII apparatus is specified with Ui 30 V, Ii 100 mA, Pi 1 W, Ci ≤ 20 nF, and Li approximately 0 µH. The H250 M9 series uses a mechanical flow indication principle and can be equipped with electronic signal transmission depending on configuration. KROHNE documentation identifies H250 M9 as a variable area flowmeter for liquids and gases and lists optional electronic outputs including 4-20mA/HART on applicable configurations. The exact measuring range, process connection size, and electrical output configuration should be confirmed from the complete instrument documentation before installation or replacement.",
   "features": [
     "Variable area flow measurement for liquids and gases",
@@ -1703,6 +1703,187 @@
     "Power Supply": "12-24VDC",
     "Output Signal": "4-20mA Analog",
     "Application": "Industrial liquid flow measurement and monitoring"
+  }
+},
+{
+  "id": 55,
+  "name": "Thyristor Power Controller Eurotherm TE10A ",
+  "category": "Power & Voltage Regulation",
+  "brand": "Eurotherm",
+  "price": "PKR 8,500",
+  "images": [
+    "images/POWER/Eurotherm/1.jpeg",
+    "images/POWER/Eurotherm/2.jpeg",
+    "images/POWER/Eurotherm/3.jpeg"
+  ],
+  "shortDesc": "Eurotherm TE10A single-phase thyristor power controller with 4-20mA DC input, 230VAC supply, 16A load capacity, and phase-angle firing for precise industrial power control.",
+  "description": "The Eurotherm TE10A is a compact single-phase thyristor power controller designed for precise control of electrical power in industrial heating and process applications. This model is rated for 16A at 230VAC and accepts a standard 4-20mA DC control signal for integration with temperature controllers, PLCs, and other industrial control systems. The unit uses phase-angle firing to regulate the power delivered to the connected load, providing smooth and accurate power control. Its DIN-rail mounting design makes it suitable for installation inside industrial electrical control panels. The TE10A also includes thyristor protection and is designed for reliable operation in industrial environments.",
+  "features": [
+    "Single-phase thyristor power control",
+    "4-20mA DC control input",
+    "230VAC nominal voltage",
+    "16A nominal current rating",
+    "Phase-angle firing control",
+    "DIN-rail mounting",
+    "Suitable for industrial heating applications",
+    "Compatible with temperature controllers and PLC systems",
+    "Thyristor protection",
+    "Compact industrial design",
+    "CE and RoHS compliant",
+    "UL listed"
+  ],
+  "specs": {
+    "Model": "TE10A",
+    "Type": "Single-Phase Thyristor Power Controller",
+    "Brand": "Eurotherm",
+    "Nominal Current": "16A",
+    "Nominal Voltage": "230VAC",
+    "Input Signal": "4-20mA DC",
+    "Firing Mode": "Phase Angle (PA)",
+    "Auxiliary Supply": "Internally Supplied",
+    "Mounting Type": "DIN Rail",
+    "Fuse": "CH260034",
+    "Application": "Industrial heating and power control",
+    "Compliance": "CE, RoHS, UL Listed",
+    "Country of Origin": "Poland"
+  }
+},
+{
+  "id": 56,
+  "name": "Omron 20 Amp Power Controller",
+  "category": "Power & Voltage Regulation",
+  "brand": "Omron",
+  "price": "PKR 10,000",
+  "images": [
+    "images/POWER/Omron/2.jpeg",
+    "images/POWER/Omron/1.jpeg"
+  ],
+  "shortDesc": "Omron G3PX-220EUN single-phase power controller with 4-20mA current input, 200/220VAC supply, 20A load capacity, phase control, base-up function, and soft-start for precise industrial heater control.",
+  "description": "The Omron G3PX-220EUN is a single-phase AC power controller designed for precise control of resistive heating loads such as industrial heaters. It accepts a 4-20mA DC control signal and regulates the power delivered to the load using phase-control technology. The unit is rated for 20A operation at 200/220VAC and includes adjustable base-up, duty, and soft-start functions for controlled and stable heater operation. The G3PX-220EUN is suitable for integration with temperature controllers, PLCs, and other industrial control systems where accurate electrical power regulation is required. Its compact panel-mount design and built-in power control functions make it suitable for industrial heating and process control applications. OMRON specifies the EUN series for resistive heater loads and provides a 4-20mA input option with terminals 4 and 5.",
+  "features": [
+    "Single-phase AC power control",
+    "4-20mA DC current input",
+    "20A load capacity",
+    "200/220VAC rated supply",
+    "Phase-control system",
+    "Adjustable base-up function",
+    "Adjustable duty setting",
+    "Soft-start function",
+    "Suitable for resistive heater loads",
+    "Compatible with temperature controllers and PLC systems",
+    "Built-in power level indicator",
+    "Industrial panel-mount design",
+    "Made by Omron, Japan"
+  ],
+  "specs": {
+    "Model": "G3PX-220EUN",
+    "Type": "Single-Phase AC Power Controller",
+    "Brand": "Omron",
+    "Applicable Load": "Resistive Load / Heater",
+    "Rated Current": "20A",
+    "Rated Voltage": "200/220VAC",
+    "Input Signal": "4-20mA DC",
+    "Input Terminals": "4 and 5",
+    "Input Impedance": "250Ω",
+    "Control Method": "Phase Control",
+    "Base-Up Function": "Yes",
+    "Base-Up Range": "0-90%",
+    "Duty Setting": "0-100%",
+    "Soft-Start Time": "Approx. 0.5-10 seconds",
+    "Output Voltage Adjustable Range": "0-95%",
+    "Power Level Indicator": "Yes",
+    "Application": "Industrial Heater and Temperature Control",
+    "Mounting Type": "Panel Mount",
+    "Operating Temperature": "-25°C to 65°C"
+  }
+},
+{
+  "id": 57,
+  "name": "PARA-ENT Power Controller",
+  "category": "Power & Voltage Regulation",
+  "brand": "PARA-ENT",
+  "price": "PKR 12,000",
+  "images": [
+    "images/POWER/PARA-ENT/1.png",
+    "images/POWER/PARA-ENT/2.jpeg",
+    "images/POWER/PARA-ENT/3.jpeg"
+  ],
+  "shortDesc": "PARA-ENT SE2-025-F-T-SPG power controller rated at 25A and 220VAC, featuring 4-20mA input and selectable phase-angle or zero-crossing firing modes for industrial power regulation.",
+  "description": "The PARA-ENT SE2-025-F-T-SPG is an industrial AC power controller designed for precise regulation of electrical power in heating and process control applications. The unit is rated for 25A at 220VAC and accepts a standard 4-20mA control signal for integration with temperature controllers, PLCs, and industrial automation systems. It supports both phase-angle and zero-crossing firing modes, allowing the control method to be selected according to the connected load. The controller is equipped with an internal Bussmann 50FE fuse and is suitable for applications requiring reliable and adjustable power control. Its compact industrial design makes it suitable for use in electrical control panels and industrial heating systems.",
+  "features": [
+    "25A power rating",
+    "220VAC operating voltage",
+    "4-20mA control input",
+    "Phase-angle firing mode",
+    "Zero-crossing firing mode",
+    "Selectable firing method",
+    "Internal Bussmann 50FE fuse",
+    "Suitable for industrial heater control",
+    "Suitable for resistive and inductive loads",
+    "Compatible with PLC and temperature controller systems",
+    "Industrial power regulation",
+    "Made in Korea"
+  ],
+  "specs": {
+    "Model": "SE2-025-F-T-SPG",
+    "Type": "AC Power Controller",
+    "Brand": "PARA-ENT",
+    "Power Rating": "25A",
+    "Rated Voltage": "220VAC",
+    "Frequency": "50/60Hz",
+    "Input Signal": "4-20mA",
+    "Firing Mode": "Phase Angle / Zero Crossing",
+    "Fuse": "Bussmann 50FE",
+    "Load Type": "Resistive / Inductive",
+    "Application": "Industrial Heater and Process Power Control",
+    "Country of Origin": "Korea"
+  }
+},
+{
+  "id": 58,
+  "name": "KONICS 70Amp Thyristor Regulator",
+  "category": "Power & Voltage Regulation",
+  "brand": "KONICS",
+  "price": "18,000",
+  "images": [
+    "images/POWER/DigiPower/1.png",
+    "images/POWER/DigiPower/4.jpeg"
+  ],
+  "shortDesc": "KONICS DigiPower 2000 digital thyristor regulator rated at 70A and 380VAC, designed for precise industrial heater power control with phase-angle and zero-crossing control methods.",
+  "description": "The KONICS DigiPower 2000 is a digital thyristor power regulator designed for precise control of electrical power in industrial heating and process applications. This unit is rated at 70A and 380VAC and uses a microprocessor-based control system for accurate and reliable power regulation. The DigiPower 2000 supports phase-angle control and zero-crossing cycle control, allowing the controller to be matched to different heater and load requirements. It can provide precise feedback control of voltage, current, and power using RMS measurement technology. The front panel features a digital display, bar LED indicator, RUN/AUTO/EVT indicators, and dedicated control keys for monitoring and configuration. The controller is suitable for integration with temperature control systems and industrial heating equipment where stable and accurate power regulation is required.",
+  "features": [
+    "Digital microprocessor-based thyristor control",
+    "70A current rating",
+    "380VAC rated voltage",
+    "Phase-angle control",
+    "Zero-crossing cycle control",
+    "RMS-based feedback control",
+    "Constant voltage control",
+    "Constant current control",
+    "Constant power control",
+    "Digital display for monitoring",
+    "Bar LED output indication",
+    "RUN, AUTO, and EVT status indicators",
+    "Front-panel parameter adjustment",
+    "Suitable for industrial heater control",
+    "Suitable for temperature control applications",
+    "Industrial process power regulation"
+  ],
+  "specs": {
+    "Model": "DigiPower 2000",
+    "Type": "Digital Thyristor Regulator",
+    "Brand": "KONICS",
+    "Rated Current": "70A",
+    "Rated Voltage": "380VAC",
+    "Control Type": "Digital SCR / Thyristor Control",
+    "Control Methods": "Phase Angle / Zero Crossing Cycle Control",
+    "Feedback Control": "Voltage / Current / Power",
+    "Measurement": "RMS",
+    "Display": "Digital 7-Segment Display",
+    "Output Indicator": "Bar LED",
+    "Status Indicators": "RUN / AUTO / EVT",
+    "Application": "Industrial Heater and Process Power Control",
+    "Mounting": "Industrial Panel Installation"
   }
 }
 ]
