@@ -1712,9 +1712,9 @@
   "brand": "Eurotherm",
   "price": "PKR 8,500",
   "images": [
-    "images/POWER/Eurotherm/1.jpeg",
-    "images/POWER/Eurotherm/2.jpeg",
-    "images/POWER/Eurotherm/3.jpeg"
+    "images/POWER/Eurotherm/1.JPEG",
+    "images/POWER/Eurotherm/2.JPEG",
+    "images/POWER/Eurotherm/3.JPEG"
   ],
   "shortDesc": "Eurotherm TE10A single-phase thyristor power controller with 4-20mA DC input, 230VAC supply, 16A load capacity, and phase-angle firing for precise industrial power control.",
   "description": "The Eurotherm TE10A is a compact single-phase thyristor power controller designed for precise control of electrical power in industrial heating and process applications. This model is rated for 16A at 230VAC and accepts a standard 4-20mA DC control signal for integration with temperature controllers, PLCs, and other industrial control systems. The unit uses phase-angle firing to regulate the power delivered to the connected load, providing smooth and accurate power control. Its DIN-rail mounting design makes it suitable for installation inside industrial electrical control panels. The TE10A also includes thyristor protection and is designed for reliable operation in industrial environments.",
@@ -1755,8 +1755,8 @@
   "brand": "Omron",
   "price": "PKR 10,000",
   "images": [
-    "images/POWER/Omron/2.jpeg",
-    "images/POWER/Omron/1.jpeg"
+    "images/POWER/omron/2.jpeg",
+    "images/POWER/omron/1.JPEG"
   ],
   "shortDesc": "Omron G3PX-220EUN single-phase power controller with 4-20mA current input, 200/220VAC supply, 20A load capacity, phase control, base-up function, and soft-start for precise industrial heater control.",
   "description": "The Omron G3PX-220EUN is a single-phase AC power controller designed for precise control of resistive heating loads such as industrial heaters. It accepts a 4-20mA DC control signal and regulates the power delivered to the load using phase-control technology. The unit is rated for 20A operation at 200/220VAC and includes adjustable base-up, duty, and soft-start functions for controlled and stable heater operation. The G3PX-220EUN is suitable for integration with temperature controllers, PLCs, and other industrial control systems where accurate electrical power regulation is required. Its compact panel-mount design and built-in power control functions make it suitable for industrial heating and process control applications. OMRON specifies the EUN series for resistive heater loads and provides a 4-20mA input option with terminals 4 and 5.",
