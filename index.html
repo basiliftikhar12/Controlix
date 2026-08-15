@@ -22,48 +22,123 @@
   .brand-block { gap: 14px; }
   .logo-full { height: 62px; width: auto; display: block; }
 
-  /* ===== Homepage "Shop by Category" plain list section ===== */
-  .home-cat-list-section {
-    background: #fff;
+  /* ===== Homepage "Shop by Category" — card grid ===== */
+  .home-cat-section {
+    background: var(--bg-alt);
     border-top: 1px solid var(--line);
-    padding: 70px 24px;
+    border-bottom: 1px solid var(--line);
+    padding: 76px 24px;
   }
-  .home-cat-list-wrap { max-width: 900px; margin: 0 auto; }
-  .home-cat-list-heading {
+  .home-cat-wrap { max-width: 1180px; margin: 0 auto; }
+  .home-cat-heading { text-align: center; margin-bottom: 44px; }
+  .home-cat-heading .eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--orange-dim);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .home-cat-heading h2 {
     font-family: var(--font-head);
     color: var(--navy);
-    font-size: 1.6rem;
-    font-weight: 800;
-    letter-spacing: 0.02em;
-    margin: 0 0 14px;
+    font-size: 1.9rem;
+    margin: 0 0 10px;
   }
-  .home-cat-list-sub {
+  .home-cat-heading p {
     color: var(--muted);
-    font-size: 1rem;
-    margin: 0 0 32px;
-    max-width: 65ch;
+    font-size: 0.98rem;
+    margin: 0 auto;
+    max-width: 60ch;
   }
-  .home-cat-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .home-cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
   }
-  .home-cat-list li {
-    border-bottom: 1px solid var(--line);
+  .home-cat-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 22px 20px;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
   }
-  .home-cat-list li:first-child {
-    border-top: 1px solid var(--line);
+  .home-cat-card:hover {
+    border-color: var(--navy);
+    box-shadow: 0 10px 24px rgba(11,42,74,0.08);
+    transform: translateY(-2px);
   }
-  .home-cat-list a {
+  .home-cat-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s;
+  }
+  .home-cat-card:hover .home-cat-icon { background: var(--orange); }
+  .home-cat-icon svg { width: 22px; height: 22px; color: #fff; }
+  .home-cat-info { flex: 1; min-width: 0; }
+  .home-cat-info .name {
     display: block;
-    padding: 16px 4px;
-    color: var(--ink);
-    font-size: 1.02rem;
-    font-weight: 500;
-    transition: color 0.15s;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.96rem;
+    color: var(--navy);
+    margin-bottom: 3px;
+    line-height: 1.3;
   }
-  .home-cat-list a:hover {
-    color: var(--orange-dim);
+  .home-cat-info .desc {
+    display: block;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  .home-cat-arrow { color: var(--muted); flex-shrink: 0; transition: transform 0.15s, color 0.15s; }
+  .home-cat-card:hover .home-cat-arrow { color: var(--orange-dim); transform: translateX(3px); }
+  .home-cat-arrow svg { width: 18px; height: 18px; }
+
+  /* ===== Homepage trust badges (replaces "Who We Are") ===== */
+  .home-trust-section { padding: 74px 24px 84px; }
+  .home-trust-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+  .home-trust-item { text-align: center; }
+  .home-trust-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+  }
+  .home-trust-icon svg { width: 26px; height: 26px; color: var(--orange); }
+  .home-trust-item h3 {
+    font-family: var(--font-head);
+    color: var(--navy);
+    font-size: 0.98rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    margin: 0 0 6px;
+  }
+  .home-trust-item p { color: var(--muted); font-size: 0.85rem; margin: 0; }
+
+  @media (max-width: 860px) {
+    .home-trust-wrap { grid-template-columns: repeat(2, 1fr); gap: 36px 24px; }
+  }
+  @media (max-width: 480px) {
+    .home-trust-wrap { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -168,33 +243,99 @@
   </div>
 </section>
 
-<!-- ===== Shop by Category (plain list) ===== -->
-<section class="home-cat-list-section">
-  <div class="home-cat-list-wrap">
-    <h2 class="home-cat-list-heading">Shop by Category</h2>
-    <p class="home-cat-list-sub">Browse Controlix's full range of industrial instrumentation and control equipment by category.</p>
-    <ul class="home-cat-list">
-      <li><a href="flow-transmitter.html">Flow Meters &amp; Transmitters</a></li>
-      <li><a href="level-transmitter.html">Level Sensors &amp; Transmitters</a></li>
-      <li><a href="pressure-transmitter.html">Pressure Transmitters &amp; Gauges</a></li>
-      <li><a href="temperature-sensors.html">Temperature Sensors</a></li>
-      <li><a href="general-instruments.html">Industrial Instruments &amp; Accessories</a></li>
-      <li><a href="controllers.html">Controllers &amp; Indicators</a></li>
-      <li><a href="power-signal-control.html">Power &amp; Voltage Regulation</a></li>
-    </ul>
+<!-- ===== Shop by Category ===== -->
+<section class="home-cat-section">
+  <div class="home-cat-wrap">
+    <div class="home-cat-heading">
+      <div class="eyebrow">What We Offer</div>
+      <h2>Shop by Category</h2>
+      <p>Browse Controlix's full range of industrial instrumentation and control equipment by category.</p>
+    </div>
+    <div class="home-cat-grid">
+      <a class="home-cat-card" href="flow-transmitter.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Flow Meters &amp; Transmitters</span>
+          <span class="desc">Accurate flow measurement &amp; monitoring</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+      <a class="home-cat-card" href="level-transmitter.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Level Sensors &amp; Transmitters</span>
+          <span class="desc">Continuous &amp; point level detection</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+      <a class="home-cat-card" href="pressure-transmitter.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="12" x2="16" y2="8"/><line x1="12" y1="7" x2="12" y2="8"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Pressure Transmitters &amp; Gauges</span>
+          <span class="desc">Reliable pressure sensing solutions</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+      <a class="home-cat-card" href="temperature-sensors.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V4a2 2 0 0 0-4 0v10.76a4 4 0 1 0 4 0z"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Temperature Sensors</span>
+          <span class="desc">RTDs, thermocouples &amp; sensors</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+      <a class="home-cat-card" href="general-instruments.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Industrial Instruments &amp; Accessories</span>
+          <span class="desc">Fittings, valves &amp; accessories</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+      <a class="home-cat-card" href="controllers.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="12" y2="17"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Controllers &amp; Indicators</span>
+          <span class="desc">PID controllers &amp; digital indicators</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+      <a class="home-cat-card" href="power-signal-control.html">
+        <span class="home-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+        <span class="home-cat-info">
+          <span class="name">Power &amp; Voltage Regulation</span>
+          <span class="desc">Power supplies &amp; signal control</span>
+        </span>
+        <span class="home-cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+      </a>
+    </div>
   </div>
 </section>
 
-<!-- ===== Company intro ===== -->
-<section class="intro-section" id="about">
-  <div class="eyebrow">Who We Are</div>
-  <h2>Controlix</h2>
-  <p class="body-text">
-    Controlix provides practical, reliable instrumentation and control solutions for
-    Pakistan's process and manufacturing industries. From pressure, flow, level, temperature, sensing to
-    full control system integration, we help plants run safely and efficiently — with direct,
-    responsive support whenever you need it.
-  </p>
+<!-- ===== Trust badges ===== -->
+<section class="home-trust-section" id="about">
+  <div class="home-trust-wrap">
+    <div class="home-trust-item">
+      <span class="home-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/></svg></span>
+      <h3>100% Genuine Products</h3>
+      <p>From authorized &amp; trusted brands</p>
+    </div>
+    <div class="home-trust-item">
+      <span class="home-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="7" width="15" height="10" rx="1"/><path d="M16 10h4l3 3v4h-7z"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/></svg></span>
+      <h3>Nationwide Delivery</h3>
+      <p>Fast shipping across Pakistan</p>
+    </div>
+    <div class="home-trust-item">
+      <span class="home-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/><path d="M9 8h.01M15 8h.01"/></svg></span>
+      <h3>Expert Product Guidance</h3>
+      <p>Helping you choose the right product</p>
+    </div>
+    <div class="home-trust-item">
+      <span class="home-trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg></span>
+      <h3>Trusted by Customers</h3>
+      <p>Serving homes &amp; businesses nationwide</p>
+    </div>
+  </div>
 </section>
 
 
