@@ -1749,55 +1749,6 @@
   }
 },
 {
-  "id": 56,
-  "name": "Omron 20 Amp Power Controller",
-  "category": "Power & Voltage Regulation",
-  "brand": "Omron",
-  "price": "PKR 10,000",
-  "images": [
-    "images/POWER/omron/2.jpeg",
-    "images/POWER/omron/1.JPEG"
-  ],
-  "shortDesc": "Omron G3PX-220EUN single-phase power controller with 4-20mA current input, 200/220VAC supply, 20A load capacity, phase control, base-up function, and soft-start for precise industrial heater control.",
-  "description": "The Omron G3PX-220EUN is a single-phase AC power controller designed for precise control of resistive heating loads such as industrial heaters. It accepts a 4-20mA DC control signal and regulates the power delivered to the load using phase-control technology. The unit is rated for 20A operation at 200/220VAC and includes adjustable base-up, duty, and soft-start functions for controlled and stable heater operation. The G3PX-220EUN is suitable for integration with temperature controllers, PLCs, and other industrial control systems where accurate electrical power regulation is required. Its compact panel-mount design and built-in power control functions make it suitable for industrial heating and process control applications. OMRON specifies the EUN series for resistive heater loads and provides a 4-20mA input option with terminals 4 and 5.",
-  "features": [
-    "Single-phase AC power control",
-    "4-20mA DC current input",
-    "20A load capacity",
-    "200/220VAC rated supply",
-    "Phase-control system",
-    "Adjustable base-up function",
-    "Adjustable duty setting",
-    "Soft-start function",
-    "Suitable for resistive heater loads",
-    "Compatible with temperature controllers and PLC systems",
-    "Built-in power level indicator",
-    "Industrial panel-mount design",
-    "Made by Omron, Japan"
-  ],
-  "specs": {
-    "Model": "G3PX-220EUN",
-    "Type": "Single-Phase AC Power Controller",
-    "Brand": "Omron",
-    "Applicable Load": "Resistive Load / Heater",
-    "Rated Current": "20A",
-    "Rated Voltage": "200/220VAC",
-    "Input Signal": "4-20mA DC",
-    "Input Terminals": "4 and 5",
-    "Input Impedance": "250Ω",
-    "Control Method": "Phase Control",
-    "Base-Up Function": "Yes",
-    "Base-Up Range": "0-90%",
-    "Duty Setting": "0-100%",
-    "Soft-Start Time": "Approx. 0.5-10 seconds",
-    "Output Voltage Adjustable Range": "0-95%",
-    "Power Level Indicator": "Yes",
-    "Application": "Industrial Heater and Temperature Control",
-    "Mounting Type": "Panel Mount",
-    "Operating Temperature": "-25°C to 65°C"
-  }
-},
-{
   "id": 57,
   "name": "PARA-ENT Power Controller",
   "category": "Power & Voltage Regulation",
@@ -1844,7 +1795,7 @@
   "name": "KONICS 70Amp Thyristor Regulator",
   "category": "Power & Voltage Regulation",
   "brand": "KONICS",
-  "price": "18,000",
+  "price": "PKR 18,000",
   "images": [
     "images/POWER/DigiPower/1.png",
     "images/POWER/DigiPower/4.jpeg"
