@@ -204,7 +204,7 @@
     dropdown.innerHTML = top.map(p => {
       const img = firstImage(p);
       return `
-        <a class="nav-search-item" href="product.html?id=${p.id}">
+        <a class="nav-search-item" href="product?id=${p.id}">
           <div class="nav-search-thumb">${img ? `<img src="${img}" alt="${p.name}">` : ""}</div>
           <div class="nav-search-info">
             <div class="nav-search-name">${p.name}</div>

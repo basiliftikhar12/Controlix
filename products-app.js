@@ -143,7 +143,7 @@ function renderGrid(products, container) {
   container.innerHTML = products.map(p => {
     const imgs = getImages(p);
     return `
-    <a class="product-card" href="product.html?id=${p.id}">
+    <a class="product-card" href="product?id=${p.id}">
       <div class="thumb">
         ${imgs.length ? `<img src="${imgs[0]}" alt="${p.name}" loading="lazy">` : PLACEHOLDER_ICON}
       </div>
