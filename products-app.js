@@ -179,6 +179,31 @@ async function initCategoryPage() {
 }
 
 // ============================================
+// SEO tags — injected dynamically since product.html has no
+// server-side templating. Google's renderer picks these up
+// (confirmed working via Search Console Live Test).
+// ============================================
+function setCanonical(url) {
+  let link = document.querySelector('link[rel="canonical"]');
+  if (!link) {
+    link = document.createElement("link");
+    link.rel = "canonical";
+    document.head.appendChild(link);
+  }
+  link.href = url;
+}
+
+function setMetaDescription(text) {
+  let meta = document.querySelector('meta[name="description"]');
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.name = "description";
+    document.head.appendChild(meta);
+  }
+  meta.content = text;
+}
+
+// ============================================
 // Render single product (product.html)
 // ============================================
 async function initProductPage() {
@@ -195,6 +220,8 @@ async function initProductPage() {
   }
 
   document.title = `${p.name} — ${BUSINESS_NAME}`;
+  setCanonical(`https://controlix.com.pk/product?id=${p.id}`);
+  if (p.shortDesc) setMetaDescription(p.shortDesc);
 
   const catPage = CATEGORY_PAGES.find(c => c.category === p.category);
   const breadcrumbCategory = document.getElementById("breadcrumb-category");
