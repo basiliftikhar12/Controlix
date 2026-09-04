@@ -33,16 +33,20 @@ const PLACEHOLDER_ICON = `
 // Returns an array of image URLs for a product, supporting both the new
 // "images": [...] field and the older single "image": "..." field.
 function getImages(p) {
-  if (Array.isArray(p.images) && p.images.length) return p.images;
-  if (p.image) return [p.image];
-  return [];
+  let raw = [];
+  if (Array.isArray(p.images) && p.images.length) raw = p.images;
+  else if (p.image) raw = [p.image];
+  // Always return root-absolute paths so this works the same whether the
+  // page lives at the site root (category pages) or one level down
+  // (/products/<slug>).
+  return raw.map(src => (src.startsWith("http") || src.startsWith("/")) ? src : "/" + src);
 }
 
 // ============================================
 // Load products.json
 // ============================================
 async function loadProducts() {
-  const res = await fetch("products.json");
+  const res = await fetch("/products.json");
   return res.json();
 }
 
