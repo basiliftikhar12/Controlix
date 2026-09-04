@@ -143,7 +143,7 @@ function renderGrid(products, container) {
   container.innerHTML = products.map(p => {
     const imgs = getImages(p);
     return `
-    <a class="product-card" href="product?id=${p.id}">
+    <a class="product-card" href="/products/${p.slug || `product?id=${p.id}`}">
       <div class="thumb">
         ${imgs.length ? `<img src="${imgs[0]}" alt="${p.name}" loading="lazy">` : PLACEHOLDER_ICON}
       </div>
@@ -204,85 +204,111 @@ function setMetaDescription(text) {
 }
 
 // ============================================
-// Render single product (product.html)
+// Render single product
 // ============================================
+// New static pages (/products/<slug>.html, built by build.js) already ship
+// with the full product markup baked into the HTML — Google sees it on the
+// very first fetch, no JS required. This function only HYDRATES that markup
+// (image switching, lightbox, related products). It never overwrites the
+// pre-rendered content, so nothing "flashes" or re-renders for the user.
+//
+// The old query-string route (product.html?id=NN) is kept as a fallback for
+// any link the _redirects list doesn't yet cover (e.g. a brand-new product
+// shared before the next deploy) — in that case there's no pre-rendered
+// content, so it renders client-side as before, same as it always has.
 async function initProductPage() {
   const container = document.getElementById("product-detail");
   if (!container) return;
 
-  const id = Number(new URLSearchParams(window.location.search).get("id"));
-  const products = await loadProducts();
-  const p = products.find(prod => prod.id === id);
+  const isPrerendered = container.dataset.prerendered === "true";
+  const dataScript = document.getElementById("product-data");
 
-  if (!p) {
-    container.innerHTML = `<div class="empty-state">Product not found. <a href="javascript:history.back()" style="color:var(--orange-dim)">Go back</a></div>`;
-    return;
-  }
+  let p;
+  let products = null;
 
-  document.title = `${p.name} — ${BUSINESS_NAME}`;
-  setCanonical(`https://controlix.com.pk/product?id=${p.id}`);
-  if (p.shortDesc) setMetaDescription(p.shortDesc);
+  if (isPrerendered && dataScript) {
+    p = JSON.parse(dataScript.textContent);
+  } else {
+    const id = Number(new URLSearchParams(window.location.search).get("id"));
+    products = await loadProducts();
+    p = products.find(prod => prod.id === id);
 
-  const catPage = CATEGORY_PAGES.find(c => c.category === p.category);
-  const breadcrumbCategory = document.getElementById("breadcrumb-category");
-  const breadcrumbCurrent = document.getElementById("breadcrumb-current");
-  if (breadcrumbCategory && catPage) {
-    breadcrumbCategory.textContent = catPage.title;
-    breadcrumbCategory.href = catPage.file;
-  }
-  if (breadcrumbCurrent) breadcrumbCurrent.textContent = p.name;
+    if (!p) {
+      container.innerHTML = `<div class="empty-state">Product not found. <a href="/" style="color:var(--orange-dim)">Go back</a></div>`;
+      return;
+    }
+    if (p.slug) {
+      // We landed on the legacy route but know the canonical URL — send
+      // both the user and any crawler there instead of rendering here.
+      window.location.replace(`/products/${p.slug}`);
+      return;
+    }
 
-  const imgs = getImages(p);
-  const specRows = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td>${k}</td><td>${v}</td></tr>`
-  ).join("");
+    document.title = `${p.name} – Price in Pakistan | ${BUSINESS_NAME}`;
+    setCanonical(`https://controlix.com.pk/product?id=${p.id}`);
+    if (p.shortDesc) setMetaDescription(p.shortDesc);
 
-  const thumbStrip = imgs.length > 1 ? `
-    <div class="thumb-strip" id="thumb-strip">
-      ${imgs.map((src, i) => `
-        <button class="${i === 0 ? "active" : ""}" data-src="${src}">
-          <img src="${src}" alt="${p.name} view ${i + 1}">
-        </button>
-      `).join("")}
-    </div>
-  ` : "";
+    const catPage = CATEGORY_PAGES.find(c => c.category === p.category);
+    const breadcrumbCategory = document.getElementById("breadcrumb-category");
+    const breadcrumbCurrent = document.getElementById("breadcrumb-current");
+    if (breadcrumbCategory && catPage) {
+      breadcrumbCategory.textContent = catPage.title;
+      breadcrumbCategory.href = catPage.file;
+    }
+    if (breadcrumbCurrent) breadcrumbCurrent.textContent = p.name;
 
-  container.innerHTML = `
-    <div class="image-panel-wrap">
-      <div class="image-panel" id="main-image-panel">
-        ${imgs.length ? `<img src="${imgs[0]}" alt="${p.name}" id="main-image" class="zoomable">` : PLACEHOLDER_ICON}
-        ${imgs.length > 1 ? `
-          <button class="img-nav prev" id="img-prev" aria-label="Previous image">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    const imgs = getImages(p);
+    const specRows = Object.entries(p.specs).map(([k, v]) =>
+      `<tr><td>${k}</td><td>${v}</td></tr>`
+    ).join("");
+
+    const thumbStrip = imgs.length > 1 ? `
+      <div class="thumb-strip" id="thumb-strip">
+        ${imgs.map((src, i) => `
+          <button class="${i === 0 ? "active" : ""}" data-src="${src}">
+            <img src="${src}" alt="${p.name} view ${i + 1}">
           </button>
-          <button class="img-nav next" id="img-next" aria-label="Next image">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-          </button>
-        ` : ""}
+        `).join("")}
       </div>
-      ${thumbStrip}
-    </div>
-    <div>
-    <span class="cat-tag">${p.category}</span>
-    ${p.brand ? `<div class="brand-tag">Brand: <strong>${p.brand}</strong></div>` : ""}
-    <h1>${p.name}</h1>
-    ${p.price ? `<div class="price-tag">${p.price}</div>` : ""}
-    <p class="desc">${p.description}</p>
-      <table class="spec-table">${specRows}</table>
-      ${p.features && p.features.length ? `
-        <div class="features-block">
-          <h3>Key Features</h3>
-          <ul class="features-list">
-            ${p.features.map(f => `<li>${f}</li>`).join("")}
-          </ul>
+    ` : "";
+
+    container.innerHTML = `
+      <div class="image-panel-wrap">
+        <div class="image-panel" id="main-image-panel">
+          ${imgs.length ? `<img src="${imgs[0]}" alt="${p.name}" id="main-image" class="zoomable">` : PLACEHOLDER_ICON}
+          ${imgs.length > 1 ? `
+            <button class="img-nav prev" id="img-prev" aria-label="Previous image">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button class="img-nav next" id="img-next" aria-label="Next image">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          ` : ""}
         </div>
-      ` : ""}
-      <a class="whatsapp-btn" href="${waLink(p.name)}" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.16c-.24.68-1.4 1.3-1.93 1.38-.49.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.59-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09.99-2.37c.26-.28.56-.35.75-.35.19 0 .38 0 .54.01.17.01.41-.07.64.49.24.58.81 2 .88 2.15.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.72-.84.91-1.13.19-.29.38-.24.64-.15.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.17 1.36z"/></svg>
-        Order via WhatsApp
-      </a>
-    </div>
-  `;
+        ${thumbStrip}
+      </div>
+      <div>
+      <span class="cat-tag">${p.category}</span>
+      ${p.brand ? `<div class="brand-tag">Brand: <strong>${p.brand}</strong></div>` : ""}
+      <h1>${p.name}</h1>
+      ${p.price ? `<div class="price-tag">${p.price}</div>` : ""}
+      <p class="desc">${p.description}</p>
+        <table class="spec-table">${specRows}</table>
+        ${p.features && p.features.length ? `
+          <div class="features-block">
+            <h3>Key Features</h3>
+            <ul class="features-list">
+              ${p.features.map(f => `<li>${f}</li>`).join("")}
+            </ul>
+          </div>
+        ` : ""}
+        <a class="whatsapp-btn" href="${waLink(p.name)}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.16c-.24.68-1.4 1.3-1.93 1.38-.49.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.59-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09.99-2.37c.26-.28.56-.35.75-.35.19 0 .38 0 .54.01.17.01.41-.07.64.49.24.58.81 2 .88 2.15.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.72-.84.91-1.13.19-.29.38-.24.64-.15.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.17 1.36z"/></svg>
+          Order via WhatsApp
+        </a>
+      </div>
+    `;
+  }
 
   let currentIndex = 0;
 
@@ -316,6 +342,7 @@ async function initProductPage() {
     mainImg.addEventListener("click", () => openLightbox(mainImg.src, p.name));
   }
 
+  if (!products) products = await loadProducts();
   renderRelatedProducts(p, products);
 }
 

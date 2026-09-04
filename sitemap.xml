@@ -1,347 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://controlix.com.pk/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/flow-transmitter</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/level-transmitter</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/pressure-transmitter</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/temperature-sensors</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/general-instruments</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/controllers</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/power-signal-control</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=1</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=2</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=5</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=6</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=9</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=13</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=17</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=18</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=19</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=20</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=21</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=22</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=23</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=24</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=25</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=26</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=27</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=28</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=29</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=30</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=31</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=32</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=33</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=34</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=35</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=36</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=37</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=38</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=39</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=40</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=41</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=42</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=43</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=44</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=45</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=46</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=47</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=48</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=49</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=50</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=51</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=52</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=53</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=54</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=55</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=57</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://controlix.com.pk/product?id=58</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
+  <url><loc>https://controlix.com.pk/</loc></url>
+  <url><loc>https://controlix.com.pk/about</loc></url>
+  <url><loc>https://controlix.com.pk/contact</loc></url>
+  <url><loc>https://controlix.com.pk/flow-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/level-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/pressure-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/temperature-sensors</loc></url>
+  <url><loc>https://controlix.com.pk/general-instruments</loc></url>
+  <url><loc>https://controlix.com.pk/controllers</loc></url>
+  <url><loc>https://controlix.com.pk/power-signal-control</loc></url>
+  <url><loc>https://controlix.com.pk/products/electromagnetic-flowmeter-dn50</loc></url>
+  <url><loc>https://controlix.com.pk/products/electromagnetic-flowmeter-dn80</loc></url>
+  <url><loc>https://controlix.com.pk/products/thermohunter-sa-80t-4a-infrared-temperature-sensor</loc></url>
+  <url><loc>https://controlix.com.pk/products/rtd-pt-100-temperature-sensor</loc></url>
+  <url><loc>https://controlix.com.pk/products/diaphragm-seal-pressure-gauge-ptfe-teflon</loc></url>
+  <url><loc>https://controlix.com.pk/products/diaphragm-type-level-transmitter-flush-mount-type</loc></url>
+  <url><loc>https://controlix.com.pk/products/4-20ma-to-double-4-20ma-signal-isolator</loc></url>
+  <url><loc>https://controlix.com.pk/products/ezi-servo-closed-loop-stepper-driver-ezs-ndr-56l-a-d</loc></url>
+  <url><loc>https://controlix.com.pk/products/4-20ma-to-0-10v-signal-isolator</loc></url>
+  <url><loc>https://controlix.com.pk/products/electro-pneumatic-e-p-valve-positioner-km-1000l</loc></url>
+  <url><loc>https://controlix.com.pk/products/azbil-sdc-45-pid-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/azbil-sdc-35-pid-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/azbil-sdc-36-pid-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/ac-servo-driver-400w</loc></url>
+  <url><loc>https://controlix.com.pk/products/wise-analog-pressure-gauge</loc></url>
+  <url><loc>https://controlix.com.pk/products/6-channel-paperless-recorder-gl-u3</loc></url>
+  <url><loc>https://controlix.com.pk/products/pressure-transmitter-with-digital-display</loc></url>
+  <url><loc>https://controlix.com.pk/products/rosemount-5300-series-guided-wave-radar-level-transmitter-for-solids</loc></url>
+  <url><loc>https://controlix.com.pk/products/475-hart-field-communicator</loc></url>
+  <url><loc>https://controlix.com.pk/products/explosion-proof-3-way-universal-solenoid-valve-for-gases</loc></url>
+  <url><loc>https://controlix.com.pk/products/pvc-float-type-level-sensor</loc></url>
+  <url><loc>https://controlix.com.pk/products/double-flange-differential-pressure-transmitter-ex-proof</loc></url>
+  <url><loc>https://controlix.com.pk/products/digital-pressure-gauge</loc></url>
+  <url><loc>https://controlix.com.pk/products/submersible-pressure-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/products/differential-pressure-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/products/wireless-lora-pressure-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/products/pt22-series-pressure-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/products/explosion-proof-pressure-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/anti-corrosive-pressure-transmitter-pvdf</loc></url>
+  <url><loc>https://controlix.com.pk/products/metal-tube-rotameter-armored-flowmeter</loc></url>
+  <url><loc>https://controlix.com.pk/products/vortex-flowmeter</loc></url>
+  <url><loc>https://controlix.com.pk/products/clamp-on-ultrasonic-flowmeter</loc></url>
+  <url><loc>https://controlix.com.pk/products/duplex-pt-100-rtd-temperature-sensor</loc></url>
+  <url><loc>https://controlix.com.pk/products/wise-solid-bar-thermowell</loc></url>
+  <url><loc>https://controlix.com.pk/products/teflon-float-level-switch</loc></url>
+  <url><loc>https://controlix.com.pk/products/flownetix-ultrasonic-flowmeter-100-series</loc></url>
+  <url><loc>https://controlix.com.pk/products/pneumatic-diaphragm-shut-off-valve</loc></url>
+  <url><loc>https://controlix.com.pk/products/submersible-level-transmitter</loc></url>
+  <url><loc>https://controlix.com.pk/products/vacuum-regulator-smc</loc></url>
+  <url><loc>https://controlix.com.pk/products/azbil-sdc15-single-loop-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/krohne-rotameter-armoured-flowmeter</loc></url>
+  <url><loc>https://controlix.com.pk/products/abb-armored-variable-area-flowmeter</loc></url>
+  <url><loc>https://controlix.com.pk/products/azbil-sdc40-digital-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/vortex-flow-tranmsitter</loc></url>
+  <url><loc>https://controlix.com.pk/products/thyristor-power-controller-eurotherm-te10a</loc></url>
+  <url><loc>https://controlix.com.pk/products/para-ent-power-controller</loc></url>
+  <url><loc>https://controlix.com.pk/products/konics-70amp-thyristor-regulator</loc></url>
 </urlset>

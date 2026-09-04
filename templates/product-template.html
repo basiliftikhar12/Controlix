@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<link rel="canonical" href="{{CANONICAL_URL}}">
+<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/home.css">
+<link rel="stylesheet" href="/products.css">
+<script type="application/ld+json">
+{{JSON_LD}}
+</script>
+<style>
+  .brand-block { gap: 14px; }
+  .logo-full { height: 62px; width: auto; display: block; }
+</style>
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="main-header">
+  <div class="header-wrap">
+    <a href="/" class="brand-block">
+      <img src="/images/logo.png" alt="Controlix logo" class="logo-full">
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="/">Home</a>
+      <div class="nav-item-dropdown">
+        <button class="nav-dropdown-btn" id="products-dropdown-btn" type="button">
+          Catalog
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-dropdown-menu" id="products-dropdown-menu">
+          <a href="/flow-transmitter">Flow Meters & Transmitters</a>
+          <a href="/level-transmitter">Level Sensors & Transmitters</a>
+          <a href="/pressure-transmitter">Pressure Transmitters & Guages</a>
+          <a href="/temperature-sensors">Temperature Sensors</a>
+          <a href="/general-instruments">Industrial Instruments & Accessories </a>
+          <a href="/controllers">Controllers & Indicators</a>
+          <a href="/power-signal-control">Power & Voltage Regulation</a>
+        </div>
+      </div>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact Us</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===== Breadcrumb ===== -->
+<div class="breadcrumb-bar">
+  <div class="breadcrumb-wrap" id="breadcrumb-wrap">
+    <a href="/">Home</a>
+    <span class="sep">/</span>
+    <a href="{{BREADCRUMB_CATEGORY_HREF}}" id="breadcrumb-category">{{BREADCRUMB_CATEGORY_TEXT}}</a>
+    <span class="sep">/</span>
+    <span class="current" id="breadcrumb-current">{{BREADCRUMB_CURRENT}}</span>
+  </div>
+</div>
+
+<div id="product-detail" class="product-detail" data-prerendered="true" data-product-id="{{PRODUCT_ID}}" data-product-slug="{{PRODUCT_SLUG}}">
+  {{PRODUCT_DETAIL_HTML}}
+</div>
+
+<!-- Inline product data: lets the page hydrate instantly with zero extra
+     fetch for the product itself. products.json is still fetched once,
+     lazily, only to populate "Explore More". -->
+<script type="application/json" id="product-data">{{PRODUCT_JSON}}</script>
+
+<!-- ===== More products ===== -->
+<section class="related-section" id="related-section" style="display:none;">
+  <div class="related-wrap">
+    <div class="related-heading">
+      <h2 style="color: var(--navy); font-weight: 700;">Explore More</h2>
+    </div>
+    <div class="related-scroller-wrap">
+      <button type="button" class="related-arrow prev" id="related-prev" aria-label="Scroll left">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="related-track" id="related-grid">
+        <div class="empty-state">Loading products…</div>
+      </div>
+      <button type="button" class="related-arrow next" id="related-next" aria-label="Scroll right">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="footer-wrap">
+    <div>© 2026 Controlix. All rights reserved.</div>
+    <div>
+      <a href="/">Home</a>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/home.js"></script>
+<script src="/products-app.js"></script>
+</body>
+</html>
