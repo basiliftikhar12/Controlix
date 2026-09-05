@@ -314,6 +314,12 @@ async function initProductPage() {
     `;
   }
 
+  // `imgs` is derived purely from p, so this is safe to (re)compute here
+  // regardless of which branch above ran — this is what showImage() below
+  // was missing for prerendered pages, which is why the arrows silently
+  // did nothing.
+  const imgs = getImages(p);
+
   let currentIndex = 0;
 
   function showImage(index) {
@@ -344,6 +350,37 @@ async function initProductPage() {
   const mainImg = document.getElementById("main-image");
   if (mainImg) {
     mainImg.addEventListener("click", () => openLightbox(mainImg.src, p.name));
+  }
+
+  // ===== Keyboard arrows (desktop) =====
+  // Left/Right switches the image, but only while this product's image
+  // panel exists and the user isn't typing in a field (e.g. the WhatsApp
+  // message box elsewhere on the page, or a future search field).
+  if (imgs.length > 1) {
+    document.addEventListener("keydown", (e) => {
+      const tag = document.activeElement?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      if (document.getElementById("lightbox-overlay")?.classList.contains("open")) return; // lightbox has its own Escape handling
+      if (e.key === "ArrowLeft") showImage(currentIndex - 1);
+      if (e.key === "ArrowRight") showImage(currentIndex + 1);
+    });
+  }
+
+  // ===== Touch swipe (mobile) =====
+  const imagePanel = document.getElementById("main-image-panel");
+  if (imagePanel && imgs.length > 1) {
+    let touchStartX = 0;
+    imagePanel.addEventListener("touchstart", (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    imagePanel.addEventListener("touchend", (e) => {
+      const touchEndX = e.changedTouches[0].screenX;
+      const delta = touchEndX - touchStartX;
+      const SWIPE_THRESHOLD = 40; // px — avoids accidental taps counting as swipes
+      if (Math.abs(delta) < SWIPE_THRESHOLD) return;
+      if (delta < 0) showImage(currentIndex + 1); // swiped left -> next
+      else showImage(currentIndex - 1);           // swiped right -> prev
+    }, { passive: true });
   }
 
   if (!products) products = await loadProducts();
