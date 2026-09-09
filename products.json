@@ -1961,5 +1961,166 @@
       "Country of Origin": "France"
     },
     "slug": "50amp-single-phase-thyristor-power-controller"
+  },
+  {
+    "id": 61,
+    "name": "Hanyoung Nux NX3 Multi-Input PID Temperature Controller",
+    "category": "Controllers",
+    "brand": "Hanyoung Nux",
+    "price": "PKR 7500",
+    "images": [
+      "images/Controllers/hanyoung-nux-nx3/1.jpeg",
+      "images/Controllers/hanyoung-nux-nx3/2.jpeg",
+      "images/Controllers/hanyoung-nux-nx3/3.jpeg"
+    ],
+    "shortDesc": "Hanyoung Nux NX3 multi-input PID temperature and process controller with dual alarm outputs.",
+    "description": "The Hanyoung Nux NX3 is a multi-input digital PID temperature and process controller supporting RTD, thermocouple, and mV/V sensor inputs alongside RS485 communication. It provides two control outputs (SSR/SCR drive or relay), two alarm outputs, and dual 4-20mA current outputs, making it suitable for precise heating and process control applications across industrial automation, plastics, packaging, and furnace/oven control systems.",
+    "features": [
+      "Multi-input support: RTD, thermocouple, mV/V",
+      "PID auto-tuning control",
+      "Dual control outputs (OUT1, OUT2) - SSR/SCR drive",
+      "Dual alarm outputs (AL1, AL2) - 1A 240Vac",
+      "Dual 4-20mA DC current outputs (600Ω max load)",
+      "Dual 12V DC solid-state driver outputs (600Ω min load)",
+      "RS485 communication with RTX(+)/RTX(-) SG",
+      "CT input for current transformer monitoring",
+      "CE and UL/cUL certified",
+      "Screw terminal connections"
+    ],
+    "specs": {
+      "Manufacturer": "Hanyoung Nux",
+      "Model": "NX3",
+      "Power Supply": "100-240VAC, 50-60Hz, 6W",
+      "Control Method": "PID / ON-OFF",
+      "Contact Rate (OUT1)": "3A 240Vac (Resistive load)",
+      "Alarm Output (AL1, AL2)": "1A 240Vac",
+      "Current Output (1,2)": "4-20mA DC (Resistive load 600Ω max)",
+      "Solid State Output (1,2)": "12V DC (Resistive load 600Ω min)",
+      "Communication": "RS485",
+      "CT Input": "Yes",
+      "Max Ambient Temperature": "50°C",
+      "Conductor Requirement": "Copper or copper-clad aluminum only",
+      "Certifications": "CE, UL, cUL",
+      "Mounting": "Panel/DIN mount, screw terminals"
+    },
+    "slug": "hanyoung-nux-nx3-multi-input-pid-temperature-controller"
+  },
+  {
+    "id": 62,
+    "name": "8-Channel Temperature Indicator with RS-485",
+    "category": "Controllers",
+    "brand": "Eurotech",
+    "price": "PKR 7000",
+    "images": [
+      "images/Controllers/eurotech-ur-tas/1.jpeg"
+    ],
+    "shortDesc": "Eurotech UR-TAS 8-channel thermocouple temperature indicator with 8 relay outputs and RS-485 communication.",
+    "description": "The Eurotech UR-TAS is an 8-channel temperature indicating and alarm unit designed to monitor multiple thermocouple inputs simultaneously and drive independent relay outputs per channel. Each of the 8 channels accepts a T/C input and can trigger its own dedicated relay output, with Global Out1/Out2 alarm summary outputs and an acknowledge (AL-ACK) input for alarm handling. RS-485 communication allows integration into supervisory monitoring systems. It's commonly used for multi-zone furnace, oven, and process temperature monitoring where independent per-channel alarm indication and switching is required.",
+    "features": [
+      "8-channel thermocouple (T/C) inputs",
+      "8-channel independent relay outputs, 30Vdc / 1A",
+      "Global Out1 and Global Out2 summary alarm outputs",
+      "RS-485 communication (TX/RX)",
+      "Alarm acknowledge input (AL-ACK)",
+      "Per-channel status LED indicators (CH1-CH8)",
+      "Wide power input range: 12-34Vdc",
+      "Low power consumption: max 2.4W",
+      "UL Listed and CE certified",
+      "Screw terminal connections"
+    ],
+    "specs": {
+      "Manufacturer": "Eurotech",
+      "Model": "UR-TAS",
+      "Type": "Temperature Indicating Equipment",
+      "Inputs": "8-Channel T/C (Thermocouple)",
+      "Relay Outputs": "8-Channel, 30Vdc / 1A",
+      "Summary Outputs": "Global Out1, Global Out2",
+      "Communication": "RS-485",
+      "Power Supply": "12-34Vdc",
+      "Power Consumption": "Max 2.4W",
+      "Alarm Acknowledge": "AL-ACK input",
+      "Certifications": "UL Listed, CE",
+      "Connection Type": "Screw terminals",
+      "Input Wiring Class": "Class 2 supplies only"
+    },
+    "slug": "8-channel-temperature-indicator-with-rs-485"
+  },
+  {
+    "id": 64,
+    "name": "Autonics T4WM 5-Channel Digital Temperature Indicator",
+    "category": "Temperature",
+    "brand": "Autonics",
+    "price": "PKR 8,000",
+    "images": [
+      "images/Controllers/autonics-t4wm/1.png",
+      "images/Controllers/autonics-t4wm/2.png"
+    ],
+    "shortDesc": "Autonics T4WM 5-channel digital temperature indicator with auto/manual channel switching.",
+    "description": "The Autonics T4WM is a 5-channel digital temperature indicator that displays readings from up to five separate temperature sensors on a single unit. It supports thermocouple (J, K) and RTD (Pt100) inputs and offers both automatic and manual channel switching, with the auto-switching interval adjustable from 1 to 10 seconds via a built-in selector. Commonly used for multi-point temperature monitoring in industrial panels where several process zones need to be viewed from one compact display.",
+    "features": [
+      "5-channel temperature display from a single unit",
+      "Supports Pt100 RTD, J(IC), and K(CA) thermocouple inputs",
+      "Auto or manual channel switching",
+      "Adjustable auto-switching interval (1-10 seconds)",
+      "High accuracy display: F.S. ±0.5% rdg ±1 digit",
+      "7-segment LED display, 4-digit",
+      "DIN 96x48mm panel mount",
+      "Made in Korea"
+    ],
+    "specs": {
+      "Manufacturer": "Autonics",
+      "Model": "T4WM",
+      "Type": "5-Point Digital Temperature Indicator",
+      "Power Supply": "110/220VAC, 50/60Hz",
+      "Power Consumption": "Max. 3VA",
+      "Number of Channels": "5",
+      "Sensor Input Types": "Pt100 (RTD), J(IC), K(CA) (Thermocouple)",
+      "Temperature Ranges": "-99.9 to 199.9°C, 0 to 399°C, 0 to 500°C, 0 to 1200°C",
+      "Display": "7-segment LED, 4-digit",
+      "Display Accuracy": "F.S. ±0.5% rdg ±1 digit",
+      "Channel Switching": "Auto/Manual selectable",
+      "Panel Cutout": "W92 x H45mm",
+      "Connection Method": "Screw terminal",
+      "Country of Origin": "Korea"
+    },
+    "slug": "autonics-t4wm-5-channel-digital-temperature-indicator"
+  },
+  {
+    "id": 65,
+    "name": "Endress+Hauser Soliphant M FTM51 Vibrating Point Level Switch",
+    "category": "Level",
+    "brand": "Endress+Hauser",
+    "price": "PKR 100,000",
+    "images": [
+      "images/endress-hauser-soliphant-m-ftm51/1.png",
+      "images/endress-hauser-soliphant-m-ftm51/2.png",
+      "images/endress-hauser-soliphant-m-ftm51/3.png"
+    ],
+    "shortDesc": "Endress+Hauser Soliphant M FTM51 vibrating fork point level switch for fine-grained and powdery solids.",
+    "description": "The Endress+Hauser Soliphant M FTM51 is a maintenance-free vibronic (vibrating fork) point level switch designed for reliable level detection of fine-grained and powdery solids, even at low bulk density. With no mechanically moving parts and insensitivity to external vibration and build-up, it is well suited for hazardous area installations across industries handling materials such as flour, cement, sugar, powdered milk, and animal feed. It features ATEX explosion-protection certification for use in dust and gas hazardous zones.",
+    "features": [
+      "Vibrating fork (vibronic) point level detection",
+      "Insensitive to external vibration and product build-up",
+      "Maintenance-free: no mechanically moving parts",
+      "Integrated self-checking function",
+      "Suitable for fine-grained and powdery solids at low bulk density",
+      "ATEX certified for hazardous area (Ex) use",
+      "CE marked",
+      "Made in Germany"
+    ],
+    "specs": {
+      "Manufacturer": "Endress+Hauser",
+      "Model": "Soliphant M",
+      "Order Code": "FTM51-6AF2L4A57AA",
+      "Probe Length (L1)": "1400 mm",
+      "Electronics Module": "FEM54",
+      "Supply Voltage": "19-253VAC, 50/60Hz / 19-55V DC",
+      "Max Power": "1.5 W",
+      "Contact Rating": "30VDC 6A / 125VDC 0.2A / 253VAC 6A",
+      "Application": "Point level detection for fine-grained and powdery solids",
+      "Certifications": "CE, ATEX (Ex)",
+      "Country of Origin": "Germany"
+    },
+    "slug": "endress-hauser-soliphant-m-ftm51-vibrating-point-level-switch"
   }
 ]
