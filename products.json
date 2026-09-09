@@ -2092,9 +2092,9 @@
     "brand": "Endress+Hauser",
     "price": "PKR 100,000",
     "images": [
-      "images/endress-hauser-soliphant-m-ftm51/1.png",
-      "images/endress-hauser-soliphant-m-ftm51/2.png",
-      "images/endress-hauser-soliphant-m-ftm51/3.png"
+      "images/LEVEL/endress-hauser-soliphant-m-ftm51/1.png",
+      "images/LEVEL/endress-hauser-soliphant-m-ftm51/2.png",
+      "images/LEVEL/endress-hauser-soliphant-m-ftm51/3.png"
     ],
     "shortDesc": "Endress+Hauser Soliphant M FTM51 vibrating fork point level switch for fine-grained and powdery solids.",
     "description": "The Endress+Hauser Soliphant M FTM51 is a maintenance-free vibronic (vibrating fork) point level switch designed for reliable level detection of fine-grained and powdery solids, even at low bulk density. With no mechanically moving parts and insensitivity to external vibration and build-up, it is well suited for hazardous area installations across industries handling materials such as flour, cement, sugar, powdered milk, and animal feed. It features ATEX explosion-protection certification for use in dust and gas hazardous zones.",
@@ -2122,5 +2122,35 @@
       "Country of Origin": "Germany"
     },
     "slug": "endress-hauser-soliphant-m-ftm51-vibrating-point-level-switch"
+  },
+  {
+  "id": 66,
+  "name": "USB HART Modem SM100-C(III) ",
+  "category": "General Instruments",
+  "brand": "Songmao",
+  "price": "PKR 40,000",
+  "images": [
+    "images/GENERAL_INSTRUMENTS/sm100-c3-hart-modem/1.avif",
+    "images/GENERAL_INSTRUMENTS/sm100-c3-hart-modem/2.jpg"
+  ],
+  "shortDesc": "Songmao SM100-C(III) Standard version USB HART modem for PC-based HART instrument configuration.",
+  "description": "The Songmao SM100-C(III) is a USB-to-HART protocol converter that connects a PC to HART-compatible field instruments for configuration, calibration, and diagnostics. This is the Standard (USB) version, connecting directly to a computer via USB rather than the separate APP/wireless variant of this model. It provides RXD, TXD, and POW indicator LEDs for connection status and works with standard HART communicator software on Windows PCs.",
+  "features": [
+    "USB to HART protocol conversion",
+    "Standard (USB-to-PC) version - not the wireless APP variant",
+    "Status LEDs: USB, RXD, TXD, POW",
+    "Compatible with standard PC-based HART configuration software",
+    "Compact, portable design"
+  ],
+  "specs": {
+    "Manufacturer": "Songmao",
+    "Model": "SM100-C(III)",
+    "Type": "HART Modem",
+    "Version": "Standard (USB to PC)",
+    "Interface": "USB",
+    "Status Indicators": "USB, RXD, TXD, POW",
+    "Supply": "24V / 250Ω (loop reference per label)",
+    "Compatibility": "PC-based HART communicator software"
   }
+}
 ]
