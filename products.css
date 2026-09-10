@@ -213,10 +213,10 @@
   margin-bottom: 10px;
 }
 .product-card p.price {
-  color: var(--navy);
-  font-weight: 700;
-  font-size: 1rem;
-  margin: 8px 0 6px;
+  color: var(--black);
+  font-weight: 500;
+  font-size: 0.94rem;
+  margin: 6px 0 4px;
 }
 .product-card h3 {
   font-family: var(--font-head);
