@@ -2124,105 +2124,108 @@
     "slug": "endress-hauser-soliphant-m-ftm51-vibrating-point-level-switch"
   },
   {
-  "id": 66,
-  "name": "USB HART Modem SM100-C(III) ",
-  "category": "General Instruments",
-  "brand": "Songmao",
-  "price": "PKR 40,000",
-  "images": [
-    "images/GENERAL_INSTRUMENTS/sm100-c3-hart-modem/1.avif",
-    "images/GENERAL_INSTRUMENTS/sm100-c3-hart-modem/2.jpg"
-  ],
-  "shortDesc": "Songmao SM100-C(III) Standard version USB HART modem for PC-based HART instrument configuration.",
-  "description": "The Songmao SM100-C(III) is a USB-to-HART protocol converter that connects a PC to HART-compatible field instruments for configuration, calibration, and diagnostics. This is the Standard (USB) version, connecting directly to a computer via USB rather than the separate APP/wireless variant of this model. It provides RXD, TXD, and POW indicator LEDs for connection status and works with standard HART communicator software on Windows PCs.",
-  "features": [
-    "USB to HART protocol conversion",
-    "Standard (USB-to-PC) version - not the wireless APP variant",
-    "Status LEDs: USB, RXD, TXD, POW",
-    "Compatible with standard PC-based HART configuration software",
-    "Compact, portable design"
-  ],
-  "specs": {
-    "Manufacturer": "Songmao",
-    "Model": "SM100-C(III)",
-    "Type": "HART Modem",
-    "Version": "Standard (USB to PC)",
-    "Interface": "USB",
-    "Status Indicators": "USB, RXD, TXD, POW",
-    "Supply": "24V / 250Ω (loop reference per label)",
-    "Compatibility": "PC-based HART communicator software"
+    "id": 66,
+    "name": "USB HART Modem SM100-C(III) ",
+    "category": "General Instruments",
+    "brand": "Songmao",
+    "price": "PKR 40,000",
+    "images": [
+      "images/GENERAL_INSTRUMENTS/sm100-c3-hart-modem/1.avif",
+      "images/GENERAL_INSTRUMENTS/sm100-c3-hart-modem/2.jpg"
+    ],
+    "shortDesc": "Songmao SM100-C(III) Standard version USB HART modem for PC-based HART instrument configuration.",
+    "description": "The Songmao SM100-C(III) is a USB-to-HART protocol converter that connects a PC to HART-compatible field instruments for configuration, calibration, and diagnostics. This is the Standard (USB) version, connecting directly to a computer via USB rather than the separate APP/wireless variant of this model. It provides RXD, TXD, and POW indicator LEDs for connection status and works with standard HART communicator software on Windows PCs.",
+    "features": [
+      "USB to HART protocol conversion",
+      "Standard (USB-to-PC) version - not the wireless APP variant",
+      "Status LEDs: USB, RXD, TXD, POW",
+      "Compatible with standard PC-based HART configuration software",
+      "Compact, portable design"
+    ],
+    "specs": {
+      "Manufacturer": "Songmao",
+      "Model": "SM100-C(III)",
+      "Type": "HART Modem",
+      "Version": "Standard (USB to PC)",
+      "Interface": "USB",
+      "Status Indicators": "USB, RXD, TXD, POW",
+      "Supply": "24V / 250Ω (loop reference per label)",
+      "Compatibility": "PC-based HART communicator software"
+    },
+    "slug": "usb-hart-modem-sm100-c-iii"
+  },
+  {
+    "id": 67,
+    "name": "PT100 3-Wire RTD Temperature Sensor - 35ft Explosion Proof Cable",
+    "category": "Temperature",
+    "brand": "Generic",
+    "price": "PKR 35,000",
+    "images": [
+      "images/TEMPERATURE/pt100-rtd-3wire-35ft/1.jpeg",
+      "images/TEMPERATURE/pt100-rtd-3wire-35ft/2.jpeg"
+    ],
+    "shortDesc": "PT100 3-wire RTD temperature sensor with 35ft armored explosion-proof cable and spring-loaded probe.",
+    "description": "This PT100 RTD (Resistance Temperature Detector) is a 3-wire configuration sensor designed for accurate process temperature measurement in industrial applications. It features a spring-loaded probe tip for consistent contact pressure against the measured surface, with a 35ft stainless steel braided, explosion-proof rated cable terminating in color-coded fork connectors for straightforward panel or controller wiring. Suitable for hazardous area installations where durability and measurement accuracy are critical.",
+    "features": [
+      "PT100 RTD sensing element",
+      "3-wire configuration for improved measurement accuracy",
+      "35ft (approx. 10.6m) cable length",
+      "Explosion-proof rated cable and construction",
+      "Stainless steel braided cable sheathing for mechanical and thermal protection",
+      "Spring-loaded probe tip for consistent surface contact",
+      "Color-coded fork terminal connectors for easy wiring"
+    ],
+    "specs": {
+      "Sensor Type": "PT100 RTD",
+      "Wire Configuration": "3-Wire",
+      "Cable Length": "35 ft (~10.6 m)",
+      "Cable Type": "Stainless steel braided, explosion-proof rated",
+      "Probe Style": "Spring-loaded tip",
+      "Termination": "Fork terminal connectors",
+      "Application": "Industrial process temperature measurement, hazardous areas"
+    },
+    "slug": "pt100-3-wire-rtd-temperature-sensor-35ft-explosion-proof-cable"
+  },
+  {
+    "id": 68,
+    "name": "Dissolved Oxygen (DO) Sensor with Digital DO Meter/Transmitter",
+    "category": "General Instruments",
+    "brand": "Generic",
+    "price": "Contact for Price",
+    "images": [
+      "images/GENERAL_INSTRUMENTS/do-sensor-meter/1.jpeg",
+      "images/GENERAL_INSTRUMENTS/do-sensor-meter/2.jpeg",
+      "images/GENERAL_INSTRUMENTS/do-sensor-meter/3.jpeg",
+      "images/GENERAL_INSTRUMENTS/do-sensor-meter/4.jpeg",
+      "images/GENERAL_INSTRUMENTS/do-sensor-meter/5.jpeg"
+    ],
+    "shortDesc": "Titanium-body dissolved oxygen sensor with digital DO meter/transmitter, 0-40ppm measuring range.",
+    "description": "This dissolved oxygen (DO) measurement system pairs a titanium alloy-bodied DO electrode with a digital DO meter/transmitter featuring an LCD display and onboard calibration controls (MODE/ESC, CAL, SET, INFO, ENT). The sensor incorporates a built-in NTC 10K-ohm temperature element for automatic temperature compensation and responds to 90% of a step change in dissolved oxygen within 60 seconds. It is commonly used in water treatment, aquaculture, wastewater treatment, and industrial process monitoring applications requiring continuous dissolved oxygen measurement. The electrode's membrane cap is a user-replaceable spare part, and 50ml of electrolyte solution is used per replacement.",
+    "features": [
+      "Titanium alloy sensor housing",
+      "Built-in NTC 10K-ohm temperature sensor for automatic temperature compensation",
+      "Fast response: 90% value reflected within 60 seconds",
+      "Digital LCD meter/transmitter with on-device calibration (MODE/ESC, CAL, SET, INFO, ENT buttons)",
+      "Replaceable dissolved oxygen membrane cap",
+      "6-pin connector with 3m cable",
+      "Suitable for water treatment, aquaculture, and industrial process monitoring"
+    ],
+    "specs": {
+      "Sensor Case Material": "Titanium alloy",
+      "Measuring Range": "0-40 ppm",
+      "Temperature Range": "0-60°C",
+      "Maximum Pressure": "5 bar",
+      "Minimum Flow Rate": "0.05 m/s",
+      "Temperature Electrode": "NTC 10K ohm",
+      "Response Time": "90% value within 60 seconds",
+      "Probe Length": "120 mm",
+      "Probe Diameter": "13 mm",
+      "Connector": "6-pin joggle",
+      "Cable Length": "3 m",
+      "Membrane Head": "Replaceable dissolved oxygen membrane cap",
+      "Electrolyte Volume (for replacement)": "50 ml",
+      "Meter Controls": "MODE/ESC, CAL, SET, INFO, ENT"
+    },
+    "slug": "dissolved-oxygen-do-sensor-with-digital-do-meter-transmitter"
   }
-},
-{
-  "id": 67,
-  "name": "PT100 3-Wire RTD Temperature Sensor - 35ft Explosion Proof Cable",
-  "category": "Temperature",
-  "brand": "Generic",
-  "price": "PKR 35,000",
-  "images": [
-    "images/TEMPERATURE/pt100-rtd-3wire-35ft/1.jpeg",
-    "images/TEMPERATURE/pt100-rtd-3wire-35ft/2.jpeg"
-  ],
-  "shortDesc": "PT100 3-wire RTD temperature sensor with 35ft armored explosion-proof cable and spring-loaded probe.",
-  "description": "This PT100 RTD (Resistance Temperature Detector) is a 3-wire configuration sensor designed for accurate process temperature measurement in industrial applications. It features a spring-loaded probe tip for consistent contact pressure against the measured surface, with a 35ft stainless steel braided, explosion-proof rated cable terminating in color-coded fork connectors for straightforward panel or controller wiring. Suitable for hazardous area installations where durability and measurement accuracy are critical.",
-  "features": [
-    "PT100 RTD sensing element",
-    "3-wire configuration for improved measurement accuracy",
-    "35ft (approx. 10.6m) cable length",
-    "Explosion-proof rated cable and construction",
-    "Stainless steel braided cable sheathing for mechanical and thermal protection",
-    "Spring-loaded probe tip for consistent surface contact",
-    "Color-coded fork terminal connectors for easy wiring"
-  ],
-  "specs": {
-    "Sensor Type": "PT100 RTD",
-    "Wire Configuration": "3-Wire",
-    "Cable Length": "35 ft (~10.6 m)",
-    "Cable Type": "Stainless steel braided, explosion-proof rated",
-    "Probe Style": "Spring-loaded tip",
-    "Termination": "Fork terminal connectors",
-    "Application": "Industrial process temperature measurement, hazardous areas"
-  }
-},
-{
-  "id": 68,
-  "name": "Dissolved Oxygen (DO) Sensor with Digital DO Meter/Transmitter",
-  "category": "General Instruments",
-  "brand": "Generic",
-  "price": "Contact for Price",
-  "images": [
-    "images/GENERAL_INSTRUMENTS/do-sensor-meter/1.jpeg",
-    "images/GENERAL_INSTRUMENTS/do-sensor-meter/2.jpeg",
-    "images/GENERAL_INSTRUMENTS/do-sensor-meter/3.jpeg",
-    "images/GENERAL_INSTRUMENTS/do-sensor-meter/4.jpeg",
-    "images/GENERAL_INSTRUMENTS/do-sensor-meter/5.jpeg"
-  ],
-  "shortDesc": "Titanium-body dissolved oxygen sensor with digital DO meter/transmitter, 0-40ppm measuring range.",
-  "description": "This dissolved oxygen (DO) measurement system pairs a titanium alloy-bodied DO electrode with a digital DO meter/transmitter featuring an LCD display and onboard calibration controls (MODE/ESC, CAL, SET, INFO, ENT). The sensor incorporates a built-in NTC 10K-ohm temperature element for automatic temperature compensation and responds to 90% of a step change in dissolved oxygen within 60 seconds. It is commonly used in water treatment, aquaculture, wastewater treatment, and industrial process monitoring applications requiring continuous dissolved oxygen measurement. The electrode's membrane cap is a user-replaceable spare part, and 50ml of electrolyte solution is used per replacement.",
-  "features": [
-    "Titanium alloy sensor housing",
-    "Built-in NTC 10K-ohm temperature sensor for automatic temperature compensation",
-    "Fast response: 90% value reflected within 60 seconds",
-    "Digital LCD meter/transmitter with on-device calibration (MODE/ESC, CAL, SET, INFO, ENT buttons)",
-    "Replaceable dissolved oxygen membrane cap",
-    "6-pin connector with 3m cable",
-    "Suitable for water treatment, aquaculture, and industrial process monitoring"
-  ],
-  "specs": {
-    "Sensor Case Material": "Titanium alloy",
-    "Measuring Range": "0-40 ppm",
-    "Temperature Range": "0-60°C",
-    "Maximum Pressure": "5 bar",
-    "Minimum Flow Rate": "0.05 m/s",
-    "Temperature Electrode": "NTC 10K ohm",
-    "Response Time": "90% value within 60 seconds",
-    "Probe Length": "120 mm",
-    "Probe Diameter": "13 mm",
-    "Connector": "6-pin joggle",
-    "Cable Length": "3 m",
-    "Membrane Head": "Replaceable dissolved oxygen membrane cap",
-    "Electrolyte Volume (for replacement)": "50 ml",
-    "Meter Controls": "MODE/ESC, CAL, SET, INFO, ENT"
-  }
-}
 ]
