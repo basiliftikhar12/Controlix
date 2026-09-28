@@ -2191,7 +2191,7 @@
     "name": "Dissolved Oxygen (DO) Sensor with Digital DO Meter/Transmitter",
     "category": "General Instruments",
     "brand": "Generic",
-    "price": "Contact for Price",
+    "price": "PKR 130,000",
     "images": [
       "images/GENERAL_INSTRUMENTS/do-sensor-meter/1.jpeg",
       "images/GENERAL_INSTRUMENTS/do-sensor-meter/2.jpeg",
@@ -2227,5 +2227,52 @@
       "Meter Controls": "MODE/ESC, CAL, SET, INFO, ENT"
     },
     "slug": "dissolved-oxygen-do-sensor-with-digital-do-meter-transmitter"
+  },
+  {
+    "id": 68,
+    "name": "Azbil GTX35F Flange-Mounted Differential Pressure Transmitter",
+    "category": "Pressure",
+    "brand": "Azbil",
+    "price": "PKR 145,000",
+    "images": [
+      "images/PRESSURE/azbil-gtx35f/1.png",
+      "images/PRESSURE/azbil-gtx35f/2.png",
+      "images/PRESSURE/azbil-gtx35f/3.png",
+      "images/PRESSURE/azbil-gtx35f/4.jpeg",
+      "images/PRESSURE/azbil-gtx35f/5.jpeg",
+      "images/PRESSURE/azbil-gtx35f/6.jpeg"
+    ],
+    "shortDesc": "Azbil GTX35F smart flange-mounted differential pressure transmitter for tank level, interface and specific gravity measurement, 4-20mA output With HART protocol",
+    "description": "The Azbil GTX35F (model GTX35F-AAAADAJ1FAAA-AK1AXAX-N1T1) differential pressure transmitter from Azbil's Advanced Transmitter series, designed to mount directly on a tank-side flange. It measures liquid level, interface level and specific gravity, and transmits a 4-20mA DC analog signal with digital communication for self-diagnosis, range resetting and zero adjustment. It is widely used in oil and gas, petrochemical, chemical, and pulp and paper industries, and in any process requiring reliable tank level measurement with corrosion-resistant wetted materials.",
+    "features": [
+      "Flange-mounted design for direct tank-side level, interface level and specific gravity measurement",
+      "Microprocessor-based smart transmitter with excellent long-term stability",
+      "Reference accuracy up to ±0.2% (varies by wetted material and measurement span)",
+      "4-20mA DC output with HART protocol",
+      "Zero/span adjustment without opening the cover",
+      "Optional digital LCD indicator and contact output for alarm information",
+      "Corrosion-resistant wetted material options: 316 SST, Alloy C-276, Tantalum",
+      "IP66/IP67 waterproof and dust-proof construction",
+      "Explosion-proof"
+    ],
+    "specs": {
+      "Model": "GTX35F-AAAADAJ1FAAA-AK1AXAX-N1T1",
+      "Type": "Flange-mounted differential pressure transmitter",
+      "Measurement Span": "2.5 to 100 kPa",
+      "Setting Range": "-100 to 100 kPa",
+      "Reference Accuracy": "Up to ±0.2% (varies by material and span)",
+      "Output Signal": "4-20mA DC with HART communication",
+      "Power Supply": "17.9 to 42V DC",
+      "Response Time": "Below 150 ms (damping 0 sec)",
+      "Damping Time": "0 to 32 sec, selectable in ten stages",
+      "Fill Fluid": "Silicone oil (general purpose) / Fluorine oil (oxygen and chlorine models)",
+      "Wetted Material": "316 SST (diaphragm 316L SST), Alloy C-276, Tantalum",
+      "Flange size": "3 inch",
+      "Ingress Protection": "IEC IP66/IP67",
+      "Safety Certification": "SIL2 (IEC 61508)",
+      "Optional Indicator": "Digital LCD",
+      "Manufacturer": "Azbil Corporation"
+    },
+    "slug": "azbil-gtx35f-flange-mounted-differential-pressure-transmitter"
   }
 ]
