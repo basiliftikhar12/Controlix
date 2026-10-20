@@ -2274,5 +2274,83 @@
       "Manufacturer": "Azbil Corporation"
     },
     "slug": "azbil-gtx35f-flange-mounted-differential-pressure-transmitter"
+  },
+  {
+    "id": 69,
+    "name": "Surpass Teflon Pressure Transmitter",
+    "category": "Pressure",
+    "brand": "Surpass",
+    "price": "PKR 25,000",
+    "images": [
+      "images/PRESSURE/surpass-cs-p-15-f/1.png",
+      "images/PRESSURE/surpass-cs-p-15-f/2.jpeg",
+      "images/PRESSURE/surpass-cs-p-15-f/3.jpeg"
+    ],
+    "shortDesc": "Surpass CS-P-15-F Teflon pressure transmitter with corrosion-resistant Teflon construction, 0-500 kPa (0-5 bar) measurement range, 4-20 mA output, and adjustable zero and span.",
+    "description": "The Surpass CS-P-15-F Teflon Pressure Transmitter is designed for pressure measurement in applications requiring corrosion-resistant materials. Featuring Teflon construction and a nominal connection size of 1.5 inches, this transmitter measures pressure over a range of 0-500 kPa (0-5 bar) and converts the measured pressure into a standard 4-20 mA DC analog output signal for integration with PLCs, HMIs, industrial controllers, and monitoring systems. It includes adjustable zero and span settings for convenient calibration and measurement range adjustment. Its Teflon construction makes it suitable for applications where compatibility with corrosive process media is important, subject to verification of the wetted materials and operating conditions. It is suitable for industrial process monitoring and pressure measurement systems requiring an analog current output.",
+    "features": [
+      "Teflon construction for corrosion-resistant pressure measurement applications",
+      "Pressure measurement range of 0-500 kPa (0-5 bar)",
+      "Standard 4-20 mA DC analog output for industrial control and monitoring",
+      "Adjustable zero and span for calibration and range adjustment",
+      "Nominal connection size of One inch and half inches",
+      "24V DC power supply as indicated on the product label",
+      "Compatible with PLCs, HMIs, process controllers, and industrial monitoring systems using a 4-20 mA input",
+      "Suitable for applications requiring resistance to chemically aggressive process media, subject to material compatibility",
+      "Compact cylindrical transmitter design with an integrated cable"
+    ],
+    "specs": {
+      "Model": "CS-P-15-F",
+      "Type": "Teflon Pressure Transmitter",
+      "Measurement Range": "0-500 kPa (0-5 bar)",
+      "Size": "1 inch, 0.5 inch",
+      "Output Signal": "4-20 mA DC",
+      "Power Supply": "24V DC",
+      "Zero Adjustment": "Adjustable",
+      "Span Adjustment": "Adjustable",
+      "Connection Size": "1.5 inches",
+      "Construction Material": "Teflon (as specified)",
+      "Brand": "Surpass",
+      "Manufacturer": "Surpass Instruments"
+    },
+    "slug": "surpass-teflon-pressure-transmitter"
+  },
+  {
+    "id": 70,
+    "name": "CKD Teflon Chemical-Resistant Valve",
+    "category": "Flow",
+    "brand": "CKD",
+    "price": "PKR 15,000",
+    "images": [
+      "images/VALVES/ckd-mmd402-20bua-16/1.png",
+      "images/VALVES/ckd-mmd402-20bua-16/2.jpeg",
+      "images/VALVES/ckd-mmd402-20bua-16/3.jpeg"
+    ],
+    "shortDesc": "CKD MMD402-20BUA-16 Teflon chemical-resistant valve designed for handling corrosive chemicals, with a main pressure range of 0-0.4 MPa (0-4 bar).",
+    "description": "The CKD MMD402-20BUA-16 Teflon Chemical-Resistant Valve is designed for industrial applications involving corrosive chemicals and chemically aggressive fluids. Constructed from Teflon (PTFE), it provides chemical resistance for applications where conventional metal valves may be unsuitable. The valve has a main pressure range of 0-0.4 MPa (0-4 bar), as indicated on its product label. It is suitable for chemical processing systems, chemical transfer lines, and industrial fluid-handling applications where material compatibility and corrosion resistance are essential. Its threaded connections support installation in compatible piping systems. Before use, confirm the chemical compatibility, operating temperature, pressure limits, and connection specifications for the intended process.",
+    "features": [
+      "Teflon (PTFE) construction for chemical-resistant applications",
+      "Designed for handling corrosive chemicals and aggressive fluids",
+      "Main pressure range of 0-0.4 MPa (0-4 bar)",
+      "Corrosion-resistant construction for suitable chemical processes",
+      "Threaded inlet and outlet connections",
+      "Compact design for industrial fluid-handling systems",
+      "Suitable for chemical processing and transfer applications",
+      "Helps reduce corrosion-related maintenance when used with compatible chemicals",
+      "Manufactured by CKD Corporation, Japan"
+    ],
+    "specs": {
+      "Model": "MMD402-20BUA-16",
+      "Type": "Teflon Chemical-Resistant Valve",
+      "Brand": "CKD",
+      "Manufacturer": "CKD Corporation",
+      "Country of Origin": "Japan",
+      "Construction Material": "Teflon (PTFE), as specified",
+      "Main Pressure Range": "0-0.4 MPa",
+      "Main Pressure Range (bar)": "0-4 bar",
+      "Connection Type": "Threaded",
+      "Application": "Corrosive chemical handling and industrial fluid control"
+    },
+    "slug": "ckd-teflon-chemical-resistant-valve"
   }
 ]
